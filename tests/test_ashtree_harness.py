@@ -9,14 +9,21 @@ from __future__ import annotations
 
 import importlib
 import importlib.util
+import json
 import unittest
 from collections.abc import Mapping
+from copy import deepcopy
+
+from jsonschema import Draft202012Validator, ValidationError
+from referencing import Registry, Resource
 
 from conftest import FIXTURES_DIR, PROJECT_ROOT, fixture_files, load_fixture
 
 
 ASHTREE_ADAPTER_MODULE = "src.ashtree.adapter"
+ASHTREE_POLICY_MODULE = "src.ashtree.runner"
 MANIFEST_PATH = "ashtree/manifest.json"
+CONTRACTS_DIR = PROJECT_ROOT / "contracts"
 
 
 def load_ashtree_adapter():
@@ -30,6 +37,23 @@ def load_ashtree_adapter():
     if adapter_spec is None:
         return None
     return importlib.import_module(ASHTREE_ADAPTER_MODULE)
+
+
+def load_ashtree_policy():
+    return importlib.import_module(ASHTREE_POLICY_MODULE)
+
+
+def run_envelope_validator() -> Draft202012Validator:
+    action_path = CONTRACTS_DIR / "recommended-action.schema.json"
+    envelope_path = CONTRACTS_DIR / "ashtree-run-envelope.schema.json"
+    with action_path.open(encoding="utf-8") as schema_file:
+        action_schema = json.load(schema_file)
+    with envelope_path.open(encoding="utf-8") as schema_file:
+        envelope_schema = json.load(schema_file)
+    registry = Registry().with_resource(
+        action_schema["$id"], Resource.from_contents(action_schema)
+    )
+    return Draft202012Validator(envelope_schema, registry=registry)
 
 
 class AshtreeHarnessTests(unittest.TestCase):
@@ -56,16 +80,60 @@ class AshtreeHarnessTests(unittest.TestCase):
             hasattr(adapter, "run_fixture"),
             "src.ashtree.adapter must expose run_fixture(payload)",
         )
+        if not (CONTRACTS_DIR / "ashtree-run-envelope.schema.json").is_file():
+            self.skipTest("Ashtree run-envelope contracts have not been added yet")
         manifest = load_fixture(MANIFEST_PATH)
         self.assertIsInstance(manifest, Mapping)
         self.assertIn("cases", manifest)
+        policy = load_ashtree_policy()
+        validator = run_envelope_validator()
 
         for case in manifest["cases"]:
             with self.subTest(case=case["id"]):
                 payload = load_fixture(f"ashtree/{case['input']}")
+                expected = load_fixture(f"ashtree/{case['expected']}")
+                self.assertEqual(policy.run_fixture(payload), expected)
                 result = adapter.run_fixture(payload)
+                validator.validate(result)
                 self._assert_run_envelope(result)
                 self._assert_case_rules(case["id"], payload, result)
+
+    def test_run_envelope_schema_rejects_send_state_and_raw_provider_data(self) -> None:
+        schema_path = CONTRACTS_DIR / "ashtree-run-envelope.schema.json"
+        if not schema_path.is_file():
+            self.skipTest("Ashtree run-envelope contracts have not been added yet")
+        validator = run_envelope_validator()
+        valid_blocked = {
+            "runId": "fixture-contract-check",
+            "trigger": "manual_selected_trial",
+            "trial": {
+                "trialId": "trial-contract-check",
+                "status": "active",
+                "accountCanonicalId": "zenabm:trial-contract-check",
+                "accountVerification": "verified",
+            },
+            "suppression": {
+                "checked": True,
+                "optedOut": False,
+                "marketingStatus": "allowed",
+            },
+            "coverage": "unknown",
+            "status": "blocked_insufficient_evidence",
+            "recommendedActions": [],
+            "outreachDrafts": [],
+            "blockReasons": ["Contract validation fixture."],
+        }
+        validator.validate(valid_blocked)
+
+        sent = deepcopy(valid_blocked)
+        sent["status"] = "sent"
+        with self.assertRaises(ValidationError):
+            validator.validate(sent)
+
+        raw_provider_data = deepcopy(valid_blocked)
+        raw_provider_data["rawProviderData"] = {"contact": "forbidden"}
+        with self.assertRaises(ValidationError):
+            validator.validate(raw_provider_data)
 
     def _assert_run_envelope(self, result: object) -> None:
         self.assertIsInstance(result, Mapping)
@@ -105,6 +173,12 @@ class AshtreeHarnessTests(unittest.TestCase):
             self.assertEqual(payload["trial"]["consent"], "opted_out")
             self.assertTrue(result["suppression"].get("optedOut"))
             self.assertEqual(result["status"], "blocked_opt_out")
+            self.assertEqual(result["recommendedActions"], [])
+            self.assertEqual(result["outreachDrafts"], [])
+            return
+
+        if case_id == "unverified-competitor-rejection":
+            self.assertEqual(result["status"], "blocked_insufficient_evidence")
             self.assertEqual(result["recommendedActions"], [])
             self.assertEqual(result["outreachDrafts"], [])
             return
