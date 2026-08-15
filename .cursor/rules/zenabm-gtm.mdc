@@ -1,0 +1,10 @@
+---
+description: Shared ZenABM GTM hackathon rules
+alwaysApply: true
+---
+
+Read and follow `AGENTS.md` before editing. Treat `context/` as read-only reference material. Build new code in `src/`, put sanitized examples in `fixtures/`, and test new behavior in `tests/`.
+
+Never commit credentials, customer data, raw provider responses, or generated reports. Local work must use fixtures. Live provider calls are limited to a Codespace with dedicated hackathon credentials.
+
+Create drafts only. Do not implement automatic email or LinkedIn-message sending. Every insight needs source evidence, and missing data must remain unknown rather than becoming zero.

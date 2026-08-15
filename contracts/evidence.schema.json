@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zenabm.com/schemas/evidence.json",
+  "title": "Evidence",
+  "type": "object",
+  "required": ["source", "field", "coverage"],
+  "properties": {
+    "source": { "type": "string" },
+    "field": { "type": "string" },
+    "coverage": { "enum": ["complete", "partial", "unknown"] },
+    "observedAt": { "type": "string", "format": "date-time" },
+    "note": { "type": "string" }
+  },
+  "additionalProperties": false
+}

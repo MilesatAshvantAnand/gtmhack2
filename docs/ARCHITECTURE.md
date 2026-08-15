@@ -8,7 +8,7 @@ The first version creates drafts only. It never auto-sends outreach.
 
 ```mermaid
 flowchart LR
-  H["HubSpot trial event"] --> O["Owner-controlled runner"]
+  H["HubSpot trial event"] --> O["Shared hackathon runner"]
   Z["ZenABM admin API"] --> O
   U["UnifyGTM enrichment"] --> O
   C["Public competitor-ad data"] --> R["Competitor research agent"]
@@ -25,7 +25,7 @@ flowchart LR
     X["Context packages, contracts, fixtures, agent prompts, tests"]
   end
 
-  subgraph "Owner-only execution boundary"
+  subgraph "Codespaces execution boundary"
     O
     I
     A
@@ -50,7 +50,7 @@ flowchart LR
 
 ## Provider boundary
 
-Only the owner-controlled runner may call ZenABM, HubSpot, UnifyGTM, or an LLM API. Contributors work against checked-in fixtures and adapter interfaces. No provider credential exists in this repository or Codespaces; live execution runs from the owner's local environment or a separate private runner repository.
+Only Codespaces runs may call ZenABM, HubSpot, UnifyGTM, or an LLM API. Contributors work against checked-in fixtures and adapter interfaces locally. Credentials exist only as repository Codespaces secrets, never in Git.
 
 Use the smallest possible data footprint: retrieve only the trial account and contacts required for that run, store a run ID and report artifact rather than raw provider responses, and log sources/limits for every claim.
 

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zenabm.com/schemas/outreach-draft.json",
+  "title": "OutreachDraft",
+  "type": "object",
+  "required": ["trialId", "channel", "status", "body", "evidence"],
+  "properties": {
+    "trialId": { "type": "string" },
+    "channel": { "enum": ["email", "linkedin"] },
+    "status": { "const": "draft" },
+    "subject": { "type": "string" },
+    "body": { "type": "string" },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "evidence.schema.json" }
+    }
+  },
+  "additionalProperties": false
+}

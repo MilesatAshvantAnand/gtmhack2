@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zenabm.com/schemas/trial-profile.json",
+  "title": "TrialProfile",
+  "type": "object",
+  "required": ["trialId", "status", "marketingStatus", "zenabmConnection", "evidence"],
+  "properties": {
+    "trialId": { "type": "string" },
+    "company": { "type": "string" },
+    "domain": { "type": "string" },
+    "status": { "enum": ["active", "inactive", "unknown"] },
+    "marketingStatus": { "enum": ["allowed", "opted_out", "suppressed", "unknown"] },
+    "zenabmConnection": { "enum": ["connected", "not_connected", "unknown"] },
+    "evidence": {
+      "type": "array",
+      "items": { "$ref": "evidence.schema.json" }
+    }
+  },
+  "additionalProperties": false
+}

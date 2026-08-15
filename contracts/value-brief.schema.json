@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zenabm.com/schemas/value-brief.json",
+  "title": "ValueBrief",
+  "type": "object",
+  "required": ["trialId", "headline", "opportunities", "nextStep", "coverage"],
+  "properties": {
+    "trialId": { "type": "string" },
+    "headline": { "type": "string" },
+    "opportunities": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["claim", "recommendation", "evidence"],
+        "properties": {
+          "claim": { "type": "string" },
+          "recommendation": { "type": "string" },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "evidence.schema.json" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "nextStep": { "type": "string" },
+    "coverage": { "enum": ["complete", "partial", "unknown"] }
+  },
+  "additionalProperties": false
+}
