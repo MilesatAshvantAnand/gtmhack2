@@ -61,20 +61,20 @@ def run_fixture(
     coverage = _optional_object(payload.get("coverage"), "coverage")
     visibility = coverage.get("publicAdVisibility") if coverage else None
     observations = _objects(payload.get("observations", []), "observations")
-    actions = _actions(payload, observations, visibility, scorer)
 
     if visibility == "unknown":
         return {
-            "outcome": "accepted_with_limitations",
+            "outcome": "stopped_unknown_data",
             "competitorUse": "limited",
-            "recommendedActions": actions,
-            "outreach": {"mode": "draft_only", "sendAllowed": False},
+            "recommendedActions": [],
+            "outreach": {"mode": "no_draft", "sendAllowed": False},
             "policyNotes": [
                 "No competitor activity, impression, spend, click, creative, or targeting claim may be generated.",
                 "Unavailable public-ad coverage is unknown, not zero.",
             ],
         }
 
+    actions = _actions(payload, observations, visibility, scorer)
     return {
         "outcome": "accepted",
         "competitorUse": "allowed",
@@ -100,18 +100,6 @@ def _actions(
             key=lambda item: (-_score(payload, item[1], scorer), item[0]),
         )
         return [_candidate_action(candidate) for _, candidate in ranked[:3]]
-
-    if visibility == "unknown":
-        return [
-            {
-                "id": "action_002",
-                "action": "Confirm the trial account's campaign objective before proposing an experiment; public competitor-ad coverage is unavailable for the selected region.",
-                "owner": "trial_user",
-                "successMetric": "campaign_objective_confirmed",
-                "confidence": "unknown",
-                "evidence": ["coverage"],
-            }
-        ]
 
     evidence = [str(observation["id"]) for observation in observations if observation.get("id")]
     if not evidence:

@@ -56,6 +56,17 @@ class AshtreeRunnerTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "payload.trial.id"):
             run_fixture(payload)
 
+    def test_unknown_public_ad_coverage_produces_no_draft(self) -> None:
+        payload = eligible_payload()
+        payload["coverage"] = {"publicAdVisibility": "unknown"}
+        payload["observations"] = []
+
+        result = run_fixture(payload)
+
+        self.assertEqual(result["status"], "blocked_insufficient_evidence")
+        self.assertEqual(result["recommendedActions"], [])
+        self.assertEqual(result["outreachDrafts"], [])
+
 
 if __name__ == "__main__":
     unittest.main()
