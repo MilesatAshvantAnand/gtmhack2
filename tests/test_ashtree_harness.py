@@ -186,6 +186,9 @@ class AshtreeHarnessTests(unittest.TestCase):
         coverage = payload.get("coverage", {})
         if coverage.get("publicAdVisibility") == "unknown":
             self.assertEqual(result["coverage"], "unknown")
+            self.assertEqual(result["status"], "blocked_insufficient_evidence")
+            self.assertEqual(result["recommendedActions"], [])
+            self.assertEqual(result["outreachDrafts"], [])
         if case_id == "verified-competitor":
             self.assertEqual(result["coverage"], "partial")
             self.assertTrue(result["recommendedActions"])
