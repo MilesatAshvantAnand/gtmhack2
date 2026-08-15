@@ -55,23 +55,7 @@
     },
     "outreachDrafts": {
       "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["draftId", "channel", "status", "humanReview", "sourceIds"],
-        "properties": {
-          "draftId": { "type": "string", "minLength": 1 },
-          "channel": { "enum": ["email", "linkedin"] },
-          "status": { "const": "draft" },
-          "humanReview": { "const": "required" },
-          "sourceIds": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "items": { "type": "string", "minLength": 1 }
-          }
-        },
-        "additionalProperties": false
-      }
+      "items": { "$ref": "https://zenabm.com/schemas/outreach-draft.json" }
     },
     "blockReasons": {
       "type": "array",
@@ -127,7 +111,20 @@
             },
             "required": ["optedOut", "marketingStatus"]
           },
-          "recommendedActions": { "type": "array", "minItems": 1 },
+          "coverage": { "enum": ["complete", "partial"] },
+          "recommendedActions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "allOf": [
+                { "$ref": "https://zenabm.com/schemas/recommended-action.json" },
+                {
+                  "type": "object",
+                  "properties": { "coverage": { "enum": ["complete", "partial"] } }
+                }
+              ]
+            }
+          },
           "outreachDrafts": { "type": "array", "minItems": 1 }
         }
       }

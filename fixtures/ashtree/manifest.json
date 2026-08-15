@@ -2,6 +2,11 @@
   "fixtureSet": "ashtree",
   "version": "1.1.0",
   "purpose": "Sanitized deterministic examples for the ZenABM trial-to-value workflow.",
+  "contracts": {
+    "input": "ashtree-fixture-input.schema.json",
+    "expected": "ashtree-policy-outcome.schema.json",
+    "runEnvelope": "ashtree-run-envelope.schema.json"
+  },
   "sourceLabels": {
     "zenabm_trial": "Sanitized ZenABM trial and performance context.",
     "linkedin_public_ads": "Public LinkedIn ad-library observation; never treated as spend, clicks, creative text, or hidden targeting.",

@@ -2,18 +2,30 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://zenabm.com/schemas/trial-profile.json",
   "title": "TrialProfile",
+  "description": "The minimal, evidence-linked eligibility record for one explicitly selected trial.",
   "type": "object",
-  "required": ["trialId", "status", "marketingStatus", "zenabmConnection", "evidence"],
+  "required": [
+    "trialId",
+    "status",
+    "marketingStatus",
+    "zenabmConnection",
+    "evidenceIds"
+  ],
   "properties": {
-    "trialId": { "type": "string" },
-    "company": { "type": "string" },
-    "domain": { "type": "string" },
+    "trialId": { "type": "string", "minLength": 1 },
+    "contactId": { "type": "string", "minLength": 1 },
+    "company": { "type": "string", "minLength": 1 },
+    "domain": { "type": "string", "minLength": 1 },
+    "accountCanonicalId": { "type": "string", "minLength": 1 },
+    "accountVerification": { "enum": ["verified", "unverified", "unknown"] },
     "status": { "enum": ["active", "inactive", "unknown"] },
     "marketingStatus": { "enum": ["allowed", "opted_out", "suppressed", "unknown"] },
     "zenabmConnection": { "enum": ["connected", "not_connected", "unknown"] },
-    "evidence": {
+    "evidenceIds": {
       "type": "array",
-      "items": { "$ref": "evidence.schema.json" }
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
     }
   },
   "additionalProperties": false
