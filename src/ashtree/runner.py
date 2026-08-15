@@ -35,6 +35,11 @@ def run_fixture(
     if consent == "opted_out":
         return _suppressed_outcome()
 
+    if consent != "eligible_for_draft":
+        return _blocked_outcome(
+            "The selected contact is not explicitly eligible for a draft; suppressed, missing, and unknown consent states fail closed."
+        )
+
     if trial.get("status") != "active":
         return _blocked_outcome(
             "The selected trial is not active, so no draft or recommendation may be created."

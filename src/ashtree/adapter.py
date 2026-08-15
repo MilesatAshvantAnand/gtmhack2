@@ -22,7 +22,7 @@ def run_fixture(payload: Mapping[str, Any]) -> dict[str, Any]:
     competitor = _mapping(payload, "competitor")
     opted_out = trial.get("consent") == "opted_out"
     coverage = _coverage(payload)
-    trial_id = _text(trial.get("id"), "fixture-trial")
+    trial_id = _required_text(trial.get("id"), "payload.trial.id")
     envelope: dict[str, Any] = {
         "runId": f"fixture-{trial_id}",
         "trigger": "trial_started",
@@ -167,3 +167,9 @@ def _mapping(payload: Mapping[str, Any], key: str) -> Mapping[str, Any]:
 
 def _text(value: object, fallback: str) -> str:
     return value.strip() if isinstance(value, str) and value.strip() else fallback
+
+
+def _required_text(value: object, label: str) -> str:
+    if not isinstance(value, str) or not value.strip():
+        raise ValueError(f"{label} must be a non-empty string")
+    return value.strip()
