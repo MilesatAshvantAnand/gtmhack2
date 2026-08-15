@@ -1,0 +1,18 @@
+{
+  "trial": {
+    "id": "trial_fixture_003",
+    "status": "active",
+    "accountName": "Pine Labs",
+    "consent": "eligible_for_draft"
+  },
+  "competitor": {
+    "displayName": "Summit Data",
+    "canonicalLinkedinCompanyId": null,
+    "verification": "unverified_fuzzy_match",
+    "candidateAdvertiserName": "Summit Data Group"
+  },
+  "coverage": {
+    "region": "EU_EEA",
+    "publicAdVisibility": "partial"
+  }
+}

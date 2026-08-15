@@ -1,0 +1,12 @@
+{
+  "outcome": "rejected",
+  "competitorUse": "not_processed",
+  "recommendedActions": [],
+  "outreach": {
+    "mode": "no_draft",
+    "sendAllowed": false
+  },
+  "policyNotes": [
+    "The selected contact is not explicitly eligible for a draft; suppressed, missing, and unknown consent states fail closed."
+  ]
+}

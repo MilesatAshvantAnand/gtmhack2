@@ -1,0 +1,13 @@
+{
+  "outcome": "stopped_unknown_data",
+  "competitorUse": "limited",
+  "recommendedActions": [],
+  "outreach": {
+    "mode": "no_draft",
+    "sendAllowed": false
+  },
+  "policyNotes": [
+    "No competitor activity, impression, spend, click, creative, or targeting claim may be generated.",
+    "Unavailable public-ad coverage is unknown, not zero."
+  ]
+}
