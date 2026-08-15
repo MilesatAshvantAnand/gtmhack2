@@ -1,4 +1,7 @@
 .env
+demo/.presentation-build/
+demo/GTMHack2-Hackathon-Demo/
+demo/GTMHack2-Hackathon-Demo.pptx.inspect.ndjson
 .env.*
 !.env.example
 !.env.sample
