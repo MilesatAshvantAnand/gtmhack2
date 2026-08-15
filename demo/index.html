@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Interactive, fixture-backed GTM Hackathon demo." />
+    <title>GTMHack2 | First-Week ABM Brief</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="GTMHack2 home"><span class="brand-mark">↗</span> GTMHACK2</a>
+        <span class="mode"><span class="dot"></span> Fixture demo - draft-only</span>
+      </header>
+
+      <section id="top" class="hero">
+        <div>
+          <p class="eyebrow">FIRST-WEEK ABM RESCUE BRIEF</p>
+          <h1>Turn a new trial into a <em>useful next step.</em></h1>
+          <p class="lede">Choose a trial account. Watch specialist agents turn permitted ABM signals into an evidence-linked plan and a human-reviewable draft.</p>
+        </div>
+        <aside class="hero-note">
+          <span class="note-icon">✓</span>
+          <div><strong>Nothing is sent.</strong><br />Every customer-facing message stays a draft until a human approves it.</div>
+        </aside>
+      </section>
+
+      <section class="setup" aria-labelledby="setup-title">
+        <div class="section-label"><span>01</span><h2 id="setup-title">Choose a demo flow</h2></div>
+        <div id="scenarioCards" class="scenario-cards"></div>
+        <div class="controls">
+          <button id="runButton" class="button primary">Run the 5-minute plan <span>→</span></button>
+          <button id="resetButton" class="button ghost">Reset</button>
+        </div>
+      </section>
+
+      <section id="flowSection" class="flow-section" aria-labelledby="flow-title">
+        <div class="section-label"><span>02</span><h2 id="flow-title">How the agents work together</h2></div>
+        <p class="section-copy">The orchestrator has five minutes. It stops safely if permission, identity, or evidence is missing.</p>
+        <ol id="flow" class="flow" aria-live="polite"></ol>
+        <div id="runStatus" class="run-status">Ready when you are.</div>
+      </section>
+
+      <section id="briefSection" class="brief-section" aria-labelledby="brief-title" hidden>
+        <div class="section-label"><span>03</span><h2 id="brief-title">Your first-week growth brief</h2></div>
+        <div id="briefContent"></div>
+      </section>
+    </main>
+
+    <template id="scenarioTemplate">
+      <button class="scenario-card" type="button">
+        <span class="scenario-kind"></span>
+        <strong class="scenario-name"></strong>
+        <small class="scenario-detail"></small>
+      </button>
+    </template>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -18,6 +18,18 @@ It creates a report, a HubSpot note/task, and email/LinkedIn-message drafts. It 
 3. Follow [AGENTS.md](AGENTS.md), whether you are using Codex, Claude, Cursor, Copilot, or working manually.
 4. Treat `context/` as read-only reference material. Build new workflow code in `src/`, with sanitized examples in `fixtures/` and tests in `tests/`.
 
+## Interactive hackathon demo
+
+The zero-dependency demo is a safe, fixture-backed walkthrough of the product promise. It never uses credentials or sends a message.
+
+```bash
+python3 -m http.server 8000 --directory demo
+```
+
+Open `http://localhost:8000`, select **Northstar Analytics**, and choose **Run the 5-minute plan**. Then run **Harbor Studio** to demonstrate that an opt-out stops the workflow before enrichment or drafting. See [demo/README.md](demo/README.md) for the presenter path and the bounded Unify integration design.
+
+The presentation is available at [demo/GTMHack2-Hackathon-Demo.pptx](demo/GTMHack2-Hackathon-Demo.pptx).
+
 ## Repository map
 
 ```text
