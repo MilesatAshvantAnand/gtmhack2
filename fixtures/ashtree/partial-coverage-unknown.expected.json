@@ -1,0 +1,24 @@
+{
+  "outcome": "accepted_with_limitations",
+  "competitorUse": "limited",
+  "recommendedActions": [
+    {
+      "id": "action_002",
+      "action": "Confirm the trial account's campaign objective before proposing an experiment; public competitor-ad coverage is unavailable for the selected region.",
+      "owner": "trial_user",
+      "successMetric": "campaign_objective_confirmed",
+      "confidence": "unknown",
+      "evidence": [
+        "coverage"
+      ]
+    }
+  ],
+  "outreach": {
+    "mode": "draft_only",
+    "sendAllowed": false
+  },
+  "policyNotes": [
+    "No competitor activity, impression, spend, click, creative, or targeting claim may be generated.",
+    "Unavailable public-ad coverage is unknown, not zero."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "outcome": "suppressed",
+  "competitorUse": "not_processed",
+  "recommendedActions": [],
+  "outreach": {
+    "mode": "no_draft",
+    "draftCreated": false,
+    "sendAllowed": false
+  },
+  "policyNotes": [
+    "Stop before analysis or draft creation because the trial contact opted out.",
+    "A suppression check is required again before any future send attempt."
+  ]
+}

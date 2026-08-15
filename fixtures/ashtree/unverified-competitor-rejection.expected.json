@@ -1,0 +1,13 @@
+{
+  "outcome": "rejected",
+  "competitorUse": "blocked",
+  "recommendedActions": [],
+  "outreach": {
+    "mode": "no_draft",
+    "sendAllowed": false
+  },
+  "policyNotes": [
+    "Reject the fuzzy advertiser match until a canonical LinkedIn company ID is verified.",
+    "Do not generate competitor findings or outreach from an unverified match."
+  ]
+}

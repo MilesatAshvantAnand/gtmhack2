@@ -1,0 +1,24 @@
+{
+  "outcome": "accepted",
+  "competitorUse": "allowed",
+  "recommendedActions": [
+    {
+      "id": "action_001",
+      "action": "Review the verified competitor's public ad observation alongside the trial account's current campaign objective and select one ZenABM experiment to test.",
+      "owner": "trial_user",
+      "successMetric": "experiment_created",
+      "confidence": "directional",
+      "evidence": [
+        "obs_001"
+      ]
+    }
+  ],
+  "outreach": {
+    "mode": "draft_only",
+    "sendAllowed": false
+  },
+  "policyNotes": [
+    "The action does not assert spend, clicks, creative text, targeting, or causal impact.",
+    "Public-ad visibility is partial and impressions remain unknown."
+  ]
+}

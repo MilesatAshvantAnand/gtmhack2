@@ -1,0 +1,44 @@
+{
+  "fixtureSet": "ashtree",
+  "version": "1.0.0",
+  "purpose": "Sanitized deterministic examples for the ZenABM trial-to-value workflow.",
+  "sourceLabels": {
+    "zenabm_trial": "Sanitized ZenABM trial and performance context.",
+    "linkedin_public_ads": "Public LinkedIn ad-library observation; never treated as spend, clicks, creative text, or hidden targeting.",
+    "hubspot_trial": "Sanitized trial-contact consent and lifecycle context.",
+    "policy": "Workflow quality and safety decision."
+  },
+  "commonFields": {
+    "trial": "Selected trial identity, status, and consent state.",
+    "competitor": "Candidate competitor with a canonical LinkedIn company ID only when verified.",
+    "coverage": "Visibility scope; unavailable measurements must be represented as unknown.",
+    "evidence": "Source-labelled references supporting a finding or action.",
+    "outcome": "Deterministic acceptance, rejection, or no-draft policy result."
+  },
+  "cases": [
+    {
+      "id": "verified-competitor",
+      "input": "verified-competitor.input.json",
+      "expected": "verified-competitor.expected.json",
+      "purpose": "Allow an evidence-linked, human-reviewed action for a canonically verified competitor."
+    },
+    {
+      "id": "partial-coverage-unknown",
+      "input": "partial-coverage-unknown.input.json",
+      "expected": "partial-coverage-unknown.expected.json",
+      "purpose": "Preserve unknown coverage and avoid numerical or causal claims."
+    },
+    {
+      "id": "unverified-competitor-rejection",
+      "input": "unverified-competitor-rejection.input.json",
+      "expected": "unverified-competitor-rejection.expected.json",
+      "purpose": "Reject a fuzzy advertiser match without a canonical LinkedIn company ID."
+    },
+    {
+      "id": "opted-out-draft-only",
+      "input": "opted-out-draft-only.input.json",
+      "expected": "opted-out-draft-only.expected.json",
+      "purpose": "Suppress both draft creation and every send action for an opted-out contact."
+    }
+  ]
+}

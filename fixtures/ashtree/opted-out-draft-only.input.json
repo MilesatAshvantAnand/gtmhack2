@@ -1,0 +1,18 @@
+{
+  "trial": {
+    "id": "trial_fixture_004",
+    "status": "active",
+    "accountName": "Cedar Health",
+    "consent": "opted_out"
+  },
+  "contact": {
+    "id": "contact_fixture_004",
+    "lifecycle": "trial",
+    "marketingContact": false
+  },
+  "competitor": {
+    "displayName": "Willow Health",
+    "canonicalLinkedinCompanyId": "246810",
+    "verification": "verified"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "trial": {
+    "id": "trial_fixture_002",
+    "status": "active",
+    "accountName": "Harbor Works",
+    "consent": "eligible_for_draft"
+  },
+  "competitor": {
+    "displayName": "Beacon Systems",
+    "canonicalLinkedinCompanyId": "987654",
+    "verification": "verified"
+  },
+  "coverage": {
+    "region": "outside_EU_EEA",
+    "publicAdVisibility": "unknown",
+    "impressions": "unknown",
+    "reason": "Public-ad visibility is not available for this region."
+  },
+  "observations": []
+}
