@@ -1,6 +1,6 @@
 {
   "fixtureSet": "ashtree",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "purpose": "Sanitized deterministic examples for the ZenABM trial-to-value workflow.",
   "sourceLabels": {
     "zenabm_trial": "Sanitized ZenABM trial and performance context.",
@@ -39,6 +39,24 @@
       "input": "opted-out-draft-only.input.json",
       "expected": "opted-out-draft-only.expected.json",
       "purpose": "Suppress both draft creation and every send action for an opted-out contact."
+    },
+    {
+      "id": "inactive-trial-rejection",
+      "input": "inactive-trial-rejection.input.json",
+      "expected": "inactive-trial-rejection.expected.json",
+      "purpose": "Stop before analysis or drafts when the selected trial is not active."
+    },
+    {
+      "id": "suppressed-contact-rejection",
+      "input": "suppressed-contact-rejection.input.json",
+      "expected": "suppressed-contact-rejection.expected.json",
+      "purpose": "Fail closed when the selected contact is suppressed."
+    },
+    {
+      "id": "unknown-consent-rejection",
+      "input": "unknown-consent-rejection.input.json",
+      "expected": "unknown-consent-rejection.expected.json",
+      "purpose": "Fail closed when marketing eligibility is missing or unknown."
     }
   ]
 }

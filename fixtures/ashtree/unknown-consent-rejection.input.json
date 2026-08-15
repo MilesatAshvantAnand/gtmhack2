@@ -1,0 +1,17 @@
+{
+  "trial": {
+    "id": "trial_fixture_007",
+    "status": "active",
+    "accountName": "Maple Systems",
+    "consent": "unknown"
+  },
+  "competitor": {
+    "displayName": "Orbit Metrics",
+    "canonicalLinkedinCompanyId": "123456",
+    "verification": "verified"
+  },
+  "coverage": {
+    "publicAdVisibility": "complete"
+  },
+  "observations": []
+}

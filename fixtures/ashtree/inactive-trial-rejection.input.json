@@ -1,0 +1,22 @@
+{
+  "trial": {
+    "id": "trial_fixture_005",
+    "status": "inactive",
+    "accountName": "Northstar Labs",
+    "consent": "eligible_for_draft"
+  },
+  "competitor": {
+    "displayName": "Orbit Metrics",
+    "canonicalLinkedinCompanyId": "123456",
+    "verification": "verified"
+  },
+  "coverage": {
+    "publicAdVisibility": "complete"
+  },
+  "observations": [
+    {
+      "id": "obs_005",
+      "confidence": "high"
+    }
+  ]
+}
