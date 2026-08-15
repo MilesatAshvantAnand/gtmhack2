@@ -48,4 +48,3 @@ else:
     @pytest.fixture
     def fixtures_dir() -> Path:
         return FIXTURES_DIR
-
