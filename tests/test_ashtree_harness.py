@@ -45,13 +45,19 @@ def load_ashtree_policy():
 
 def run_envelope_validator() -> Draft202012Validator:
     action_path = CONTRACTS_DIR / "recommended-action.schema.json"
+    outreach_path = CONTRACTS_DIR / "outreach-draft.schema.json"
     envelope_path = CONTRACTS_DIR / "ashtree-run-envelope.schema.json"
     with action_path.open(encoding="utf-8") as schema_file:
         action_schema = json.load(schema_file)
+    with outreach_path.open(encoding="utf-8") as schema_file:
+        outreach_schema = json.load(schema_file)
     with envelope_path.open(encoding="utf-8") as schema_file:
         envelope_schema = json.load(schema_file)
-    registry = Registry().with_resource(
-        action_schema["$id"], Resource.from_contents(action_schema)
+    registry = Registry().with_resources(
+        (
+            (action_schema["$id"], Resource.from_contents(action_schema)),
+            (outreach_schema["$id"], Resource.from_contents(outreach_schema)),
+        )
     )
     return Draft202012Validator(envelope_schema, registry=registry)
 

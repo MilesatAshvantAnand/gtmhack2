@@ -18,7 +18,14 @@ def eligible_payload() -> dict[str, object]:
             "verification": "verified",
         },
         "coverage": {"publicAdVisibility": "partial"},
-        "observations": [{"id": "obs_001", "confidence": "directional"}],
+        "observations": [
+            {
+                "id": "obs_001",
+                "source": "linkedin_public_ads",
+                "statement": "A public observation exists for the verified competitor.",
+                "confidence": "directional",
+            }
+        ],
     }
 
 
@@ -59,6 +66,29 @@ class AshtreeRunnerTests(unittest.TestCase):
     def test_unknown_public_ad_coverage_produces_no_draft(self) -> None:
         payload = eligible_payload()
         payload["coverage"] = {"publicAdVisibility": "unknown"}
+        payload["observations"] = []
+
+        result = run_fixture(payload)
+
+        self.assertEqual(result["status"], "blocked_insufficient_evidence")
+        self.assertEqual(result["recommendedActions"], [])
+        self.assertEqual(result["outreachDrafts"], [])
+
+    def test_missing_coverage_and_source_less_observations_produce_no_draft(self) -> None:
+        missing_coverage = eligible_payload()
+        missing_coverage.pop("coverage")
+        source_less = eligible_payload()
+        source_less["observations"] = [{"id": "obs_001", "confidence": "high"}]
+
+        for payload in (missing_coverage, source_less):
+            with self.subTest(payload=payload):
+                result = run_fixture(payload)
+                self.assertEqual(result["status"], "blocked_insufficient_evidence")
+                self.assertEqual(result["recommendedActions"], [])
+                self.assertEqual(result["outreachDrafts"], [])
+
+    def test_no_observations_produce_no_draft(self) -> None:
+        payload = eligible_payload()
         payload["observations"] = []
 
         result = run_fixture(payload)

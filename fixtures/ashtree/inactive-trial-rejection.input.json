@@ -16,6 +16,8 @@
   "observations": [
     {
       "id": "obs_005",
+      "source": "linkedin_public_ads",
+      "statement": "A public ad observation exists but must not be processed for an inactive trial.",
       "confidence": "high"
     }
   ]

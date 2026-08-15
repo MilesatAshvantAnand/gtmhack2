@@ -2,14 +2,44 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://zenabm.com/schemas/evidence.json",
   "title": "Evidence",
+  "description": "One extracted, source-addressable fact. It stores the minimum field-level evidence needed for auditability, never a raw provider payload.",
   "type": "object",
-  "required": ["source", "field", "coverage"],
+  "required": ["evidenceId", "source", "field", "coverage", "confidence"],
   "properties": {
-    "source": { "type": "string" },
-    "field": { "type": "string" },
+    "evidenceId": { "type": "string", "minLength": 1 },
+    "source": { "type": "string", "minLength": 1 },
+    "field": { "type": "string", "minLength": 1 },
+    "value": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "number" },
+        { "type": "boolean" },
+        { "type": "null" }
+      ]
+    },
     "coverage": { "enum": ["complete", "partial", "unknown"] },
-    "observedAt": { "type": "string", "format": "date-time" },
-    "note": { "type": "string" }
+    "confidence": { "enum": ["high", "medium", "low", "unknown"] },
+    "observedAt": { "type": "string", "minLength": 1 },
+    "sourceUrl": { "type": "string", "minLength": 1 },
+    "marker": {
+      "type": "string",
+      "minLength": 1,
+      "description": "An exact public marker such as a script hostname, response header, or canonical company ID."
+    },
+    "note": { "type": "string", "minLength": 1 }
   },
+  "allOf": [
+    {
+      "if": { "properties": { "coverage": { "const": "unknown" } }, "required": ["coverage"] },
+      "then": {
+        "properties": { "confidence": { "const": "unknown" } },
+        "not": { "required": ["value"] },
+        "anyOf": [
+          { "required": ["marker"] },
+          { "required": ["note"] }
+        ]
+      }
+    }
+  ],
   "additionalProperties": false
 }

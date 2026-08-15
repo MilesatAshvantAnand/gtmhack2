@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zenabm.com/schemas/ashtree-fixture-input.json",
+  "title": "AshtreeFixtureInput",
+  "description": "Sanitized input accepted by the local fixture policy runner.",
+  "type": "object",
+  "required": ["trial", "competitor"],
+  "properties": {
+    "trial": {
+      "type": "object",
+      "required": ["id", "status", "consent"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["active", "inactive", "unknown"] },
+        "accountName": { "type": "string", "minLength": 1 },
+        "consent": { "enum": ["eligible_for_draft", "opted_out", "suppressed", "unknown"] }
+      },
+      "additionalProperties": false
+    },
+    "contact": {
+      "type": "object",
+      "required": ["id", "lifecycle", "marketingContact"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "lifecycle": { "const": "trial" },
+        "marketingContact": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "competitor": {
+      "type": "object",
+      "required": ["displayName", "canonicalLinkedinCompanyId", "verification"],
+      "properties": {
+        "displayName": { "type": "string", "minLength": 1 },
+        "canonicalLinkedinCompanyId": { "type": ["string", "null"] },
+        "verification": { "enum": ["verified", "unverified_fuzzy_match"] },
+        "candidateAdvertiserName": { "type": "string", "minLength": 1 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "verification": { "const": "verified" } }, "required": ["verification"] },
+          "then": {
+            "properties": { "canonicalLinkedinCompanyId": { "type": "string", "minLength": 1 } }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "required": ["publicAdVisibility"],
+      "properties": {
+        "region": { "type": "string", "minLength": 1 },
+        "publicAdVisibility": { "enum": ["complete", "partial", "unknown"] },
+        "impressions": {
+          "oneOf": [
+            { "type": "integer", "minimum": 0 },
+            { "const": "unknown" }
+          ]
+        },
+        "reason": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "source", "statement", "confidence"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "source": { "type": "string", "minLength": 1 },
+          "statement": { "type": "string", "minLength": 1 },
+          "confidence": { "enum": ["high", "medium", "low", "directional", "unknown"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "candidateActions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/candidateAction" }
+    },
+    "candidate_actions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/candidateAction" }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "trial": {
+            "type": "object",
+            "properties": {
+              "status": { "const": "active" },
+              "consent": { "const": "eligible_for_draft" }
+            },
+            "required": ["status", "consent"]
+          }
+        },
+        "required": ["trial"]
+      },
+      "then": { "required": ["coverage"] }
+    }
+  ],
+  "$defs": {
+    "candidateAction": {
+      "type": "object",
+      "required": ["id", "action", "owner", "successMetric", "confidence", "evidence"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "action": { "type": "string", "minLength": 1 },
+        "owner": { "enum": ["trial_user", "csm", "ae", "marketing_owner"] },
+        "successMetric": { "type": "string", "minLength": 1 },
+        "confidence": { "enum": ["high", "medium", "low", "directional", "unknown"] },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "priority": { "type": "number" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

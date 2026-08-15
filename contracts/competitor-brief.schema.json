@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zenabm.com/schemas/competitor-brief.json",
+  "title": "CompetitorBrief",
+  "description": "Up to three canonically verified competitors with bounded public-ad observations.",
+  "type": "object",
+  "required": ["briefId", "trialId", "competitors", "coverage"],
+  "properties": {
+    "briefId": { "type": "string", "minLength": 1 },
+    "trialId": { "type": "string", "minLength": 1 },
+    "competitors": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "canonicalLinkedinCompanyId",
+          "verification",
+          "activeAdCount",
+          "activityWindowDays",
+          "coverage",
+          "sourceIds"
+        ],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "canonicalLinkedinCompanyId": { "type": "string", "minLength": 1 },
+          "verification": { "const": "verified" },
+          "activeAdCount": {
+            "oneOf": [
+              { "type": "integer", "minimum": 0 },
+              { "const": "unknown" }
+            ]
+          },
+          "activityWindowDays": { "type": "integer", "minimum": 1 },
+          "coverage": { "enum": ["complete", "partial", "unknown"] },
+          "sourceIds": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "limitations": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": { "activeAdCount": { "const": "unknown" } },
+              "required": ["activeAdCount"]
+            },
+            "then": {
+              "properties": {
+                "coverage": { "const": "unknown" },
+                "limitations": { "type": "array", "minItems": 1 }
+              },
+              "required": ["limitations"]
+            }
+          },
+          {
+            "if": {
+              "properties": { "coverage": { "const": "unknown" } },
+              "required": ["coverage"]
+            },
+            "then": {
+              "properties": {
+                "activeAdCount": { "const": "unknown" },
+                "limitations": { "type": "array", "minItems": 1 }
+              },
+              "required": ["limitations"]
+            }
+          }
+        ],
+        "additionalProperties": false
+      }
+    },
+    "coverage": { "enum": ["complete", "partial", "unknown"] },
+    "limitations": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "additionalProperties": false
+}

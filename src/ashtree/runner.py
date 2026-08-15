@@ -60,9 +60,8 @@ def run_fixture(
 
     coverage = _optional_object(payload.get("coverage"), "coverage")
     visibility = coverage.get("publicAdVisibility") if coverage else None
-    observations = _objects(payload.get("observations", []), "observations")
 
-    if visibility == "unknown":
+    if visibility not in {"complete", "partial"}:
         return {
             "outcome": "stopped_unknown_data",
             "competitorUse": "limited",
@@ -74,7 +73,17 @@ def run_fixture(
             ],
         }
 
+    observations = _objects(payload.get("observations", []), "observations")
+    if not all(_is_evidence_observation(observation) for observation in observations):
+        return _blocked_outcome(
+            "Every observation must include a source, statement, confidence, and stable evidence ID."
+        )
+
     actions = _actions(payload, observations, visibility, scorer)
+    if not actions:
+        return _blocked_outcome(
+            "No evidence-linked recommendation is available, so no draft may be created."
+        )
     return {
         "outcome": "accepted",
         "competitorUse": "allowed",
@@ -95,11 +104,14 @@ def _actions(
         "candidate actions",
     )
     if candidates:
+        evidence_ids = {str(observation["id"]) for observation in observations}
         ranked = sorted(
             enumerate(candidates),
             key=lambda item: (-_score(payload, item[1], scorer), item[0]),
         )
-        return [_candidate_action(candidate) for _, candidate in ranked[:3]]
+        return [
+            _candidate_action(candidate, evidence_ids) for _, candidate in ranked[:3]
+        ]
 
     evidence = [str(observation["id"]) for observation in observations if observation.get("id")]
     if not evidence:
@@ -117,13 +129,23 @@ def _actions(
     ]
 
 
-def _candidate_action(candidate: Mapping[str, Any]) -> dict[str, Any]:
+def _candidate_action(
+    candidate: Mapping[str, Any], evidence_ids: set[str]
+) -> dict[str, Any]:
     """Return only fixture action fields; candidate input never enables send."""
 
     required = ("id", "action", "owner", "successMetric", "confidence", "evidence")
     missing = [field for field in required if field not in candidate]
     if missing:
         raise ValueError(f"candidate action is missing: {', '.join(missing)}")
+    evidence = candidate["evidence"]
+    if (
+        not isinstance(evidence, list)
+        or not evidence
+        or not all(isinstance(item, str) and item for item in evidence)
+        or not set(evidence).issubset(evidence_ids)
+    ):
+        raise ValueError("candidate action evidence must resolve to observation IDs")
     return {field: candidate[field] for field in required}
 
 
@@ -175,6 +197,19 @@ def _is_verified(competitor: Mapping[str, Any]) -> bool:
         competitor.get("verification") == "verified"
         and isinstance(competitor.get("canonicalLinkedinCompanyId"), str)
         and bool(competitor["canonicalLinkedinCompanyId"].strip())
+    )
+
+
+def _is_evidence_observation(observation: Mapping[str, Any]) -> bool:
+    required_text = ("id", "source", "statement")
+    return (
+        all(
+            isinstance(observation.get(field), str)
+            and bool(observation[field].strip())
+            for field in required_text
+        )
+        and observation.get("confidence")
+        in {"high", "medium", "low", "directional", "unknown"}
     )
 
 

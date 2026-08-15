@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zenabm.com/schemas/ashtree-policy-outcome.json",
+  "title": "AshtreePolicyOutcome",
+  "description": "The fixture policy result before it is mapped into the public run envelope.",
+  "type": "object",
+  "required": ["outcome", "competitorUse", "recommendedActions", "outreach", "policyNotes"],
+  "properties": {
+    "outcome": { "enum": ["accepted", "rejected", "suppressed", "stopped_unknown_data"] },
+    "competitorUse": { "enum": ["allowed", "limited", "blocked", "not_processed"] },
+    "recommendedActions": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["id", "action", "owner", "successMetric", "confidence", "evidence"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "action": { "type": "string", "minLength": 1 },
+          "owner": { "enum": ["trial_user", "csm", "ae", "marketing_owner"] },
+          "successMetric": { "type": "string", "minLength": 1 },
+          "confidence": { "enum": ["high", "medium", "low", "directional", "unknown"] },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "outreach": {
+      "type": "object",
+      "required": ["mode", "sendAllowed"],
+      "properties": {
+        "mode": { "enum": ["draft_only", "no_draft"] },
+        "draftCreated": { "type": "boolean" },
+        "sendAllowed": { "const": false }
+      },
+      "additionalProperties": false
+    },
+    "policyNotes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "outcome": { "const": "accepted" } }, "required": ["outcome"] },
+      "then": {
+        "properties": {
+          "competitorUse": { "const": "allowed" },
+          "recommendedActions": { "type": "array", "minItems": 1 },
+          "outreach": {
+            "type": "object",
+            "properties": { "mode": { "const": "draft_only" } },
+            "required": ["mode"]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "outcome": { "enum": ["rejected", "suppressed", "stopped_unknown_data"] }
+        },
+        "required": ["outcome"]
+      },
+      "then": {
+        "properties": {
+          "recommendedActions": { "type": "array", "maxItems": 0 },
+          "outreach": {
+            "type": "object",
+            "properties": {
+              "mode": { "const": "no_draft" },
+              "draftCreated": { "const": false }
+            },
+            "required": ["mode"]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "outcome": { "const": "stopped_unknown_data" } },
+        "required": ["outcome"]
+      },
+      "then": {
+        "properties": { "competitorUse": { "const": "limited" } }
+      }
+    },
+    {
+      "if": {
+        "properties": { "outcome": { "const": "suppressed" } },
+        "required": ["outcome"]
+      },
+      "then": {
+        "properties": { "competitorUse": { "const": "not_processed" } }
+      }
+    },
+    {
+      "if": {
+        "properties": { "outcome": { "const": "rejected" } },
+        "required": ["outcome"]
+      },
+      "then": {
+        "properties": {
+          "competitorUse": { "enum": ["blocked", "not_processed"] }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

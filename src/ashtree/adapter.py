@@ -104,8 +104,10 @@ def _recommendations(
 def _draft(trial_id: str, source_ids: list[str]) -> dict[str, Any]:
     return {
         "draftId": f"fixture-{trial_id}-draft-1",
+        "trialId": trial_id,
         "channel": "email",
         "status": "draft",
+        "body": "Review this evidence-linked ZenABM finding before using any outreach.",
         "humanReview": "required",
         "sourceIds": source_ids,
     }
