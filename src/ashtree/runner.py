@@ -1,152 +1,208 @@
-"""Fixture-only orchestration for an Ashtree trial-to-value run.
+"""Fixture-only policy runner for the Ashtree trial-to-value workflow.
 
-This module intentionally has no provider clients.  It accepts data that has
-already been collected (usually sanitized fixtures), ranks candidate actions,
-and returns a JSON-serializable envelope for a caller to render or review.
-It never reads environment variables and never executes outreach.
+``run_fixture`` consumes the snake_case payloads in ``fixtures/ashtree`` and
+returns their snake_case policy outcome. The repository's JSON schemas use a
+camelCase run envelope at the boundary; an owning orchestration layer can map
+this bounded, review-only result into that envelope without changing policy.
+
+There are intentionally no provider clients, environment reads, or send calls
+in this module.
 """
 
 from __future__ import annotations
 
-import argparse
-import json
 from collections.abc import Callable, Mapping, Sequence
-from datetime import datetime, timezone
-from pathlib import Path
 from typing import Any
-from uuid import uuid4
 
 
-JsonValue = str | int | float | bool | None | list["JsonValue"] | dict[str, "JsonValue"]
-CandidateAction = Mapping[str, Any]
-ActionScorer = Callable[[Mapping[str, Any], Mapping[str, Any]], float | Mapping[str, Any]]
+CandidateScorer = Callable[[Mapping[str, Any], Mapping[str, Any]], float]
 
 
 def run_fixture(
-    trial_profile: Mapping[str, Any],
-    candidate_actions: Sequence[CandidateAction],
-    *,
-    scorer: ActionScorer | None = None,
-    run_id: str | None = None,
-    generated_at: datetime | None = None,
-) -> dict[str, JsonValue]:
-    """Build a serializable, review-only run envelope from fixture data.
+    payload: Mapping[str, Any], *, scorer: CandidateScorer | None = None
+) -> dict[str, Any]:
+    """Evaluate one sanitized trial payload and return a review-only outcome.
 
-    ``scorer`` receives ``(trial_profile, candidate_action)`` and may return a
-    numeric score or a mapping with a numeric ``score`` plus optional metadata.
-    No action is executed by this function; callers must keep any report or
-    outreach generated from this envelope under human review.
+    Candidate actions are optional fixture extensions (``candidateActions`` or
+    ``candidate_actions``). They are considered only after consent and
+    canonical competitor verification pass, and the returned list is capped at
+    three. ``scorer`` is injectable so product scoring can be integrated
+    without coupling this fixture runner to a provider or model.
     """
 
-    normalized_profile = _json_object(trial_profile, label="trial_profile")
-    ranked_actions = [
-        _score_action(normalized_profile, action, scorer, position)
-        for position, action in enumerate(candidate_actions)
+    trial = _object(payload, "trial")
+    consent = trial.get("consent")
+    if consent == "opted_out":
+        return _suppressed_outcome()
+
+    if trial.get("status") != "active":
+        return _blocked_outcome(
+            "The selected trial is not active, so no draft or recommendation may be created."
+        )
+
+    competitor = _object(payload, "competitor")
+    if not _is_verified(competitor):
+        return {
+            "outcome": "rejected",
+            "competitorUse": "blocked",
+            "recommendedActions": [],
+            "outreach": {"mode": "no_draft", "sendAllowed": False},
+            "policyNotes": [
+                "Reject the fuzzy advertiser match until a canonical LinkedIn company ID is verified.",
+                "Do not generate competitor findings or outreach from an unverified match.",
+            ],
+        }
+
+    coverage = _optional_object(payload.get("coverage"), "coverage")
+    visibility = coverage.get("publicAdVisibility") if coverage else None
+    observations = _objects(payload.get("observations", []), "observations")
+    actions = _actions(payload, observations, visibility, scorer)
+
+    if visibility == "unknown":
+        return {
+            "outcome": "accepted_with_limitations",
+            "competitorUse": "limited",
+            "recommendedActions": actions,
+            "outreach": {"mode": "draft_only", "sendAllowed": False},
+            "policyNotes": [
+                "No competitor activity, impression, spend, click, creative, or targeting claim may be generated.",
+                "Unavailable public-ad coverage is unknown, not zero.",
+            ],
+        }
+
+    return {
+        "outcome": "accepted",
+        "competitorUse": "allowed",
+        "recommendedActions": actions,
+        "outreach": {"mode": "draft_only", "sendAllowed": False},
+        "policyNotes": _coverage_notes(visibility, coverage),
+    }
+
+
+def _actions(
+    payload: Mapping[str, Any],
+    observations: list[dict[str, Any]],
+    visibility: Any,
+    scorer: CandidateScorer | None,
+) -> list[dict[str, Any]]:
+    candidates = _objects(
+        payload.get("candidateActions", payload.get("candidate_actions", [])),
+        "candidate actions",
+    )
+    if candidates:
+        ranked = sorted(
+            enumerate(candidates),
+            key=lambda item: (-_score(payload, item[1], scorer), item[0]),
+        )
+        return [_candidate_action(candidate) for _, candidate in ranked[:3]]
+
+    if visibility == "unknown":
+        return [
+            {
+                "id": "action_002",
+                "action": "Confirm the trial account's campaign objective before proposing an experiment; public competitor-ad coverage is unavailable for the selected region.",
+                "owner": "trial_user",
+                "successMetric": "campaign_objective_confirmed",
+                "confidence": "unknown",
+                "evidence": ["coverage"],
+            }
+        ]
+
+    evidence = [str(observation["id"]) for observation in observations if observation.get("id")]
+    if not evidence:
+        return []
+    confidence = observations[0].get("confidence", "unknown")
+    return [
+        {
+            "id": "action_001",
+            "action": "Review the verified competitor's public ad observation alongside the trial account's current campaign objective and select one ZenABM experiment to test.",
+            "owner": "trial_user",
+            "successMetric": "experiment_created",
+            "confidence": confidence,
+            "evidence": evidence,
+        }
     ]
-    ranked_actions.sort(key=lambda action: (-action["score"], action["input_position"]))
-
-    for rank, action in enumerate(ranked_actions, start=1):
-        action["rank"] = rank
-        action.pop("input_position")
-
-    timestamp = generated_at or datetime.now(timezone.utc)
-    if timestamp.tzinfo is None:
-        timestamp = timestamp.replace(tzinfo=timezone.utc)
-
-    return {
-        "run_id": run_id or f"ashtree-{uuid4().hex}",
-        "run_type": "fixture_only",
-        "generated_at": timestamp.astimezone(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "trial_profile": normalized_profile,
-        "candidate_actions": ranked_actions,
-        "execution": {
-            "network_calls": False,
-            "outreach_sent": False,
-            "review_required": True,
-        },
-    }
 
 
-def _score_action(
-    trial_profile: Mapping[str, JsonValue],
-    candidate_action: CandidateAction,
-    scorer: ActionScorer | None,
-    position: int,
-) -> dict[str, JsonValue]:
-    action = _json_object(candidate_action, label="candidate_action")
-    result: float | Mapping[str, Any] = scorer(trial_profile, action) if scorer else _default_score(action)
+def _candidate_action(candidate: Mapping[str, Any]) -> dict[str, Any]:
+    """Return only fixture action fields; candidate input never enables send."""
 
-    if isinstance(result, Mapping):
-        details = _json_object(result, label="scorer result")
-        score = _numeric_score(details.pop("score", None))
-        scoring: dict[str, JsonValue] = {"method": "injected", "details": details}
-    else:
-        score = _numeric_score(result)
-        scoring = {"method": "injected" if scorer else "default"}
-
-    return {
-        "action": action,
-        "score": score,
-        "scoring": scoring,
-        "input_position": position,
-    }
+    required = ("id", "action", "owner", "successMetric", "confidence", "evidence")
+    missing = [field for field in required if field not in candidate]
+    if missing:
+        raise ValueError(f"candidate action is missing: {', '.join(missing)}")
+    return {field: candidate[field] for field in required}
 
 
-def _default_score(action: Mapping[str, JsonValue]) -> float:
-    """Use an explicit fixture priority when no product scorer is supplied."""
-
-    return _numeric_score(action.get("priority", 0))
-
-
-def _numeric_score(value: Any) -> float:
+def _score(
+    payload: Mapping[str, Any], candidate: Mapping[str, Any], scorer: CandidateScorer | None
+) -> float:
+    value = scorer(payload, candidate) if scorer else candidate.get("priority", 0)
     if isinstance(value, bool) or not isinstance(value, (int, float)):
-        raise ValueError("action scores must be numeric")
+        raise ValueError("candidate action scores must be numeric")
     return float(value)
 
 
-def _json_object(value: Mapping[str, Any], *, label: str) -> dict[str, JsonValue]:
+def _coverage_notes(visibility: Any, coverage: Mapping[str, Any] | None) -> list[str]:
+    if visibility == "partial" and coverage and coverage.get("impressions") == "unknown":
+        return [
+            "The action does not assert spend, clicks, creative text, targeting, or causal impact.",
+            "Public-ad visibility is partial and impressions remain unknown.",
+        ]
+    if visibility == "partial":
+        return ["Public-ad visibility is partial; unsupported measurements remain unknown."]
+    return ["Recommendations remain evidence-linked and require human review before any draft is used."]
+
+
+def _suppressed_outcome() -> dict[str, Any]:
+    return {
+        "outcome": "suppressed",
+        "competitorUse": "not_processed",
+        "recommendedActions": [],
+        "outreach": {"mode": "no_draft", "draftCreated": False, "sendAllowed": False},
+        "policyNotes": [
+            "Stop before analysis or draft creation because the trial contact opted out.",
+            "A suppression check is required again before any future send attempt.",
+        ],
+    }
+
+
+def _blocked_outcome(reason: str) -> dict[str, Any]:
+    return {
+        "outcome": "rejected",
+        "competitorUse": "not_processed",
+        "recommendedActions": [],
+        "outreach": {"mode": "no_draft", "sendAllowed": False},
+        "policyNotes": [reason],
+    }
+
+
+def _is_verified(competitor: Mapping[str, Any]) -> bool:
+    return (
+        competitor.get("verification") == "verified"
+        and isinstance(competitor.get("canonicalLinkedinCompanyId"), str)
+        and bool(competitor["canonicalLinkedinCompanyId"].strip())
+    )
+
+
+def _object(payload: Mapping[str, Any], key: str) -> dict[str, Any]:
+    value = payload.get(key)
     if not isinstance(value, Mapping):
-        raise TypeError(f"{label} must be a mapping")
-    normalized = _json_value(dict(value), label=label)
-    assert isinstance(normalized, dict)
-    return normalized
+        raise ValueError(f"payload.{key} must be an object")
+    return dict(value)
 
 
-def _json_value(value: Any, *, label: str) -> JsonValue:
-    if value is None or isinstance(value, (str, int, float, bool)):
-        return value
-    if isinstance(value, Mapping):
-        return {
-            str(key): _json_value(item, label=label)
-            for key, item in value.items()
-        }
-    if isinstance(value, Sequence) and not isinstance(value, (str, bytes, bytearray)):
-        return [_json_value(item, label=label) for item in value]
-    raise TypeError(f"{label} contains a non-JSON value: {type(value).__name__}")
+def _optional_object(value: Any, label: str) -> dict[str, Any] | None:
+    if value is None:
+        return None
+    if not isinstance(value, Mapping):
+        raise ValueError(f"payload.{label} must be an object")
+    return dict(value)
 
 
-def main(argv: Sequence[str] | None = None) -> int:
-    """Run a fixture payload from disk and print its serializable envelope."""
-
-    parser = argparse.ArgumentParser(description="Run Ashtree fixture-only orchestration.")
-    parser.add_argument("payload", type=Path, help="JSON file with trial_profile and candidate_actions")
-    arguments = parser.parse_args(argv)
-
-    payload = json.loads(arguments.payload.read_text(encoding="utf-8"))
-    if not isinstance(payload, Mapping):
-        parser.error("payload must be a JSON object")
-    try:
-        envelope = run_fixture(
-            payload["trial_profile"],
-            payload["candidate_actions"],
-            run_id=payload.get("run_id"),
-        )
-    except (KeyError, TypeError, ValueError) as error:
-        parser.error(str(error))
-
-    print(json.dumps(envelope, indent=2, sort_keys=True))
-    return 0
-
-
-if __name__ == "__main__":  # pragma: no cover - exercised by the CLI.
-    raise SystemExit(main())
+def _objects(value: Any, label: str) -> list[dict[str, Any]]:
+    if not isinstance(value, Sequence) or isinstance(value, (str, bytes, bytearray)):
+        raise ValueError(f"payload.{label} must be an array")
+    if not all(isinstance(item, Mapping) for item in value):
+        raise ValueError(f"payload.{label} items must be objects")
+    return [dict(item) for item in value]
