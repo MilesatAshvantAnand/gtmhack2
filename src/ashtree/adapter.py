@@ -28,6 +28,7 @@ def run_fixture(payload: Mapping[str, Any]) -> dict[str, Any]:
         "trigger": "trial_started",
         "trial": {
             "trialId": trial_id,
+            "status": _trial_status(trial.get("status")),
             "accountCanonicalId": f"zenabm:{trial_id}",
             "accountVerification": "verified",
         },
@@ -112,7 +113,13 @@ def _draft(trial_id: str, source_ids: list[str]) -> dict[str, Any]:
 
 def _suppression(payload: Mapping[str, Any], opted_out: bool) -> dict[str, Any]:
     contact = payload.get("contact")
-    result: dict[str, Any] = {"checked": True, "optedOut": opted_out}
+    trial = payload.get("trial")
+    consent = trial.get("consent") if isinstance(trial, Mapping) else None
+    result: dict[str, Any] = {
+        "checked": True,
+        "optedOut": opted_out,
+        "marketingStatus": _marketing_status(consent),
+    }
     if isinstance(contact, Mapping) and isinstance(contact.get("id"), str) and contact["id"]:
         result["sourceId"] = contact["id"]
     return result
@@ -124,6 +131,19 @@ def _coverage(payload: Mapping[str, Any]) -> str:
         return "unknown"
     visibility = coverage.get("publicAdVisibility")
     return visibility if visibility in {"complete", "partial", "unknown"} else "unknown"
+
+
+def _trial_status(value: object) -> str:
+    return value if value in {"active", "inactive", "unknown"} else "unknown"
+
+
+def _marketing_status(value: object) -> str:
+    statuses = {
+        "eligible_for_draft": "allowed",
+        "opted_out": "opted_out",
+        "suppressed": "suppressed",
+    }
+    return statuses.get(value, "unknown")
 
 
 def _limitations(coverage: str) -> list[str]:

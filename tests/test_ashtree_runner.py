@@ -27,6 +27,8 @@ class AshtreeRunnerTests(unittest.TestCase):
         result = run_fixture(eligible_payload())
 
         self.assertEqual(result["status"], "drafts_ready_for_review")
+        self.assertEqual(result["trial"]["status"], "active")
+        self.assertEqual(result["suppression"]["marketingStatus"], "allowed")
         self.assertIn("runId", result)
         self.assertNotIn("outcome", result)
 
