@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-07-03T14:54:15.595278+00:00",
+  "hypothesis": "Whitespace \u2014 only spaces",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=+++&count=5&q=criteria&start=0",
+    "params": {
+      "advertiser": "   ",
+      "count": 5,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [],
+      "paging": {
+        "count": 5,
+        "links": [],
+        "start": 0,
+        "total": 0
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVthkz4ob0YZRUwODFSQ=="
+    },
+    "status": 200
+  }
+}

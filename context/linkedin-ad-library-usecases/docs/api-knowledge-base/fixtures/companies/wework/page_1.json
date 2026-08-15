@@ -1,0 +1,360 @@
+{
+  "captured_at": "2026-07-03T14:05:04.724540+00:00",
+  "request": {
+    "params": {
+      "advertiser": "WeWork",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1428070223",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1427890213",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1420440506",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1415805246",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1301000593",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1420340656",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1427930183",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1472781146",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480123956",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "WEWORK SERVICOS DE ESCRITORIO LTDA.",
+              "advertiserName": "WeWork LATAM",
+              "advertiserUrl": "https://www.linkedin.com/company/87434753"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1472751356",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1301299223",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1319795574",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1415705866",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1415725456",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1479946556",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "WEWORK SERVICOS DE ESCRITORIO LTDA.",
+              "advertiserName": "WeWork LATAM",
+              "advertiserUrl": "https://www.linkedin.com/company/87434753"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1479908786",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "WEWORK SERVICOS DE ESCRITORIO LTDA.",
+              "advertiserName": "WeWork LATAM",
+              "advertiserUrl": "https://www.linkedin.com/company/87434753"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1420440516",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1301681803",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1415785466",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1435079393",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1428090323",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1435190553",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1301880653",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1415835456",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480035226",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "WEWORK SERVICOS DE ESCRITORIO LTDA.",
+              "advertiserName": "WeWork LATAM",
+              "advertiserUrl": "https://www.linkedin.com/company/87434753"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=WeWork&q=criteria&start=25&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 1392
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWlCv+uNTb98FR9PBw=="
+    },
+    "status": 200
+  }
+}

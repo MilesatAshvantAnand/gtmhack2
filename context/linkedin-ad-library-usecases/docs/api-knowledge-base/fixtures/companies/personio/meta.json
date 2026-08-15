@@ -1,0 +1,10 @@
+{
+  "advertiser": "Personio",
+  "captured_at": "2026-07-03T13:48:57.471992+00:00",
+  "hypothesis": "EU-headquartered, expect impression_data_coverage=full/partial",
+  "pages_captured": 3,
+  "slug": "personio",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 2755
+}

@@ -1,0 +1,310 @@
+{
+  "$defs": {
+    "AdDetails": {
+      "additionalProperties": false,
+      "description": "`details` \u2014 always present.",
+      "properties": {
+        "adStatistics": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/AdStatistics"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Absent for non-EU/EEA ads (~35% of ads)"
+        },
+        "adTargeting": {
+          "description": "Always present as list; may be [] for non-EU ads",
+          "items": {
+            "$ref": "#/$defs/TargetingFacet"
+          },
+          "title": "Adtargeting",
+          "type": "array"
+        },
+        "advertiser": {
+          "$ref": "#/$defs/AdvertiserInfo"
+        },
+        "type": {
+          "description": "SPONSORED_STATUS_UPDATE | SPONSORED_VIDEO | ... | $UNKNOWN",
+          "title": "Type",
+          "type": "string"
+        }
+      },
+      "required": [
+        "advertiser",
+        "type",
+        "adTargeting"
+      ],
+      "title": "AdDetails",
+      "type": "object"
+    },
+    "AdElement": {
+      "additionalProperties": false,
+      "description": "One element in the `elements` list of a successful response.",
+      "properties": {
+        "adUrl": {
+          "description": "Points to LinkedIn's public ad preview page",
+          "title": "Adurl",
+          "type": "string"
+        },
+        "details": {
+          "$ref": "#/$defs/AdDetails"
+        },
+        "isRestricted": {
+          "description": "Always False in our corpus; True case unobserved",
+          "title": "Isrestricted",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "adUrl",
+        "isRestricted",
+        "details"
+      ],
+      "title": "AdElement",
+      "type": "object"
+    },
+    "AdStatistics": {
+      "additionalProperties": false,
+      "description": "`details.adStatistics` \u2014 64.3% coverage; absent for non-EU/EEA ads.",
+      "properties": {
+        "firstImpressionAt": {
+          "description": "Epoch milliseconds",
+          "title": "Firstimpressionat",
+          "type": "integer"
+        },
+        "impressionsDistributionByCountry": {
+          "items": {
+            "$ref": "#/$defs/ImpressionCountryEntry"
+          },
+          "title": "Impressionsdistributionbycountry",
+          "type": "array"
+        },
+        "latestImpressionAt": {
+          "description": "Epoch milliseconds",
+          "title": "Latestimpressionat",
+          "type": "integer"
+        },
+        "totalImpressions": {
+          "$ref": "#/$defs/TotalImpressions"
+        }
+      },
+      "required": [
+        "firstImpressionAt",
+        "latestImpressionAt",
+        "totalImpressions",
+        "impressionsDistributionByCountry"
+      ],
+      "title": "AdStatistics",
+      "type": "object"
+    },
+    "AdvertiserInfo": {
+      "additionalProperties": false,
+      "description": "`details.advertiser` \u2014 100% present as container.\n\nSub-field presence (verified across 1,563-ad corpus, 2026-07-03):\n  advertiserName : 100%\n  advertiserUrl  : 100%\n  adPayer        : 99.8% (3/1,563 ads had it missing \u2014 extremely rare)",
+      "properties": {
+        "adPayer": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Adpayer"
+        },
+        "advertiserName": {
+          "title": "Advertisername",
+          "type": "string"
+        },
+        "advertiserUrl": {
+          "title": "Advertiserurl",
+          "type": "string"
+        }
+      },
+      "required": [
+        "advertiserName",
+        "advertiserUrl"
+      ],
+      "title": "AdvertiserInfo",
+      "type": "object"
+    },
+    "ImpressionCountryEntry": {
+      "additionalProperties": false,
+      "description": "`details.adStatistics.impressionsDistributionByCountry[]` \u2014 one entry per country.\n\nNOTE: `impressionPercentage` can exceed 100 in rare cases (observed values up to ~104\non deep-Personio fixtures). LinkedIn's percentage math is not strict \u2014 do not assume\nnormalization to 100. The sum across all entries also does NOT sum to 100 in ~59% of\nads (see WE7 in inferable-signals.md \u2014 this is the DSA-hidden-share indicator).",
+      "properties": {
+        "country": {
+          "description": "URN form, e.g. 'urn:li:country:DE'",
+          "title": "Country",
+          "type": "string"
+        },
+        "impressionPercentage": {
+          "description": "Can exceed 100 in rare cases",
+          "minimum": 0.0,
+          "title": "Impressionpercentage",
+          "type": "number"
+        }
+      },
+      "required": [
+        "country",
+        "impressionPercentage"
+      ],
+      "title": "ImpressionCountryEntry",
+      "type": "object"
+    },
+    "Paging": {
+      "additionalProperties": false,
+      "properties": {
+        "count": {
+          "title": "Count",
+          "type": "integer"
+        },
+        "links": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/PagingLink"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Absent on last page",
+          "title": "Links"
+        },
+        "start": {
+          "title": "Start",
+          "type": "integer"
+        },
+        "total": {
+          "description": "True count of matching ads for the query",
+          "title": "Total",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "count",
+        "start",
+        "total"
+      ],
+      "title": "Paging",
+      "type": "object"
+    },
+    "PagingLink": {
+      "additionalProperties": false,
+      "properties": {
+        "href": {
+          "title": "Href",
+          "type": "string"
+        },
+        "rel": {
+          "title": "Rel",
+          "type": "string"
+        },
+        "type": {
+          "title": "Type",
+          "type": "string"
+        }
+      },
+      "required": [
+        "rel",
+        "href",
+        "type"
+      ],
+      "title": "PagingLink",
+      "type": "object"
+    },
+    "TargetingFacet": {
+      "additionalProperties": false,
+      "description": "`details.adTargeting[]` \u2014 one entry per targeting facet used.",
+      "properties": {
+        "excludedSegments": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Excludedsegments",
+          "type": "array"
+        },
+        "facetName": {
+          "description": "Location | Language | Job | Company | Audience | Demographic | Member Interests and Traits | Education",
+          "title": "Facetname",
+          "type": "string"
+        },
+        "includedSegments": {
+          "description": "Empty for Job/Company/Audience/Demographic/Interests/Education",
+          "items": {
+            "type": "string"
+          },
+          "title": "Includedsegments",
+          "type": "array"
+        },
+        "isExcluded": {
+          "title": "Isexcluded",
+          "type": "boolean"
+        },
+        "isIncluded": {
+          "title": "Isincluded",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "facetName",
+        "isIncluded",
+        "isExcluded",
+        "includedSegments",
+        "excludedSegments"
+      ],
+      "title": "TargetingFacet",
+      "type": "object"
+    },
+    "TotalImpressions": {
+      "additionalProperties": false,
+      "description": "`details.adStatistics.totalImpressions` \u2014 12 distinct (from,to) buckets.",
+      "properties": {
+        "from": {
+          "title": "From",
+          "type": "integer"
+        },
+        "to": {
+          "title": "To",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "from",
+        "to"
+      ],
+      "title": "TotalImpressions",
+      "type": "object"
+    }
+  },
+  "$id": "https://linkedin-ad-library-api.local/schema/ad_library_response.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Successful 200 response.",
+  "properties": {
+    "elements": {
+      "items": {
+        "$ref": "#/$defs/AdElement"
+      },
+      "title": "Elements",
+      "type": "array"
+    },
+    "paging": {
+      "$ref": "#/$defs/Paging"
+    }
+  },
+  "required": [
+    "elements",
+    "paging"
+  ],
+  "title": "AdLibraryResponse",
+  "type": "object"
+}

@@ -1,0 +1,27 @@
+{
+  "data": [
+    {
+      "linkedInId": "415956593",
+      "creativeUrn": "urn:li:sponsoredCreative:415956593",
+      "name": "Techcrunch 2025 \u2014 Hero Image",
+      "format": "Single Image",
+      "status": "ACTIVE",
+      "isServing": true,
+      "adLibraryUrl": "https://www.linkedin.com/ad-library/detail/415956593",
+      "adSetId": "cmf8a9q2k0001of04w7v3lqz9",
+      "adSetLinkedInId": "330784953",
+      "adSetName": "Techcrunch 2025",
+      "campaignId": "cmf8a9q2k0002of04abcd1234",
+      "campaignLinkedInId": "710869393",
+      "campaignName": "Techcrunch 2025 CG"
+    }
+  ],
+  "pagination": {
+    "pageSize": 20,
+    "nextCursor": "DgFNuuqsfrRuO-q0RxpSj-yaR4TXEtmKuIF4U9-t404",
+    "hasMore": true
+  },
+  "meta": {
+    "timestamp": "2026-05-14T19:06:51.685Z"
+  }
+}

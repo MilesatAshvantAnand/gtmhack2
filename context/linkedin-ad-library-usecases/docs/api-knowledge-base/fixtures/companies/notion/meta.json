@@ -1,0 +1,10 @@
+{
+  "advertiser": "Notion",
+  "captured_at": "2026-07-03T13:49:44.773328+00:00",
+  "hypothesis": "Variable cadence, test is_ramping_up / is_dark_period edges",
+  "pages_captured": 2,
+  "slug": "notion",
+  "stopped_reason": "non_200_status_429",
+  "total_elements": 25,
+  "total_reported_by_api": 7065
+}

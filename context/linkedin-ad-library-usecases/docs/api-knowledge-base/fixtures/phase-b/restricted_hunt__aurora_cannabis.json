@@ -1,0 +1,1405 @@
+{
+  "captured_at": "2026-07-03T14:55:06.907407+00:00",
+  "hypothesis": "Restricted-ad hunt \u2014 cannabis",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=Aurora+Cannabis&count=25&q=criteria&start=0",
+    "params": {
+      "advertiser": "Aurora Cannabis",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/712242144",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1752452001166,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.0054866673982223195
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.0054866673982223195
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.0054866673982223195
+                },
+                {
+                  "country": "urn:li:country:EC",
+                  "impressionPercentage": 0.0054866673982223195
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.0054866673982223195
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.0054866673982223195
+                },
+                {
+                  "country": "urn:li:country:KW",
+                  "impressionPercentage": 0.0054866673982223195
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.0054866673982223195
+                },
+                {
+                  "country": "urn:li:country:KH",
+                  "impressionPercentage": 0.010973334796444639
+                },
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.01646000219466696
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.01646000219466696
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.01646000219466696
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.01646000219466696
+                },
+                {
+                  "country": "urn:li:country:JM",
+                  "impressionPercentage": 0.03292000438933392
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.03292000438933392
+                },
+                {
+                  "country": "urn:li:country:TW",
+                  "impressionPercentage": 0.04938000658400088
+                },
+                {
+                  "country": "urn:li:country:IR",
+                  "impressionPercentage": 0.06035334138044552
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 0.12070668276089104
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 18.30900910786788
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 81.27949083726544
+                }
+              ],
+              "latestImpressionAt": 1754523760211,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "North America"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Aurora Cannabis Inc.",
+              "advertiserName": "Aurora Cannabis Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/6440508"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/713242173",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1750137040983,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AD",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:DZ",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:KW",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:KY",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:ME",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:MN",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:NI",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:UG",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:YE",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:ZW",
+                  "impressionPercentage": 0.0037496719037084254
+                },
+                {
+                  "country": "urn:li:country:BJ",
+                  "impressionPercentage": 0.007499343807416851
+                },
+                {
+                  "country": "urn:li:country:BO",
+                  "impressionPercentage": 0.007499343807416851
+                },
+                {
+                  "country": "urn:li:country:CD",
+                  "impressionPercentage": 0.007499343807416851
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.007499343807416851
+                },
+                {
+                  "country": "urn:li:country:GH",
+                  "impressionPercentage": 0.007499343807416851
+                },
+                {
+                  "country": "urn:li:country:JM",
+                  "impressionPercentage": 0.007499343807416851
+                },
+                {
+                  "country": "urn:li:country:TW",
+                  "impressionPercentage": 0.007499343807416851
+                },
+                {
+                  "country": "urn:li:country:AO",
+                  "impressionPercentage": 0.011249015711125276
+                },
+                {
+                  "country": "urn:li:country:MD",
+                  "impressionPercentage": 0.011249015711125276
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 0.011249015711125276
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.011249015711125276
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.014998687614833701
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.014998687614833701
+                },
+                {
+                  "country": "urn:li:country:IM",
+                  "impressionPercentage": 0.014998687614833701
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.014998687614833701
+                },
+                {
+                  "country": "urn:li:country:RW",
+                  "impressionPercentage": 0.014998687614833701
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.014998687614833701
+                },
+                {
+                  "country": "urn:li:country:VE",
+                  "impressionPercentage": 0.014998687614833701
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.01874835951854213
+                },
+                {
+                  "country": "urn:li:country:LS",
+                  "impressionPercentage": 0.01874835951854213
+                },
+                {
+                  "country": "urn:li:country:NP",
+                  "impressionPercentage": 0.01874835951854213
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.01874835951854213
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.022498031422250552
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.022498031422250552
+                },
+                {
+                  "country": "urn:li:country:BA",
+                  "impressionPercentage": 0.02624770332595898
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.02624770332595898
+                },
+                {
+                  "country": "urn:li:country:JE",
+                  "impressionPercentage": 0.02624770332595898
+                },
+                {
+                  "country": "urn:li:country:XK",
+                  "impressionPercentage": 0.02624770332595898
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.029997375229667403
+                },
+                {
+                  "country": "urn:li:country:GT",
+                  "impressionPercentage": 0.029997375229667403
+                },
+                {
+                  "country": "urn:li:country:LB",
+                  "impressionPercentage": 0.029997375229667403
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.029997375229667403
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.029997375229667403
+                },
+                {
+                  "country": "urn:li:country:TN",
+                  "impressionPercentage": 0.029997375229667403
+                },
+                {
+                  "country": "urn:li:country:EC",
+                  "impressionPercentage": 0.03749671903708426
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.03749671903708426
+                },
+                {
+                  "country": "urn:li:country:EG",
+                  "impressionPercentage": 0.04124639094079268
+                },
+                {
+                  "country": "urn:li:country:LK",
+                  "impressionPercentage": 0.04124639094079268
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 0.04124639094079268
+                },
+                {
+                  "country": "urn:li:country:CR",
+                  "impressionPercentage": 0.048745734748209535
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.048745734748209535
+                },
+                {
+                  "country": "urn:li:country:KZ",
+                  "impressionPercentage": 0.05249540665191796
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.05249540665191796
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.05249540665191796
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.059994750459334806
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.059994750459334806
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.06374442236304323
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.06374442236304323
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.06374442236304323
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.06749409426675165
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.08249278188158536
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.08249278188158536
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 0.08624245378529379
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.08999212568900221
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.10874048520754434
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.11249015711125276
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.11249015711125276
+                },
+                {
+                  "country": "urn:li:country:UY",
+                  "impressionPercentage": 0.11623982901496119
+                },
+                {
+                  "country": "urn:li:country:BD",
+                  "impressionPercentage": 0.12373917282237804
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.12748884472608646
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.13873786043721176
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.1462372042446286
+                },
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 0.15373654805204545
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.15373654805204545
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.16873523566687915
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.17998425137800442
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 0.18373392328171284
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.21748097041508868
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 0.24372867374104765
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.2962240803929656
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.3374704713337583
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.37121751846713413
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.4012148936968015
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.43871161273388576
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.4687089879635532
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.5099553789043458
+                },
+                {
+                  "country": "urn:li:country:PK",
+                  "impressionPercentage": 0.5437024260377217
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.633694551726724
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.6449435674378492
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.9224192883122727
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 1.128651243016236
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 1.364880572949867
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 1.9048333270838802
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 2.092316922269301
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 3.8134163260714686
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 5.148299523791668
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 9.186696164085642
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 11.33525816491057
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 53.8940342720012
+                }
+              ],
+              "latestImpressionAt": 1783052017283,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "North America",
+                  "Asia",
+                  "Europe",
+                  "Africa",
+                  "Oceania",
+                  "Latin America",
+                  "Middle East"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "advertiserName": "Aurora Cannabis Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/6440508"
+            },
+            "type": "JOBS_V2"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1268034253",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Aurora Cannabis Enterprises Inc",
+              "advertiserName": "Aurora Cannabis Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/6440508"
+            },
+            "type": "FOLLOW_COMPANY_V2"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/712233034",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1752451980939,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.0026785953446012913
+                },
+                {
+                  "country": "urn:li:country:BM",
+                  "impressionPercentage": 0.0026785953446012913
+                },
+                {
+                  "country": "urn:li:country:BO",
+                  "impressionPercentage": 0.0026785953446012913
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.0026785953446012913
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.0026785953446012913
+                },
+                {
+                  "country": "urn:li:country:HT",
+                  "impressionPercentage": 0.0026785953446012913
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.0026785953446012913
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.0026785953446012913
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.0053571906892025825
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.0053571906892025825
+                },
+                {
+                  "country": "urn:li:country:DO",
+                  "impressionPercentage": 0.0053571906892025825
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.0053571906892025825
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0053571906892025825
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.0053571906892025825
+                },
+                {
+                  "country": "urn:li:country:IR",
+                  "impressionPercentage": 0.008035786033803873
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.013392976723006456
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.018750167412209036
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.02142876275681033
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.02142876275681033
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.04285752551362066
+                },
+                {
+                  "country": "urn:li:country:JM",
+                  "impressionPercentage": 0.04821471620282324
+                },
+                {
+                  "country": "urn:li:country:TW",
+                  "impressionPercentage": 0.053571906892025824
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.06696488361503228
+                },
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.06964347895963356
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 0.08035786033803874
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 17.772480111429566
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 81.740015535853
+                }
+              ],
+              "latestImpressionAt": 1754520830280,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "North America"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Aurora Cannabis Inc.",
+              "advertiserName": "Aurora Cannabis Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/6440508"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/713408453",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Aurora Cannabis Enterprises Inc",
+              "advertiserName": "Aurora Cannabis Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/6440508"
+            },
+            "type": "FOLLOW_COMPANY_V2"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/712187774",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1752451526490,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.003025169409486931
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.003025169409486931
+                },
+                {
+                  "country": "urn:li:country:DO",
+                  "impressionPercentage": 0.003025169409486931
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.003025169409486931
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.003025169409486931
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.003025169409486931
+                },
+                {
+                  "country": "urn:li:country:KY",
+                  "impressionPercentage": 0.003025169409486931
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.003025169409486931
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.006050338818973862
+                },
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.009075508228460793
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.009075508228460793
+                },
+                {
+                  "country": "urn:li:country:JM",
+                  "impressionPercentage": 0.009075508228460793
+                },
+                {
+                  "country": "urn:li:country:TW",
+                  "impressionPercentage": 0.012100677637947725
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.015125847047434656
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.021176185866408518
+                },
+                {
+                  "country": "urn:li:country:EC",
+                  "impressionPercentage": 0.02420135527589545
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.04537754114230397
+                },
+                {
+                  "country": "urn:li:country:IR",
+                  "impressionPercentage": 0.0484027105517909
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.06655372700871248
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 0.17848499515972893
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 18.628993223620522
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 80.91420619554695
+                }
+              ],
+              "latestImpressionAt": 1754521216979,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "North America"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Aurora Cannabis Inc.",
+              "advertiserName": "Aurora Cannabis Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/6440508"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/712187654",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1752451513391,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BB",
+                  "impressionPercentage": 0.003113228106223343
+                },
+                {
+                  "country": "urn:li:country:BZ",
+                  "impressionPercentage": 0.003113228106223343
+                },
+                {
+                  "country": "urn:li:country:EC",
+                  "impressionPercentage": 0.003113228106223343
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.003113228106223343
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.003113228106223343
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.003113228106223343
+                },
+                {
+                  "country": "urn:li:country:PA",
+                  "impressionPercentage": 0.003113228106223343
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.003113228106223343
+                },
+                {
+                  "country": "urn:li:country:TW",
+                  "impressionPercentage": 0.003113228106223343
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 0.003113228106223343
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.006226456212446686
+                },
+                {
+                  "country": "urn:li:country:GH",
+                  "impressionPercentage": 0.006226456212446686
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.006226456212446686
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.006226456212446686
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.006226456212446686
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.009339684318670029
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.009339684318670029
+                },
+                {
+                  "country": "urn:li:country:IR",
+                  "impressionPercentage": 0.015566140531116716
+                },
+                {
+                  "country": "urn:li:country:VE",
+                  "impressionPercentage": 0.015566140531116716
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.018679368637340057
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.0217925967435634
+                },
+                {
+                  "country": "urn:li:country:JM",
+                  "impressionPercentage": 0.024905824849786744
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.024905824849786744
+                },
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.028019052956010086
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.04047196538090346
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.06537779023069021
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 0.08094393076180692
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 17.969552629121136
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 81.61950126085738
+                }
+              ],
+              "latestImpressionAt": 1754522880500,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "North America"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Aurora Cannabis Inc.",
+              "advertiserName": "Aurora Cannabis Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/6440508"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/712194744",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1752451845021,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BB",
+                  "impressionPercentage": 0.0038474856681158863
+                },
+                {
+                  "country": "urn:li:country:GY",
+                  "impressionPercentage": 0.0038474856681158863
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.0038474856681158863
+                },
+                {
+                  "country": "urn:li:country:KH",
+                  "impressionPercentage": 0.0038474856681158863
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 0.0038474856681158863
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.0038474856681158863
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.0038474856681158863
+                },
+                {
+                  "country": "urn:li:country:VI",
+                  "impressionPercentage": 0.0038474856681158863
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.0076949713362317726
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.0076949713362317726
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0076949713362317726
+                },
+                {
+                  "country": "urn:li:country:JM",
+                  "impressionPercentage": 0.0076949713362317726
+                },
+                {
+                  "country": "urn:li:country:KY",
+                  "impressionPercentage": 0.0076949713362317726
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.0076949713362317726
+                },
+                {
+                  "country": "urn:li:country:TW",
+                  "impressionPercentage": 0.0076949713362317726
+                },
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.011542457004347658
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.015389942672463545
+                },
+                {
+                  "country": "urn:li:country:EC",
+                  "impressionPercentage": 0.023084914008695317
+                },
+                {
+                  "country": "urn:li:country:IR",
+                  "impressionPercentage": 0.023084914008695317
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.026932399676811204
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.034627371013042973
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 0.06155977068985418
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 19.956908160517102
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 79.77376784271479
+                }
+              ],
+              "latestImpressionAt": 1754524617775,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "North America"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Aurora Cannabis Inc.",
+              "advertiserName": "Aurora Cannabis Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/6440508"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/712232904",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1752451887310,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.004048746912830479
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.004048746912830479
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.004048746912830479
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.004048746912830479
+                },
+                {
+                  "country": "urn:li:country:CR",
+                  "impressionPercentage": 0.004048746912830479
+                },
+                {
+                  "country": "urn:li:country:GH",
+                  "impressionPercentage": 0.004048746912830479
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.004048746912830479
+                },
+                {
+                  "country": "urn:li:country:PA",
+                  "impressionPercentage": 0.004048746912830479
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.004048746912830479
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.008097493825660959
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.008097493825660959
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.008097493825660959
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.012146240738491437
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.012146240738491437
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.012146240738491437
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.016194987651321918
+                },
+                {
+                  "country": "urn:li:country:EC",
+                  "impressionPercentage": 0.020243734564152394
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.020243734564152394
+                },
+                {
+                  "country": "urn:li:country:IR",
+                  "impressionPercentage": 0.024292481476982875
+                },
+                {
+                  "country": "urn:li:country:JM",
+                  "impressionPercentage": 0.024292481476982875
+                },
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.03643872221547431
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 0.03643872221547431
+                },
+                {
+                  "country": "urn:li:country:TW",
+                  "impressionPercentage": 0.08907243208227053
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 18.15458115713187
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 81.49317786145188
+                }
+              ],
+              "latestImpressionAt": 1754520985949,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "North America"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Aurora Cannabis Inc.",
+              "advertiserName": "Aurora Cannabis Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/6440508"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [],
+        "start": 0,
+        "total": 9
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVthw8NKYGU4qkWqwmbg=="
+    },
+    "status": 200
+  }
+}

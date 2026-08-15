@@ -1,0 +1,38 @@
+{
+  "captured_at": "2026-07-03T13:50:22.755834+00:00",
+  "expected": "400 QUERY_PARAM_NOT_ALLOWED",
+  "request": {
+    "params": {
+      "advertiser": "Salesforce",
+      "count": 25,
+      "payer": "LinkedIn Corporation",
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "errorDetailType": "com.linkedin.common.error.BadRequest",
+      "errorDetails": {
+        "inputErrors": [
+          {
+            "code": "QUERY_PARAM_NOT_ALLOWED",
+            "input": {
+              "inputPath": {
+                "fieldPath": "payer"
+              }
+            }
+          }
+        ]
+      },
+      "message": "Invalid param. Please see errorDetails for more information.",
+      "status": 400
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtTS/cPPiR2HubL6E8w=="
+    },
+    "status": 400
+  }
+}

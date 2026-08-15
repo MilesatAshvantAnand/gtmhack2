@@ -1,0 +1,10 @@
+{
+  "advertiser": "Rappi",
+  "captured_at": "2026-07-03T14:05:59.259333+00:00",
+  "hypothesis": "LATAM-headquartered, tests non-EU/non-US geo coverage",
+  "pages_captured": 3,
+  "slug": "rappi",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 740
+}

@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-07-03T14:17:19.143682+00:00",
+  "hypothesis": "Single-char advertiser \u2014 matches everything starting with A?",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=A&q=criteria&count=5&start=0",
+    "params": {
+      "advertiser": "A",
+      "count": 5,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [],
+      "paging": {
+        "count": 5,
+        "links": [],
+        "start": 0,
+        "total": 0
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZUXcG5Bsg5hwD37fg=="
+    },
+    "status": 200
+  }
+}

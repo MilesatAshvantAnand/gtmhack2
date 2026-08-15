@@ -1,0 +1,45 @@
+{
+  "$id": "https://linkedin-ad-library-api.local/schema/targeting_facet.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "`details.adTargeting[]` \u2014 one entry per targeting facet used.",
+  "properties": {
+    "excludedSegments": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Excludedsegments",
+      "type": "array"
+    },
+    "facetName": {
+      "description": "Location | Language | Job | Company | Audience | Demographic | Member Interests and Traits | Education",
+      "title": "Facetname",
+      "type": "string"
+    },
+    "includedSegments": {
+      "description": "Empty for Job/Company/Audience/Demographic/Interests/Education",
+      "items": {
+        "type": "string"
+      },
+      "title": "Includedsegments",
+      "type": "array"
+    },
+    "isExcluded": {
+      "title": "Isexcluded",
+      "type": "boolean"
+    },
+    "isIncluded": {
+      "title": "Isincluded",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "facetName",
+    "isIncluded",
+    "isExcluded",
+    "includedSegments",
+    "excludedSegments"
+  ],
+  "title": "TargetingFacet",
+  "type": "object"
+}

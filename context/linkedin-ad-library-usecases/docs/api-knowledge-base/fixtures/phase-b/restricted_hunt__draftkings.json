@@ -1,0 +1,1402 @@
+{
+  "captured_at": "2026-07-03T14:56:36.079702+00:00",
+  "hypothesis": "Restricted-ad hunt \u2014 gambling",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=DraftKings&count=25&q=criteria&start=0",
+    "params": {
+      "advertiser": "DraftKings",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1140056764",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1770598342807,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.011555350127108852
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.011555350127108852
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 99.97688929974578
+                }
+              ],
+              "latestImpressionAt": 1777582842581,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sofia City, Bulgaria",
+                  "Sofia Metropolitan Area",
+                  "Sofia, Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462814804",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782830436883,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:MD",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.002529532289479675
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.002529532289479675
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.002529532289479675
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.002529532289479675
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.002529532289479675
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.00505906457895935
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.0101181291579187
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 46.04254673310905
+                }
+              ],
+              "latestImpressionAt": 1783035509480,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1142287824",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1305696914",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1140983224",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1770595402294,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:LR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.0007133990611668355
+                },
+                {
+                  "country": "urn:li:country:FK",
+                  "impressionPercentage": 0.0007133990611668355
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.0007133990611668355
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.0007133990611668355
+                },
+                {
+                  "country": "urn:li:country:IQ",
+                  "impressionPercentage": 0.0007133990611668355
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 0.0007133990611668355
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 0.001426798122333671
+                },
+                {
+                  "country": "urn:li:country:GT",
+                  "impressionPercentage": 0.001426798122333671
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 0.001426798122333671
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.0021401971835005064
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.0021401971835005064
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.0021401971835005064
+                },
+                {
+                  "country": "urn:li:country:UG",
+                  "impressionPercentage": 0.0021401971835005064
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.0035669953058341773
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.008560788734002026
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.0684863098720162
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.09345527701285546
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 99.52915661962989
+                }
+              ],
+              "latestImpressionAt": 1770956635729,
+              "totalImpressions": {
+                "from": 100000,
+                "to": 150000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sofia City, Bulgaria",
+                  "Sofia Metropolitan Area",
+                  "Sofia, Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1145183894",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1770912958142,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 100.0
+                }
+              ],
+              "latestImpressionAt": 1777573981274,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sofia City, Bulgaria",
+                  "Sofia Metropolitan Area",
+                  "Sofia, Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1139658554",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1770595403612,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PG",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:BS",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:CD",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:GT",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:PK",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 0.0009717417499125432
+                },
+                {
+                  "country": "urn:li:country:TC",
+                  "impressionPercentage": 0.0019434834998250865
+                },
+                {
+                  "country": "urn:li:country:VE",
+                  "impressionPercentage": 0.0019434834998250865
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.00291522524973763
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.003886966999650173
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.00583045049947526
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.13312861973801843
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.16908306448478252
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 99.26244801181637
+                }
+              ],
+              "latestImpressionAt": 1770992410722,
+              "totalImpressions": {
+                "from": 100000,
+                "to": 150000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sofia City, Bulgaria",
+                  "Sofia Metropolitan Area",
+                  "Sofia, Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1138856874",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1770595402523,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.00435028494366381
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.00435028494366381
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.00435028494366381
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.00435028494366381
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.01305085483099143
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.11310740853525907
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.1261582633662505
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 99.61282464001393
+                }
+              ],
+              "latestImpressionAt": 1770883700278,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sofia City, Bulgaria",
+                  "Sofia Metropolitan Area",
+                  "Sofia, Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1141686974",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1143286914",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1152687534",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1772485904696,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.00927213722763097
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.00927213722763097
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 99.97218358831711
+                }
+              ],
+              "latestImpressionAt": 1777583926223,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sofia City, Bulgaria",
+                  "Sofia Metropolitan Area",
+                  "Sofia, Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1142405884",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1770913031190,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 100.0
+                }
+              ],
+              "latestImpressionAt": 1777591084644,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sofia City, Bulgaria",
+                  "Sofia Metropolitan Area",
+                  "Sofia, Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1142905554",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1770913011585,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.031201248049921998
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 99.96879875195008
+                }
+              ],
+              "latestImpressionAt": 1777465978867,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sofia City, Bulgaria",
+                  "Sofia Metropolitan Area",
+                  "Sofia, Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1305495384",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1141587794",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1305295194",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1142287834",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1152397484",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_UPDATE_EVENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1306694994",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1228388754",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_UPDATE_JOB_POSTING"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1138856204",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1770600718872,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 99.98674267532812
+                }
+              ],
+              "latestImpressionAt": 1777583560184,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sofia City, Bulgaria",
+                  "Sofia Metropolitan Area",
+                  "Sofia, Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1141686984",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1306495264",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1144788124",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1770909958048,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 100.0
+                }
+              ],
+              "latestImpressionAt": 1777560852494,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sofia City, Bulgaria",
+                  "Sofia Metropolitan Area",
+                  "Sofia, Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1139658564",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1770595401249,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.0020885547201336674
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 0.0020885547201336674
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.0020885547201336674
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.0020885547201336674
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.0020885547201336674
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.0020885547201336674
+                },
+                {
+                  "country": "urn:li:country:SN",
+                  "impressionPercentage": 0.0020885547201336674
+                },
+                {
+                  "country": "urn:li:country:VE",
+                  "impressionPercentage": 0.0020885547201336674
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.006265664160401002
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.07309941520467836
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.1796157059314954
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 99.55096073517126
+                }
+              ],
+              "latestImpressionAt": 1770893529765,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sofia City, Bulgaria",
+                  "Sofia Metropolitan Area",
+                  "Sofia, Bulgaria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DK Crown Holdings Inc",
+              "advertiserName": "DraftKings Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/2507852"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=DraftKings&q=criteria&count=25&start=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 97
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtiGO1CIU4n0WA4RigQ=="
+    },
+    "status": 200
+  }
+}

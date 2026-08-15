@@ -1,0 +1,505 @@
+{
+  "captured_at": "2026-07-03T14:18:39.047323+00:00",
+  "hypothesis": "Deep pagination on huge keyword result",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?keyword=product+management&start=1000&q=criteria&count=5",
+    "params": {
+      "count": 5,
+      "keyword": "product management",
+      "q": "criteria",
+      "start": 1000
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441895673",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782901497073,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 4.25531914893617
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 17.02127659574468
+                }
+              ],
+              "latestImpressionAt": 1783053264275,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "Georgia",
+                  "Slovakia",
+                  "United States",
+                  "Vatican City",
+                  "Azerbaijan",
+                  "Hungary",
+                  "Armenia",
+                  "North Macedonia",
+                  "San Marino",
+                  "Belarus",
+                  "Cyprus",
+                  "Moldova",
+                  "Bosnia and Herzegovina",
+                  "Greece",
+                  "T\u00fcrkiye",
+                  "Montenegro",
+                  "Monaco",
+                  "Romania",
+                  "Kosovo",
+                  "Bulgaria",
+                  "Albania",
+                  "Serbia",
+                  "Ukraine"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Lithuania",
+                  "Italy",
+                  "France",
+                  "Luxembourg",
+                  "Andorra",
+                  "Latvia",
+                  "Spain",
+                  "Liechtenstein",
+                  "Finland",
+                  "Germany",
+                  "Switzerland",
+                  "Netherlands",
+                  "Denmark",
+                  "Slovenia",
+                  "Estonia",
+                  "Iceland",
+                  "Sweden",
+                  "Ireland",
+                  "Belgium",
+                  "Czechia",
+                  "Malta",
+                  "Norway",
+                  "Portugal",
+                  "Poland",
+                  "Austria",
+                  "Croatia",
+                  "United Kingdom"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "INTL. ASSOC AMUSE EMEA",
+              "advertiserName": "IAAPA ESA",
+              "advertiserUrl": "https://www.linkedin.com/company/65525456"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441776013",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782900787659,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.411522633744856
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.411522633744856
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.411522633744856
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 1.2345679012345678
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 2.880658436213992
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 6.584362139917696
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 37.86008230452675
+                }
+              ],
+              "latestImpressionAt": 1783003443701,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "Georgia",
+                  "Slovakia",
+                  "United States",
+                  "Vatican City",
+                  "Azerbaijan",
+                  "Hungary",
+                  "Armenia",
+                  "North Macedonia",
+                  "San Marino",
+                  "Belarus",
+                  "Cyprus",
+                  "Moldova",
+                  "Bosnia and Herzegovina",
+                  "Greece",
+                  "T\u00fcrkiye",
+                  "Montenegro",
+                  "Monaco",
+                  "Romania",
+                  "Kosovo",
+                  "Bulgaria",
+                  "Albania",
+                  "Serbia",
+                  "Ukraine"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Lithuania",
+                  "Italy",
+                  "France",
+                  "Luxembourg",
+                  "Andorra",
+                  "Latvia",
+                  "Spain",
+                  "Liechtenstein",
+                  "Finland",
+                  "Germany",
+                  "Switzerland",
+                  "Netherlands",
+                  "Denmark",
+                  "Slovenia",
+                  "Estonia",
+                  "Iceland",
+                  "Sweden",
+                  "Ireland",
+                  "Belgium",
+                  "Czechia",
+                  "Malta",
+                  "Norway",
+                  "Portugal",
+                  "Poland",
+                  "Austria",
+                  "Croatia",
+                  "United Kingdom"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "INTL. ASSOC AMUSE EMEA",
+              "advertiserName": "IAAPA ESA",
+              "advertiserUrl": "https://www.linkedin.com/company/65525456"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441825503",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Laubrass Inc.",
+              "advertiserName": "Laubrass Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/827100"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441875763",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782873585108,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.054914881933003847
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.054914881933003847
+                },
+                {
+                  "country": "urn:li:country:KZ",
+                  "impressionPercentage": 0.054914881933003847
+                },
+                {
+                  "country": "urn:li:country:RU",
+                  "impressionPercentage": 0.054914881933003847
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.054914881933003847
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.054914881933003847
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 36.35365183964854
+                }
+              ],
+              "latestImpressionAt": 1783055040443,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Prague Metropolitan Area"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "STRV s.r.o.",
+              "advertiserName": "STRV",
+              "advertiserUrl": "https://www.linkedin.com/company/638464"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441865303",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782901528317,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 3.225806451612903
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 3.225806451612903
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 3.225806451612903
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 6.451612903225806
+                }
+              ],
+              "latestImpressionAt": 1783042643265,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "Georgia",
+                  "Slovakia",
+                  "United States",
+                  "Vatican City",
+                  "Azerbaijan",
+                  "Hungary",
+                  "Armenia",
+                  "North Macedonia",
+                  "San Marino",
+                  "Belarus",
+                  "Cyprus",
+                  "Moldova",
+                  "Bosnia and Herzegovina",
+                  "Greece",
+                  "T\u00fcrkiye",
+                  "Montenegro",
+                  "Monaco",
+                  "Romania",
+                  "Kosovo",
+                  "Bulgaria",
+                  "Albania",
+                  "Serbia",
+                  "Ukraine"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Lithuania",
+                  "Italy",
+                  "France",
+                  "Luxembourg",
+                  "Andorra",
+                  "Latvia",
+                  "Spain",
+                  "Liechtenstein",
+                  "Finland",
+                  "Germany",
+                  "Switzerland",
+                  "Netherlands",
+                  "Denmark",
+                  "Slovenia",
+                  "Estonia",
+                  "Iceland",
+                  "Sweden",
+                  "Ireland",
+                  "Belgium",
+                  "Czechia",
+                  "Malta",
+                  "Norway",
+                  "Portugal",
+                  "Poland",
+                  "Austria",
+                  "Croatia",
+                  "United Kingdom"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "INTL. ASSOC AMUSE EMEA",
+              "advertiserName": "IAAPA ESA",
+              "advertiserUrl": "https://www.linkedin.com/company/65525456"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 5,
+        "links": [
+          {
+            "href": "/rest/adLibrary?q=criteria&start=995&count=5&keyword=product%2Bmanagement",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?q=criteria&start=1005&count=5&keyword=product%2Bmanagement",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 1000,
+        "total": 410223
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZnORZr7aqhdKNf6eQ=="
+    },
+    "status": 200
+  }
+}

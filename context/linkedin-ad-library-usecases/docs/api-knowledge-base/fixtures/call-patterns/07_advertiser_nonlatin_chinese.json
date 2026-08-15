@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-07-03T14:17:37.094866+00:00",
+  "hypothesis": "Chinese company name (Alibaba native script)",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4&q=criteria&count=5&start=0",
+    "params": {
+      "advertiser": "\u963f\u91cc\u5df4\u5df4",
+      "count": 5,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [],
+      "paging": {
+        "count": 5,
+        "links": [],
+        "start": 0,
+        "total": 0
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZYnj7i3VaGo8qHPtA=="
+    },
+    "status": 200
+  }
+}

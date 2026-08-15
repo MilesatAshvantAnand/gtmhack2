@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-07-03T13:49:44.772401+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Notion",
+      "count": 25,
+      "q": "criteria",
+      "start": 25
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "code": "TOO_MANY_REQUESTS",
+      "message": "Call has been throttled for method: FINDER, resource: adLibrary, and period: ONE_MINUTE",
+      "serviceErrorCode": 101,
+      "status": 429
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtTJ7tY4WMHocdxnm+A=="
+    },
+    "status": 429
+  }
+}

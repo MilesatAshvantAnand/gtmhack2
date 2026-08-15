@@ -1,19 +1,12 @@
-# Available context
+# Shared context
 
-## LinkedIn Ad Library API
+The safe, reusable source from the two supplied projects is now versioned in this repository. Collaborators can inspect and reuse it without access to its original repositories or any API credential.
 
-Source: `https://github.com/bilalahmad20/linkedin-ad-library-usecases`
+| Imported package | Source | Contents |
+| --- | --- | --- |
+| `context/linkedin-ad-library-usecases/` | `https://github.com/bilalahmad20/linkedin-ad-library-usecases` at `3fa01a9726da61a20fab6d95e11456b4a21590ee` | API knowledge base and fixtures, ZenABM API client/core, and competitor-intelligence skill. |
+| `context/zenabm-linkedin-abm-audit/` | Local `LinkedIn Ad Library API` / `ZenABM Skills Test Emilia/linkedin-abm-audit` | Trial-user ABM audit skill, benchmarks, data playbook, flags, and report assets. |
 
-Local checkout: `../LinkedIn Ad Library API`
+Excluded deliberately: `.env` files, virtual environments, generated reports/installers, macOS metadata, legacy contact-data tooling, and source files known to use the pre-audit LinkedIn client. The source knowledge base is authoritative for LinkedIn Ad Library constraints and inference rules.
 
-Provides a tested LinkedIn Ad Library knowledge base plus a ZenABM-backed competitor-intelligence skill. Its deployed API uses `ZENABM_TOKEN`; do not bring that existing credential into this repository. Recreate a separate hackathon token instead.
-
-## ZenABM Skills Test Emilia
-
-Local source: `../ZenABM Skills Test Emilia/linkedin-abm-audit`
-
-Provides a diagnostic LinkedIn ABM audit skill using ZenABM MCP, with optional HubSpot deal-influence data.
-
-## Proposed MVP boundary
-
-One input flow: choose an account or competitor set, combine competitor activity with an ABM audit and optional CRM context, then return a ranked GTM action plan. Reuse source material deliberately; do not vendor whole projects until a specific module is needed.
+When updating a context package, copy only the relevant tracked files, record the source revision here, and run a credential-file check before committing.

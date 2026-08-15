@@ -1,0 +1,360 @@
+{
+  "captured_at": "2026-07-03T14:05:25.222134+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Peloton",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1443507604",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458238604",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458148144",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1298383084",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458318544",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1443527434",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458358444",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458358564",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1443467544",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1278008964",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1279708644",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1443543504",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458288274",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458188994",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1443580494",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1333306804",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1285398054",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1326607674",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1297787194",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1326907814",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458298434",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1327007254",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1279307534",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1279307574",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1443497514",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Peloton Interactive, Inc.",
+              "advertiserName": "Peloton Interactive",
+              "advertiserUrl": "https://www.linkedin.com/company/2658876"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Peloton&q=criteria&start=25&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 95
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWqBRF26rp0izXGBXQ=="
+    },
+    "status": 200
+  }
+}

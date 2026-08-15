@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-07-03T14:18:25.630971+00:00",
+  "hypothesis": "count=0 edge case",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=Personio&count=0&q=criteria&start=0",
+    "params": {
+      "advertiser": "Personio",
+      "count": 0,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [],
+      "paging": {
+        "count": 0,
+        "links": [],
+        "start": 0,
+        "total": 0
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZkMJ2jdPj58lc8siQ=="
+    },
+    "status": 200
+  }
+}

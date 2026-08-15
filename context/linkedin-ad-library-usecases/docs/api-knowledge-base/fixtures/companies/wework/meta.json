@@ -1,0 +1,10 @@
+{
+  "advertiser": "WeWork",
+  "captured_at": "2026-07-03T14:05:18.187444+00:00",
+  "hypothesis": "Historically active, potentially dark-period case",
+  "pages_captured": 3,
+  "slug": "wework",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 1392
+}

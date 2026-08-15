@@ -1,0 +1,10 @@
+{
+  "advertiser": "Alibaba Group",
+  "captured_at": "2026-07-03T14:06:20.834889+00:00",
+  "hypothesis": "Asia-headquartered giant, tests cross-continent distribution",
+  "pages_captured": 3,
+  "slug": "alibaba",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 203
+}

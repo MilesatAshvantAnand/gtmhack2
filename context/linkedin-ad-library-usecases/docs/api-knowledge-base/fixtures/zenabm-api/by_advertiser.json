@@ -1,0 +1,58 @@
+{
+  "data": {
+    "ads": [
+      {
+        "adId": "1443175013",
+        "adUrl": "https://www.linkedin.com/ad-library/detail/1443175013",
+        "isRestricted": false,
+        "type": "SPONSORED_VIDEO",
+        "advertiser": {
+          "name": "Userpilot",
+          "url": "https://www.linkedin.com/company/27027108",
+          "companyId": "27027108",
+          "payer": "Userpilot Inc"
+        },
+        "statistics": {
+          "firstImpressionAt": 1781795275387,
+          "latestImpressionAt": 1783846658226,
+          "totalImpressions": {
+            "from": 0,
+            "to": 1000
+          },
+          "impressionsByCountry": [
+            {
+              "country": "DE",
+              "percentage": 4.45
+            }
+          ]
+        },
+        "targeting": [
+          {
+            "facet": "Location",
+            "isIncluded": true,
+            "isExcluded": false,
+            "includedSegments": [
+              "Germany"
+            ],
+            "excludedSegments": []
+          }
+        ]
+      }
+    ],
+    "advertisers": [
+      {
+        "name": "Userpilot",
+        "url": "https://www.linkedin.com/company/27027108",
+        "companyId": "27027108",
+        "adCount": 24
+      }
+    ],
+    "total": 1617,
+    "scanned": 25,
+    "returned": 1,
+    "truncated": true
+  },
+  "meta": {
+    "timestamp": "2026-07-12T12:00:00.000Z"
+  }
+}

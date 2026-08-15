@@ -1,0 +1,15 @@
+{
+  "captured": "2026-07-06",
+  "probe": "scripts/probe_keyword_precision.py",
+  "keyword": "product analytics",
+  "note": "All 7 query forms return an IDENTICAL paging.total (57396). The keyword param does NO phrase/boolean/precision matching: quotes are ignored, '+'/'AND'/',' are stripped or treated as noise, casing is case-insensitive, and surrounding whitespace is trimmed. Precision cannot be improved server-side; it must be handled by agent-layer relevance triage. (No 'response' key, so the knowledge_base regression skips this file.)",
+  "results": [
+    {"form": "baseline", "query": "product analytics", "total": 57396},
+    {"form": "quoted", "query": "\"product analytics\"", "total": 57396},
+    {"form": "plus_tokens", "query": "product +analytics", "total": 57396},
+    {"form": "explicit_and", "query": "product AND analytics", "total": 57396},
+    {"form": "comma_sep", "query": "product, analytics", "total": 57396},
+    {"form": "uppercase", "query": "PRODUCT ANALYTICS", "total": 57396},
+    {"form": "surrounding_ws", "query": " product analytics ", "total": 57396}
+  ]
+}

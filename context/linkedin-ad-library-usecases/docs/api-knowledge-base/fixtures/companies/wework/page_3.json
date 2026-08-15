@@ -1,0 +1,556 @@
+{
+  "captured_at": "2026-07-03T14:05:14.178284+00:00",
+  "request": {
+    "params": {
+      "advertiser": "WeWork",
+      "count": 25,
+      "q": "criteria",
+      "start": 50
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1400175806",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "WEWORK SERVICOS DE ESCRITORIO LTDA.",
+              "advertiserName": "WeWork LATAM",
+              "advertiserUrl": "https://www.linkedin.com/company/87434753"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1260680433",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1257306543",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1259897533",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1259406033",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1257905613",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1260093873",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1260487613",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1258405633",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1259605203",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1404395186",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1260487593",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1258105903",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1260487603",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1258105883",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1260780013",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1404425226",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1259993623",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1260680443",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1251520683",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1777540045894,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ME",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:MG",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:MQ",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:RE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:TN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.0014908462043055639
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.0014908462043055639
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.0014908462043055639
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.0014908462043055639
+                },
+                {
+                  "country": "urn:li:country:MU",
+                  "impressionPercentage": 0.0014908462043055639
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.0014908462043055639
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.0029816924086111278
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.0029816924086111278
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0029816924086111278
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.0029816924086111278
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.004472538612916691
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0059633848172222555
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.007454231021527819
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.007454231021527819
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.008945077225833382
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.010435923430138947
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 95.60945792832011
+                }
+              ],
+              "latestImpressionAt": 1783055180199,
+              "totalImpressions": {
+                "from": 50000,
+                "to": 100000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Greater Paris Metropolitan Region"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1257905623",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1257304553",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "WeWork South Africa (Pty) Ltd",
+              "advertiserName": "WeWork South Africa",
+              "advertiserUrl": "https://www.linkedin.com/company/90971778"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1259406043",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1259406063",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1259801983",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=WeWork&q=criteria&start=25&count=25",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?advertiser=WeWork&q=criteria&start=75&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 50,
+        "total": 1392
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWnZKbV88MSdd/3tfw=="
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "captured_at": "2026-07-03T14:04:32.789739+00:00",
+  "request": {
+    "params": {
+      "advertiser": "HSBC",
+      "count": 25,
+      "q": "criteria",
+      "start": 50
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1440677923",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA (ASIA) LIMITED",
+              "advertiserName": "HSBC Commercial Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/2385098"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461448024",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461389344",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461475804",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DENTSU ONE PRIVATE LIMITED",
+              "advertiserName": "HSBC Mutual Fund",
+              "advertiserUrl": "https://www.linkedin.com/company/91474647"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1440935153",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DENTSU ONE PRIVATE LIMITED",
+              "advertiserName": "HSBC Mutual Fund",
+              "advertiserUrl": "https://www.linkedin.com/company/91474647"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1440638163",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA (ASIA) LIMITED",
+              "advertiserName": "HSBC Commercial Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/2385098"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461497954",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1479932286",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD LIMITED",
+              "advertiserName": "HSBC Hong Kong",
+              "advertiserUrl": "https://www.linkedin.com/company/87079670"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480090916",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD LIMITED",
+              "advertiserName": "HSBC Hong Kong",
+              "advertiserUrl": "https://www.linkedin.com/company/87079670"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1479971706",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD LIMITED",
+              "advertiserName": "HSBC Hong Kong",
+              "advertiserUrl": "https://www.linkedin.com/company/87079670"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461248474",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461247784",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1479922386",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD LIMITED",
+              "advertiserName": "HSBC Hong Kong",
+              "advertiserUrl": "https://www.linkedin.com/company/87079670"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480090896",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD LIMITED",
+              "advertiserName": "HSBC Hong Kong",
+              "advertiserUrl": "https://www.linkedin.com/company/87079670"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1479961876",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD LIMITED",
+              "advertiserName": "HSBC Hong Kong",
+              "advertiserUrl": "https://www.linkedin.com/company/87079670"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1440777773",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA (ASIA) LIMITED",
+              "advertiserName": "HSBC Commercial Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/2385098"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461489654",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461457904",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461128564",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1479440086",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480021396",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD LIMITED",
+              "advertiserName": "HSBC Hong Kong",
+              "advertiserUrl": "https://www.linkedin.com/company/87079670"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461477534",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461158154",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461487764",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461310814",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=HSBC&q=criteria&start=25&count=25",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?advertiser=HSBC&q=criteria&start=75&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 50,
+        "total": 5554
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWdih1CT3v64gppWng=="
+    },
+    "status": 200
+  }
+}

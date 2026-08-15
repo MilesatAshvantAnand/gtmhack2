@@ -1,0 +1,82 @@
+[
+  {
+    "query": "who else is advertising on 'product analytics'? we're about to launch a competing tool and I want to see the field before we set our messaging",
+    "should_trigger": true
+  },
+  {
+    "query": "which companies are running linkedin ads on the CDP category right now",
+    "should_trigger": true
+  },
+  {
+    "query": "size up my competitors' paid social on ABM - i keep seeing the same 3 names in my feed and want the full list",
+    "should_trigger": true
+  },
+  {
+    "query": "who's bidding on 'revenue intelligence' - want to see who the players are before our Q3 campaign",
+    "should_trigger": true
+  },
+  {
+    "query": "can you pull together a competitive ad landscape for data observability and customer data platform? board deck is friday",
+    "should_trigger": true
+  },
+  {
+    "query": "i run demand gen at a series B fintech. show me who advertises on 'embedded finance' and 'payment orchestration' so i know who we're up against",
+    "should_trigger": true
+  },
+  {
+    "query": "share of voice check - who's putting the most ads out on 'sales enablement' this quarter?",
+    "should_trigger": true
+  },
+  {
+    "query": "new PMM here, still ramping. our category is workflow automation. i genuinely have no idea which vendors are spending on ads in our space - can you map that out for me?",
+    "should_trigger": true
+  },
+  {
+    "query": "we think Gong and Clari are the big two in our category but i want proof - who is actually running the most ads around 'conversation intelligence'",
+    "should_trigger": true
+  },
+  {
+    "query": "before i brief the agency i need to understand the paid landscape for headless commerce. who's out there, who's spending, what should we watch",
+    "should_trigger": true
+  },
+  {
+    "query": "analyze how MY linkedin ads did last quarter - CTR, spend, which creatives won",
+    "should_trigger": false
+  },
+  {
+    "query": "who advertises during the super bowl? curious which brands are dropping the big money this year",
+    "should_trigger": false
+  },
+  {
+    "query": "pull my google ads search terms report and flag the wasted spend",
+    "should_trigger": false
+  },
+  {
+    "query": "write me a linkedin ad for our new product analytics platform, punchy headline plus two body variants",
+    "should_trigger": false
+  },
+  {
+    "query": "what's Salesforce's overall product strategy and where are they heading over the next few years",
+    "should_trigger": false
+  },
+  {
+    "query": "help me build a full marketing plan for next year - channels, budget split, quarterly goals",
+    "should_trigger": false
+  },
+  {
+    "query": "set up conversion tracking on our website so i can see which campaigns drive signups",
+    "should_trigger": false
+  },
+  {
+    "query": "which TV commercials are running the most this month in the auto industry?",
+    "should_trigger": false
+  },
+  {
+    "query": "compare my own ad spend and pipeline against last quarter and tell me if we're improving",
+    "should_trigger": false
+  },
+  {
+    "query": "i want to map out the field of brands paying to promote themselves around 'zero trust security' so we know who we're competing with for attention",
+    "should_trigger": true
+  }
+]

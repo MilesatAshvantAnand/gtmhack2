@@ -1,0 +1,673 @@
+{
+  "captured_at": "2026-07-03T14:04:43.792520+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Miro",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1485099116",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484735126",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484871246",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1487220966",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1485137176",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484659106",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1487270096",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484745116",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484881116",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782914955041,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.7241379310344827
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.7241379310344827
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 3.4482758620689653
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 6.896551724137931
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 6.896551724137931
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 6.896551724137931
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 10.344827586206897
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 12.068965517241379
+                }
+              ],
+              "latestImpressionAt": 1782935411571,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Lithuania",
+                  "Italy",
+                  "France",
+                  "Iceland",
+                  "Sweden",
+                  "Luxembourg",
+                  "Belgium",
+                  "Norway",
+                  "Portugal",
+                  "Belarus",
+                  "Finland",
+                  "Germany",
+                  "Switzerland",
+                  "Netherlands",
+                  "Poland",
+                  "Denmark",
+                  "Austria",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1487211486",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1485099126",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484735136",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484871236",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1487270086",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484725056",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484803746",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782914933577,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 2.5641025641025643
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.5641025641025643
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.5641025641025643
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 5.128205128205129
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 6.410256410256411
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 11.538461538461538
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 15.384615384615385
+                }
+              ],
+              "latestImpressionAt": 1782929920362,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Lithuania",
+                  "Italy",
+                  "France",
+                  "Iceland",
+                  "Sweden",
+                  "Luxembourg",
+                  "Belgium",
+                  "Norway",
+                  "Portugal",
+                  "Belarus",
+                  "Finland",
+                  "Germany",
+                  "Switzerland",
+                  "Netherlands",
+                  "Poland",
+                  "Denmark",
+                  "Austria",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484695676",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782916026041,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 1.6666666666666667
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.6666666666666667
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.6666666666666667
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 1.6666666666666667
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.6666666666666667
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 3.3333333333333335
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 6.666666666666667
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 8.333333333333334
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 8.333333333333334
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 15.0
+                }
+              ],
+              "latestImpressionAt": 1782930533453,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Lithuania",
+                  "Italy",
+                  "France",
+                  "Iceland",
+                  "Sweden",
+                  "Luxembourg",
+                  "Belgium",
+                  "Norway",
+                  "Portugal",
+                  "Belarus",
+                  "Finland",
+                  "Germany",
+                  "Switzerland",
+                  "Netherlands",
+                  "Poland",
+                  "Denmark",
+                  "Austria",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1419500206",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484745126",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1487201516",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484774706",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1485039706",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484881146",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484668916",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484705426",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Miro&q=criteria&start=25&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 4324
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWgKAo0RFbd5dz0aIQ=="
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "captured_at": "2026-07-03T13:49:26.140901+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Salesforce",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483487596",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Relevize",
+              "advertiserName": "SAMA | Award-Winning Salesforce Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/65674696"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442090303",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_INMAILS"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483599766",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782909460890,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 2.490364660539579
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 5.899792469611621
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 6.9670916098428695
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 9.931811443818559
+                }
+              ],
+              "latestImpressionAt": 1783055058322,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Finland",
+                  "Denmark",
+                  "Sweden",
+                  "Norway"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441991023",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_INMAILS"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483619756",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce News & Insights",
+              "advertiserUrl": "https://www.linkedin.com/company/37008885"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483534376",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce News & Insights",
+              "advertiserUrl": "https://www.linkedin.com/company/37008885"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441906413",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "cacaFly Int'l Media Co.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483557136",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Relevize",
+              "advertiserName": "SAMA | Award-Winning Salesforce Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/65674696"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462844644",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "\uc8fc\uc2dd\ud68c\uc0ac \uc720\ub514\uc5e0",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441866033",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441896793",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "cacaFly Int'l Media Co.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483547086",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Relevize",
+              "advertiserName": "SAMA | Award-Winning Salesforce Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/65674696"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441816793",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "cacaFly Int'l Media Co.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442130633",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_INMAILS"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483596086",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Relevize",
+              "advertiserName": "SAMA | Award-Winning Salesforce Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/65674696"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484695796",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483783606",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483832186",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441936803",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "cacaFly Int'l Media Co.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483557126",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Relevize",
+              "advertiserName": "SAMA | Award-Winning Salesforce Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/65674696"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441737333",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "cacaFly Int'l Media Co.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484688266",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782948253059,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.07580351728320193
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 2.6986052152819893
+                }
+              ],
+              "latestImpressionAt": 1783055256233,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484707406",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782948251773,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.07616146230007616
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 2.482863670982483
+                }
+              ],
+              "latestImpressionAt": 1783055207430,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442021343",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_INMAILS"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483477786",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Relevize",
+              "advertiserName": "SAMA | Award-Winning Salesforce Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/65674696"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Salesforce&q=criteria&start=25&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 9403
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtTFT2q3qsWGdRZMDSw=="
+    },
+    "status": 200
+  }
+}

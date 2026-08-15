@@ -1,0 +1,102 @@
+{
+  "captured_at": "2026-07-03T14:20:46.578532+00:00",
+  "hypothesis": "Multi-word keyword \u2014 implicit AND?",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?q=criteria&keyword=product+management+crm&start=0&count=5",
+    "params": {
+      "count": 5,
+      "keyword": "product management crm",
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442155913",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "danielle neethling",
+              "advertiserName": "danielle neethling",
+              "advertiserUrl": "https://www.linkedin.com/in/danielle-neethling-09a386269"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462899564",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "O0, Inc.",
+              "advertiserName": "O0 Design",
+              "advertiserUrl": "https://www.linkedin.com/company/42859925"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484862356",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Sougata Mandal",
+              "advertiserName": "Sougata Mandal",
+              "advertiserUrl": "https://www.linkedin.com/in/sougatamandal"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484893176",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "CREATIO AMERICAS Inc.",
+              "advertiserName": "Creatio",
+              "advertiserUrl": "https://www.linkedin.com/company/20353970"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484696406",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Axiomata Foundational Excellence",
+              "advertiserName": "Jack Cox",
+              "advertiserUrl": "https://www.linkedin.com/in/jack-cox-0788641"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 5,
+        "links": [
+          {
+            "href": "/rest/adLibrary?q=criteria&start=5&count=5&keyword=product%2Bmanagement%2Bcrm",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 4802
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtaFqG3LFQm+qha9fKQ=="
+    },
+    "status": 200
+  }
+}

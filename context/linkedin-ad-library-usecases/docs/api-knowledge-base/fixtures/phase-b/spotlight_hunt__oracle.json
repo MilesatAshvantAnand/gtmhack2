@@ -1,0 +1,703 @@
+{
+  "captured_at": "2026-07-03T14:54:27.192678+00:00",
+  "hypothesis": "SPOTLIGHT_V2 hunt \u2014 Oracle",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=Oracle&count=25&q=criteria&start=0",
+    "params": {
+      "advertiser": "Oracle",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441852093",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441812233",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441921633",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441772453",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441911793",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441772433",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441881853",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441872103",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441762393",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462588884",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782836497972,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AG",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:AW",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:BL",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:BZ",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:CW",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:FO",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:GD",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:GI",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:NE",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:SM",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:SX",
+                  "impressionPercentage": 0.0027751567963589944
+                },
+                {
+                  "country": "urn:li:country:BB",
+                  "impressionPercentage": 0.005550313592717989
+                },
+                {
+                  "country": "urn:li:country:IM",
+                  "impressionPercentage": 0.005550313592717989
+                },
+                {
+                  "country": "urn:li:country:JE",
+                  "impressionPercentage": 0.005550313592717989
+                },
+                {
+                  "country": "urn:li:country:LC",
+                  "impressionPercentage": 0.005550313592717989
+                },
+                {
+                  "country": "urn:li:country:LI",
+                  "impressionPercentage": 0.005550313592717989
+                },
+                {
+                  "country": "urn:li:country:AX",
+                  "impressionPercentage": 0.008325470389076982
+                },
+                {
+                  "country": "urn:li:country:MQ",
+                  "impressionPercentage": 0.011100627185435977
+                },
+                {
+                  "country": "urn:li:country:AD",
+                  "impressionPercentage": 0.01942609757451296
+                },
+                {
+                  "country": "urn:li:country:GP",
+                  "impressionPercentage": 0.01942609757451296
+                },
+                {
+                  "country": "urn:li:country:HT",
+                  "impressionPercentage": 0.01942609757451296
+                },
+                {
+                  "country": "urn:li:country:XK",
+                  "impressionPercentage": 0.022201254370871955
+                },
+                {
+                  "country": "urn:li:country:JM",
+                  "impressionPercentage": 0.02497641116723095
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.03052672475994894
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.03052672475994894
+                },
+                {
+                  "country": "urn:li:country:IS",
+                  "impressionPercentage": 0.03330188155630793
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.04440250874174391
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.055503135927179884
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.055503135927179884
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.05827829272353888
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 0.06937891990897485
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.07492923350169285
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.08325470389076983
+                },
+                {
+                  "country": "urn:li:country:ME",
+                  "impressionPercentage": 0.08325470389076983
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.09158017427984681
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.11378142865071876
+                },
+                {
+                  "country": "urn:li:country:NI",
+                  "impressionPercentage": 0.12765721263251373
+                },
+                {
+                  "country": "urn:li:country:PA",
+                  "impressionPercentage": 0.13598268302159072
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.1415329966143087
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.1443081534106677
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.1554087805961037
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.1554087805961037
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.16928456457789864
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.18038519176333462
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.18316034855969363
+                },
+                {
+                  "country": "urn:li:country:GT",
+                  "impressionPercentage": 0.21091191652328356
+                },
+                {
+                  "country": "urn:li:country:SV",
+                  "impressionPercentage": 0.21091191652328356
+                },
+                {
+                  "country": "urn:li:country:MD",
+                  "impressionPercentage": 0.21923738691236055
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.22478770050507854
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.2386634844868735
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.2469889548759505
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.2497641116723095
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.2580895820613865
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.2580895820613865
+                },
+                {
+                  "country": "urn:li:country:DO",
+                  "impressionPercentage": 0.26363989565410445
+                },
+                {
+                  "country": "urn:li:country:BA",
+                  "impressionPercentage": 0.26919020924682246
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.31359271798856636
+                },
+                {
+                  "country": "urn:li:country:CR",
+                  "impressionPercentage": 0.3468945995448743
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.36909585391574623
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.3940722650829772
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.40239773547205415
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.5328301049009269
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.5883332408281068
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.7159904534606205
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.7603929622023644
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.8713992340567243
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.8769495476494422
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 1.037908641838264
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 1.2959982238996504
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 2.944441360936893
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 8.869401121163346
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 11.636232447133263
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 15.61858244990842
+                }
+              ],
+              "latestImpressionAt": 1783055785680,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "North America",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Freeman and Forrest",
+              "advertiserName": "Oracle Developers",
+              "advertiserUrl": "https://www.linkedin.com/company/4815807"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441821713",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441722633",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441742583",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441762413",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441852083",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441772443",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441732423",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441911803",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441819273",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441892143",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441792573",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441911783",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441872053",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441821703",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441943273",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Quest Oracle Community",
+              "advertiserName": "Quest Oracle Community",
+              "advertiserUrl": "https://www.linkedin.com/company/3155490"
+            },
+            "type": "SPONSORED_INMAILS"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Oracle&q=criteria&count=25&start=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 4952
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVthndHsU8fhdXEaGlww=="
+    },
+    "status": 200
+  }
+}

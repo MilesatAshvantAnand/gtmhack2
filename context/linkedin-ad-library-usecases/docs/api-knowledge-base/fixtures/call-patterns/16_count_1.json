@@ -1,0 +1,107 @@
+{
+  "captured_at": "2026-07-03T14:18:17.133794+00:00",
+  "hypothesis": "Minimum count",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=Personio&count=1&q=criteria&start=0",
+    "params": {
+      "advertiser": "Personio",
+      "count": 1,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442010403",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782926519630,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 24.8062015503876
+                }
+              ],
+              "latestImpressionAt": 1783054167750,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "Poland",
+                  "France"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Personio SE & Co. KG",
+              "advertiserName": "Personio",
+              "advertiserUrl": "https://www.linkedin.com/company/10180448"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 1,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Personio&q=criteria&count=1&start=1",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 2755
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZiHgWtcF47OXPCbkw=="
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "advertiser": "ZenABM",
+  "captured_at": "2026-07-03T13:49:25.191198+00:00",
+  "hypothesis": "Small ABM SaaS, expect low ad count",
+  "pages_captured": 3,
+  "slug": "zenabm",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 243
+}

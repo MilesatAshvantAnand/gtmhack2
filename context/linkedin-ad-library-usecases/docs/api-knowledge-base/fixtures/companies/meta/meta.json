@@ -1,0 +1,10 @@
+{
+  "advertiser": "Meta",
+  "captured_at": "2026-07-03T14:03:34.682263+00:00",
+  "hypothesis": "Mega-advertiser, complex targeting, potentially restricted",
+  "pages_captured": 3,
+  "slug": "meta",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 8787
+}

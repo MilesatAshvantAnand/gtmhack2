@@ -1,0 +1,3325 @@
+{
+  "captured_at": "2026-07-03T14:03:30.650299+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Meta",
+      "count": 25,
+      "q": "criteria",
+      "start": 50
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441692733",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782617578426,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:PA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AD",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:CW",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:JM",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:ME",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:TW",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.24752475247524752
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.49504950495049505
+                },
+                {
+                  "country": "urn:li:country:BA",
+                  "impressionPercentage": 0.49504950495049505
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.49504950495049505
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.49504950495049505
+                },
+                {
+                  "country": "urn:li:country:DO",
+                  "impressionPercentage": 0.49504950495049505
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.49504950495049505
+                },
+                {
+                  "country": "urn:li:country:GT",
+                  "impressionPercentage": 0.49504950495049505
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.49504950495049505
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.49504950495049505
+                },
+                {
+                  "country": "urn:li:country:NI",
+                  "impressionPercentage": 0.49504950495049505
+                },
+                {
+                  "country": "urn:li:country:CR",
+                  "impressionPercentage": 0.7425742574257426
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.7425742574257426
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.7425742574257426
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.7425742574257426
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.7425742574257426
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.9900990099009901
+                },
+                {
+                  "country": "urn:li:country:SV",
+                  "impressionPercentage": 0.9900990099009901
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.4851485148514851
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 1.7326732673267327
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 1.7326732673267327
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.7326732673267327
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 1.7326732673267327
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 2.227722772277228
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.712871287128713
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 4.455445544554456
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 4.702970297029703
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 5.445544554455446
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 8.168316831683168
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 25.742574257425744
+                }
+              ],
+              "latestImpressionAt": 1783044345843,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Europe",
+                  "United Arab Emirates"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "SYSTEM MEDIA ART SA ",
+              "advertiserName": "Metasteps",
+              "advertiserUrl": "https://www.linkedin.com/company/105414963"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441645783",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Meta Integration Technology, Inc.",
+              "advertiserName": "Meta Integration Technology, Inc. | MetaKarta",
+              "advertiserUrl": "https://www.linkedin.com/company/131687"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441548293",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Meta-IV Solutions Limited",
+              "advertiserName": "Meta4 Solutions",
+              "advertiserUrl": "https://www.linkedin.com/company/94795131"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441568233",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782814525521,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 41.726618705035975
+                }
+              ],
+              "latestImpressionAt": 1783036089876,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Metamorphant GmbH",
+              "advertiserName": "Metamorphant GmbH",
+              "advertiserUrl": "https://www.linkedin.com/company/33189267"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441493633",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782617596120,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:CR",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:GI",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:GT",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.45871559633027525
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.9174311926605505
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.9174311926605505
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.9174311926605505
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.9174311926605505
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.9174311926605505
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.9174311926605505
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.9174311926605505
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.9174311926605505
+                },
+                {
+                  "country": "urn:li:country:SV",
+                  "impressionPercentage": 0.9174311926605505
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 1.3761467889908257
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 1.834862385321101
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 1.834862385321101
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 1.834862385321101
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 2.7522935779816513
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 2.7522935779816513
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 3.669724770642202
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 4.587155963302752
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 5.045871559633028
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 7.339449541284404
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 12.844036697247706
+                }
+              ],
+              "latestImpressionAt": 1783043087627,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Europe",
+                  "United Arab Emirates"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "SYSTEM MEDIA ART SA ",
+              "advertiserName": "Metasteps",
+              "advertiserUrl": "https://www.linkedin.com/company/105414963"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483300546",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Atlas Markets Inc",
+              "advertiserName": "Metals Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/109656748"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441588063",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782805281578,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 39.0625
+                }
+              ],
+              "latestImpressionAt": 1783054361719,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Metamorphant GmbH",
+              "advertiserName": "Metamorphant GmbH",
+              "advertiserUrl": "https://www.linkedin.com/company/33189267"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462288284",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782778736392,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.002081902025690671
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.002081902025690671
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.002081902025690671
+                },
+                {
+                  "country": "urn:li:country:JO",
+                  "impressionPercentage": 0.002081902025690671
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.002081902025690671
+                },
+                {
+                  "country": "urn:li:country:PK",
+                  "impressionPercentage": 0.002081902025690671
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.002081902025690671
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.002081902025690671
+                },
+                {
+                  "country": "urn:li:country:TZ",
+                  "impressionPercentage": 0.002081902025690671
+                },
+                {
+                  "country": "urn:li:country:AO",
+                  "impressionPercentage": 0.004163804051381342
+                },
+                {
+                  "country": "urn:li:country:CI",
+                  "impressionPercentage": 0.004163804051381342
+                },
+                {
+                  "country": "urn:li:country:GA",
+                  "impressionPercentage": 0.004163804051381342
+                },
+                {
+                  "country": "urn:li:country:MM",
+                  "impressionPercentage": 0.004163804051381342
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.004163804051381342
+                },
+                {
+                  "country": "urn:li:country:RU",
+                  "impressionPercentage": 0.004163804051381342
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.004163804051381342
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.006245706077072013
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.006245706077072013
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.006245706077072013
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.008327608102762684
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.012491412154144026
+                },
+                {
+                  "country": "urn:li:country:EG",
+                  "impressionPercentage": 0.012491412154144026
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.016655216205525368
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.016655216205525368
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.0506734953053107
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 2.165178106718298
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 45.92467678471051
+                }
+              ],
+              "latestImpressionAt": 1783055642743,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Italy",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "METALCON ",
+              "advertiserName": "METALCON",
+              "advertiserUrl": "https://www.linkedin.com/company/5002722"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441487713",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Metamorphosis",
+              "advertiserName": "Metamorphosis",
+              "advertiserUrl": "https://www.linkedin.com/company/106144603"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441687663",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782804754535,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 35.485307212822796
+                }
+              ],
+              "latestImpressionAt": 1783035050411,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Metamorphant GmbH",
+              "advertiserName": "Metamorphant GmbH",
+              "advertiserUrl": "https://www.linkedin.com/company/33189267"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462207354",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782720305727,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.02224199288256228
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 62.58896797153025
+                }
+              ],
+              "latestImpressionAt": 1783055246979,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "META-Regalbau GmbH & Co. KG",
+              "advertiserName": "META-Regalbau GmbH & Co. KG",
+              "advertiserUrl": "https://www.linkedin.com/company/2307098"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483085776",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Metalsource Mining",
+              "advertiserName": "Metalsource Mining Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/113349970"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462269194",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782738030380,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:GN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AX",
+                  "impressionPercentage": 0.007366482504604052
+                },
+                {
+                  "country": "urn:li:country:SV",
+                  "impressionPercentage": 0.007366482504604052
+                },
+                {
+                  "country": "urn:li:country:MD",
+                  "impressionPercentage": 0.014732965009208104
+                },
+                {
+                  "country": "urn:li:country:VI",
+                  "impressionPercentage": 0.014732965009208104
+                },
+                {
+                  "country": "urn:li:country:IS",
+                  "impressionPercentage": 0.022099447513812154
+                },
+                {
+                  "country": "urn:li:country:GF",
+                  "impressionPercentage": 0.03683241252302026
+                },
+                {
+                  "country": "urn:li:country:LI",
+                  "impressionPercentage": 0.03683241252302026
+                },
+                {
+                  "country": "urn:li:country:GY",
+                  "impressionPercentage": 0.04419889502762431
+                },
+                {
+                  "country": "urn:li:country:MO",
+                  "impressionPercentage": 0.04419889502762431
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.07366482504604052
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.08103130755064457
+                },
+                {
+                  "country": "urn:li:country:UY",
+                  "impressionPercentage": 0.08103130755064457
+                },
+                {
+                  "country": "urn:li:country:GQ",
+                  "impressionPercentage": 0.08839779005524862
+                },
+                {
+                  "country": "urn:li:country:SR",
+                  "impressionPercentage": 0.08839779005524862
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.10313075506445672
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.10313075506445672
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.10313075506445672
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.11049723756906077
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.11049723756906077
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.11049723756906077
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.11786372007366483
+                },
+                {
+                  "country": "urn:li:country:PY",
+                  "impressionPercentage": 0.13259668508287292
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.13259668508287292
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.13996316758747698
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.16206261510128914
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.17679558011049723
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.1841620626151013
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.20626151012891344
+                },
+                {
+                  "country": "urn:li:country:BO",
+                  "impressionPercentage": 0.22099447513812154
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.22099447513812154
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.2430939226519337
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.2504604051565378
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.2578268876611418
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.27992633517495397
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.3020257826887661
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.3388581952117864
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.3830570902394107
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.39042357274401474
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.4861878453038674
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 0.5230202578268877
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.5893186003683242
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.6408839779005525
+                },
+                {
+                  "country": "urn:li:country:BH",
+                  "impressionPercentage": 0.7071823204419889
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.7513812154696132
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.7734806629834254
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.9871086556169429
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.994475138121547
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 1.0092081031307552
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.1197053406998159
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 1.134438305709024
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 1.156537753222836
+                },
+                {
+                  "country": "urn:li:country:VE",
+                  "impressionPercentage": 1.4659300184162063
+                },
+                {
+                  "country": "urn:li:country:OM",
+                  "impressionPercentage": 1.569060773480663
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 1.6353591160220995
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.6648250460405156
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.701657458563536
+                },
+                {
+                  "country": "urn:li:country:EC",
+                  "impressionPercentage": 1.7384898710865562
+                },
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 1.9521178637200736
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 2.0699815837937385
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 2.1804788213627995
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 2.593001841620626
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 2.858195211786372
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 3.2191528545119708
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 3.278084714548803
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 4.1178637200736645
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 4.287292817679558
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 4.780847145488029
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 4.9650092081031305
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 6.29097605893186
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 7.697974217311234
+                },
+                {
+                  "country": "urn:li:country:EG",
+                  "impressionPercentage": 8.950276243093922
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 11.359116022099448
+                }
+              ],
+              "latestImpressionAt": 1782931162983,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Peru",
+                  "Hong Kong SAR",
+                  "Slovakia",
+                  "Lithuania",
+                  "United States",
+                  "Luxembourg",
+                  "Hungary",
+                  "French Polynesia",
+                  "United Arab Emirates",
+                  "Saint Barth\u00e9lemy",
+                  "Latvia",
+                  "Cyprus",
+                  "Finland",
+                  "Switzerland",
+                  "Greece",
+                  "French Guiana",
+                  "Guyana",
+                  "Canada",
+                  "Australia",
+                  "Denmark",
+                  "Singapore",
+                  "Egypt",
+                  "Serbia",
+                  "Estonia",
+                  "South Korea",
+                  "Paraguay",
+                  "Macao SAR",
+                  "United States Minor Outlying Islands",
+                  "Sweden",
+                  "Chile",
+                  "Morocco",
+                  "Suriname",
+                  "Belgium",
+                  "North Macedonia",
+                  "Norway",
+                  "Portugal",
+                  "Belarus",
+                  "Saudi Arabia",
+                  "\u00c5land Islands",
+                  "Moldova",
+                  "South Africa",
+                  "French Southern and Antarctic Lands",
+                  "Ecuador",
+                  "Equatorial Guinea",
+                  "Mexico",
+                  "Bulgaria",
+                  "Colombia",
+                  "Croatia",
+                  "Venezuela",
+                  "Bahrain",
+                  "Italy",
+                  "France",
+                  "Israel",
+                  "Qatar",
+                  "Uruguay",
+                  "Oman",
+                  "Spain",
+                  "Liechtenstein",
+                  "Germany",
+                  "Netherlands",
+                  "Bolivia",
+                  "Slovenia",
+                  "Japan",
+                  "Brazil",
+                  "Ukraine",
+                  "Iceland",
+                  "Ireland",
+                  "Czechia",
+                  "Malta",
+                  "Poland",
+                  "Romania",
+                  "New Zealand",
+                  "Argentina",
+                  "United Kingdom",
+                  "US Virgin Islands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "MDPI AG",
+              "advertiserName": "Metals - Open Access Journal",
+              "advertiserUrl": "https://www.linkedin.com/company/76665324"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441576293",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782719194402,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.01240079365079365
+                },
+                {
+                  "country": "urn:li:country:EG",
+                  "impressionPercentage": 0.01240079365079365
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.01240079365079365
+                },
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.01240079365079365
+                },
+                {
+                  "country": "urn:li:country:KZ",
+                  "impressionPercentage": 0.01240079365079365
+                },
+                {
+                  "country": "urn:li:country:MC",
+                  "impressionPercentage": 0.01240079365079365
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 0.01240079365079365
+                },
+                {
+                  "country": "urn:li:country:UZ",
+                  "impressionPercentage": 0.0248015873015873
+                },
+                {
+                  "country": "urn:li:country:RU",
+                  "impressionPercentage": 0.0744047619047619
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 8.010912698412698
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 11.755952380952381
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 20.052083333333332
+                }
+              ],
+              "latestImpressionAt": 1783055166646,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Lithuania",
+                  "Latvia",
+                  "Estonia"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "META-Regalbau GmbH & Co. KG",
+              "advertiserName": "META Regalbau Baltic storage solutions",
+              "advertiserUrl": "https://www.linkedin.com/company/112184066"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441665863",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782716912103,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 15.817223198594025
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 43.58523725834798
+                }
+              ],
+              "latestImpressionAt": 1783028783917,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "METACOMPLIANCE LIMITED",
+              "advertiserName": "MetaCompliance",
+              "advertiserUrl": "https://www.linkedin.com/company/1619691"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441638003",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782808417580,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 36.24641833810888
+                }
+              ],
+              "latestImpressionAt": 1783055280138,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Metamorphant GmbH",
+              "advertiserName": "Metamorphant GmbH",
+              "advertiserUrl": "https://www.linkedin.com/company/33189267"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462259564",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782739258711,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:KW",
+                  "impressionPercentage": 0.01094331363536879
+                },
+                {
+                  "country": "urn:li:country:LI",
+                  "impressionPercentage": 0.01094331363536879
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.01094331363536879
+                },
+                {
+                  "country": "urn:li:country:MD",
+                  "impressionPercentage": 0.01094331363536879
+                },
+                {
+                  "country": "urn:li:country:GQ",
+                  "impressionPercentage": 0.02188662727073758
+                },
+                {
+                  "country": "urn:li:country:MO",
+                  "impressionPercentage": 0.02188662727073758
+                },
+                {
+                  "country": "urn:li:country:GF",
+                  "impressionPercentage": 0.03282994090610637
+                },
+                {
+                  "country": "urn:li:country:IS",
+                  "impressionPercentage": 0.04377325454147516
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.04377325454147516
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.05471656817684395
+                },
+                {
+                  "country": "urn:li:country:SR",
+                  "impressionPercentage": 0.05471656817684395
+                },
+                {
+                  "country": "urn:li:country:GY",
+                  "impressionPercentage": 0.06565988181221274
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.08754650908295032
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.0984898227183191
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.1094331363536879
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.1094331363536879
+                },
+                {
+                  "country": "urn:li:country:PY",
+                  "impressionPercentage": 0.1094331363536879
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.12037644998905668
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.12037644998905668
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.12037644998905668
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.1313197636244255
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.1313197636244255
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.1313197636244255
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.1313197636244255
+                },
+                {
+                  "country": "urn:li:country:UY",
+                  "impressionPercentage": 0.1313197636244255
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.14226307725979426
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.15320639089516305
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.16414970453053185
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.17509301816590064
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.17509301816590064
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.1969796454366382
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.2298095863427446
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.24075289997811336
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.262639527248851
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.3282994090610637
+                },
+                {
+                  "country": "urn:li:country:BO",
+                  "impressionPercentage": 0.3501860363318013
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.3501860363318013
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 0.38301597723790765
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.3939592908732764
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.5143357408623331
+                },
+                {
+                  "country": "urn:li:country:VE",
+                  "impressionPercentage": 0.569052309039177
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.6456555044867586
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.6456555044867586
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.6675421317574962
+                },
+                {
+                  "country": "urn:li:country:BH",
+                  "impressionPercentage": 0.6784854453928649
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.7222586999343401
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.7988618953819216
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.8973517181002407
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 1.050558108995404
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 1.0615014226307726
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.1599912453490917
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 1.3898008316918362
+                },
+                {
+                  "country": "urn:li:country:OM",
+                  "impressionPercentage": 1.4882906544101553
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.5430072225869993
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 1.6743269862114247
+                },
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 1.8931932589188005
+                },
+                {
+                  "country": "urn:li:country:EC",
+                  "impressionPercentage": 1.9260231998249069
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 2.3309258043335523
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 2.5169621361348216
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 3.020354563361786
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 3.1845042678923177
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 4.15845918144014
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 4.475815276865835
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 4.650908295031735
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 6.029765813088203
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 7.23353031297877
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 7.2444736266141385
+                },
+                {
+                  "country": "urn:li:country:EG",
+                  "impressionPercentage": 9.115780258262202
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 9.848982271831911
+                }
+              ],
+              "latestImpressionAt": 1782945158228,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Peru",
+                  "Hong Kong SAR",
+                  "Slovakia",
+                  "Lithuania",
+                  "United States",
+                  "Luxembourg",
+                  "Hungary",
+                  "French Polynesia",
+                  "United Arab Emirates",
+                  "Saint Barth\u00e9lemy",
+                  "Latvia",
+                  "Cyprus",
+                  "Finland",
+                  "Switzerland",
+                  "Greece",
+                  "French Guiana",
+                  "Guyana",
+                  "Canada",
+                  "Australia",
+                  "Denmark",
+                  "Singapore",
+                  "Egypt",
+                  "Serbia",
+                  "Estonia",
+                  "South Korea",
+                  "Paraguay",
+                  "Macao SAR",
+                  "United States Minor Outlying Islands",
+                  "Sweden",
+                  "Chile",
+                  "Morocco",
+                  "Suriname",
+                  "Belgium",
+                  "North Macedonia",
+                  "Norway",
+                  "Portugal",
+                  "Belarus",
+                  "Saudi Arabia",
+                  "\u00c5land Islands",
+                  "Moldova",
+                  "South Africa",
+                  "French Southern and Antarctic Lands",
+                  "Ecuador",
+                  "Equatorial Guinea",
+                  "Mexico",
+                  "Bulgaria",
+                  "Colombia",
+                  "Croatia",
+                  "Venezuela",
+                  "Bahrain",
+                  "Italy",
+                  "France",
+                  "Israel",
+                  "Qatar",
+                  "Uruguay",
+                  "Oman",
+                  "Spain",
+                  "Liechtenstein",
+                  "Germany",
+                  "Netherlands",
+                  "Bolivia",
+                  "Slovenia",
+                  "Japan",
+                  "Brazil",
+                  "Ukraine",
+                  "Iceland",
+                  "Ireland",
+                  "Czechia",
+                  "Malta",
+                  "Poland",
+                  "Romania",
+                  "New Zealand",
+                  "Argentina",
+                  "United Kingdom",
+                  "US Virgin Islands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "MDPI AG",
+              "advertiserName": "Metals - Open Access Journal",
+              "advertiserUrl": "https://www.linkedin.com/company/76665324"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441682933",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782619225808,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BB",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AD",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:AG",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:BA",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:BQ",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:BZ",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:HT",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:KY",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:SV",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:TW",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.22172949002217296
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.4434589800443459
+                },
+                {
+                  "country": "urn:li:country:BS",
+                  "impressionPercentage": 0.4434589800443459
+                },
+                {
+                  "country": "urn:li:country:MQ",
+                  "impressionPercentage": 0.4434589800443459
+                },
+                {
+                  "country": "urn:li:country:PA",
+                  "impressionPercentage": 0.4434589800443459
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.4434589800443459
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.4434589800443459
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.6651884700665188
+                },
+                {
+                  "country": "urn:li:country:DO",
+                  "impressionPercentage": 0.6651884700665188
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.6651884700665188
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.6651884700665188
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.6651884700665188
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.8869179600886918
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.8869179600886918
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.8869179600886918
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.8869179600886918
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 1.1086474501108647
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 1.1086474501108647
+                },
+                {
+                  "country": "urn:li:country:JM",
+                  "impressionPercentage": 1.1086474501108647
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 1.1086474501108647
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 1.1086474501108647
+                },
+                {
+                  "country": "urn:li:country:CR",
+                  "impressionPercentage": 1.3303769401330376
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 1.3303769401330376
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 1.3303769401330376
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 1.5521064301552105
+                },
+                {
+                  "country": "urn:li:country:GT",
+                  "impressionPercentage": 1.5521064301552105
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 1.5521064301552105
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 1.5521064301552105
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 1.5521064301552105
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.7738359201773837
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 1.7738359201773837
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.7738359201773837
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 1.7738359201773837
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 2.882483370288248
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 3.3259423503325944
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 3.7694013303769403
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 4.878048780487805
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 15.299334811529933
+                }
+              ],
+              "latestImpressionAt": 1783050464891,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Europe",
+                  "United Arab Emirates"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "SYSTEM MEDIA ART SA ",
+              "advertiserName": "Metasteps",
+              "advertiserUrl": "https://www.linkedin.com/company/105414963"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441801933",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Meta Tech Events",
+              "advertiserName": "Meta-Tech Events LLC",
+              "advertiserUrl": "https://www.linkedin.com/company/89589105"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441468823",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Meta-IV Solutions Limited",
+              "advertiserName": "Meta4 Solutions",
+              "advertiserUrl": "https://www.linkedin.com/company/94795131"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441603573",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782616997498,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.6329113924050633
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.6329113924050633
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.6329113924050633
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.6329113924050633
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.6329113924050633
+                },
+                {
+                  "country": "urn:li:country:HT",
+                  "impressionPercentage": 0.6329113924050633
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.6329113924050633
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.6329113924050633
+                },
+                {
+                  "country": "urn:li:country:MD",
+                  "impressionPercentage": 1.2658227848101267
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 1.2658227848101267
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 1.2658227848101267
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 1.2658227848101267
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.8987341772151898
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 1.8987341772151898
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 1.8987341772151898
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 1.8987341772151898
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.1645569620253164
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 3.1645569620253164
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 5.69620253164557
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 7.594936708860759
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 7.594936708860759
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 24.68354430379747
+                }
+              ],
+              "latestImpressionAt": 1783044230287,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Europe",
+                  "United Arab Emirates"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "SYSTEM MEDIA ART SA ",
+              "advertiserName": "Metasteps",
+              "advertiserUrl": "https://www.linkedin.com/company/105414963"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441473823",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782618812611,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NI",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BS",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:BZ",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:GI",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:KY",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:MD",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:VI",
+                  "impressionPercentage": 0.31746031746031744
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:BA",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:DO",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:GD",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:GT",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:JM",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:PA",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:SV",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.6349206349206349
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:HT",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 1.2698412698412698
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 1.2698412698412698
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 1.5873015873015872
+                },
+                {
+                  "country": "urn:li:country:CR",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 2.2222222222222223
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 2.5396825396825395
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 2.5396825396825395
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.857142857142857
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 2.857142857142857
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 5.079365079365079
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 13.65079365079365
+                }
+              ],
+              "latestImpressionAt": 1782992755520,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Europe",
+                  "United Arab Emirates"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "SYSTEM MEDIA ART SA ",
+              "advertiserName": "Metasteps",
+              "advertiserUrl": "https://www.linkedin.com/company/105414963"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441656013",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "METALMECH ENGINEERING",
+              "advertiserName": "METALMECH ENGINEERING",
+              "advertiserUrl": "https://www.linkedin.com/company/28705760"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441637993",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782793574397,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 60.239955357142854
+                }
+              ],
+              "latestImpressionAt": 1783021864090,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Metamorphant GmbH",
+              "advertiserName": "Metamorphant GmbH",
+              "advertiserUrl": "https://www.linkedin.com/company/33189267"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462371184",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782738929685,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:GF",
+                  "impressionPercentage": 0.02159827213822894
+                },
+                {
+                  "country": "urn:li:country:GQ",
+                  "impressionPercentage": 0.02159827213822894
+                },
+                {
+                  "country": "urn:li:country:LI",
+                  "impressionPercentage": 0.02159827213822894
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.02159827213822894
+                },
+                {
+                  "country": "urn:li:country:MO",
+                  "impressionPercentage": 0.02159827213822894
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.02159827213822894
+                },
+                {
+                  "country": "urn:li:country:PF",
+                  "impressionPercentage": 0.02159827213822894
+                },
+                {
+                  "country": "urn:li:country:VI",
+                  "impressionPercentage": 0.02159827213822894
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.04319654427645788
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.04319654427645788
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.04319654427645788
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.06479481641468683
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.06479481641468683
+                },
+                {
+                  "country": "urn:li:country:GY",
+                  "impressionPercentage": 0.06479481641468683
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.06479481641468683
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.06479481641468683
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.08639308855291576
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.08639308855291576
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.08639308855291576
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.08639308855291576
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.08639308855291576
+                },
+                {
+                  "country": "urn:li:country:UY",
+                  "impressionPercentage": 0.08639308855291576
+                },
+                {
+                  "country": "urn:li:country:PY",
+                  "impressionPercentage": 0.1079913606911447
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.1079913606911447
+                },
+                {
+                  "country": "urn:li:country:SR",
+                  "impressionPercentage": 0.1079913606911447
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.1511879049676026
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.17278617710583152
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.19438444924406048
+                },
+                {
+                  "country": "urn:li:country:BO",
+                  "impressionPercentage": 0.2159827213822894
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.23758099352051837
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.2591792656587473
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 0.28077753779697623
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.3023758099352052
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.3023758099352052
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.32397408207343414
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.38876889848812096
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.4319654427645788
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.4535637149028078
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.49676025917926564
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.5399568034557235
+                },
+                {
+                  "country": "urn:li:country:VE",
+                  "impressionPercentage": 0.5399568034557235
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.6479481641468683
+                },
+                {
+                  "country": "urn:li:country:BH",
+                  "impressionPercentage": 0.6695464362850972
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.8423326133909287
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.8423326133909287
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 1.123110151187905
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.4470842332613392
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 1.6630669546436285
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 1.792656587473002
+                },
+                {
+                  "country": "urn:li:country:EC",
+                  "impressionPercentage": 1.8142548596112311
+                },
+                {
+                  "country": "urn:li:country:OM",
+                  "impressionPercentage": 1.8142548596112311
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 1.8142548596112311
+                },
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 1.8790496760259179
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.0086393088552916
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 2.1814254859611233
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 2.4838012958963285
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 2.570194384449244
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 2.699784017278618
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 2.872570194384449
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 3.3693304535637147
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 4.578833693304536
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 5.421166306695464
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 6.220302375809935
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 6.673866090712743
+                },
+                {
+                  "country": "urn:li:country:EG",
+                  "impressionPercentage": 6.825053995680346
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 7.386609071274298
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 7.667386609071274
+                }
+              ],
+              "latestImpressionAt": 1782946380385,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Peru",
+                  "Hong Kong SAR",
+                  "Slovakia",
+                  "Lithuania",
+                  "United States",
+                  "Luxembourg",
+                  "Hungary",
+                  "French Polynesia",
+                  "United Arab Emirates",
+                  "Saint Barth\u00e9lemy",
+                  "Latvia",
+                  "Cyprus",
+                  "Finland",
+                  "Switzerland",
+                  "Greece",
+                  "French Guiana",
+                  "Guyana",
+                  "Canada",
+                  "Australia",
+                  "Denmark",
+                  "Singapore",
+                  "Egypt",
+                  "Serbia",
+                  "Estonia",
+                  "South Korea",
+                  "Paraguay",
+                  "Macao SAR",
+                  "United States Minor Outlying Islands",
+                  "Sweden",
+                  "Chile",
+                  "Morocco",
+                  "Suriname",
+                  "Belgium",
+                  "North Macedonia",
+                  "Norway",
+                  "Portugal",
+                  "Belarus",
+                  "Saudi Arabia",
+                  "\u00c5land Islands",
+                  "Moldova",
+                  "South Africa",
+                  "French Southern and Antarctic Lands",
+                  "Ecuador",
+                  "Equatorial Guinea",
+                  "Mexico",
+                  "Bulgaria",
+                  "Colombia",
+                  "Croatia",
+                  "Venezuela",
+                  "Bahrain",
+                  "Italy",
+                  "France",
+                  "Israel",
+                  "Qatar",
+                  "Uruguay",
+                  "Oman",
+                  "Spain",
+                  "Liechtenstein",
+                  "Germany",
+                  "Netherlands",
+                  "Bolivia",
+                  "Slovenia",
+                  "Japan",
+                  "Brazil",
+                  "Ukraine",
+                  "Iceland",
+                  "Ireland",
+                  "Czechia",
+                  "Malta",
+                  "Poland",
+                  "Romania",
+                  "New Zealand",
+                  "Argentina",
+                  "United Kingdom",
+                  "US Virgin Islands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "MDPI AG",
+              "advertiserName": "Metals - Open Access Journal",
+              "advertiserUrl": "https://www.linkedin.com/company/76665324"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Meta&q=criteria&start=25&count=25",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?advertiser=Meta&q=criteria&start=75&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 50,
+        "total": 8787
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWOrlecJ34dLwsurWg=="
+    },
+    "status": 200
+  }
+}

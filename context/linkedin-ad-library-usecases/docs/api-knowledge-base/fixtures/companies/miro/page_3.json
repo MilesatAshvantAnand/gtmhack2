@@ -1,0 +1,1999 @@
+{
+  "captured_at": "2026-07-03T14:04:53.328710+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Miro",
+      "count": 25,
+      "q": "criteria",
+      "start": 50
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465595846",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465784226",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781595330794,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.011399908800729594
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.011399908800729594
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.364797081623347
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.46739626082991337
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.5471956224350205
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.9461924304605563
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.1285909712722297
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.1399908800729595
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 1.1399908800729595
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.2767897856817145
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.3451892384860922
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.4249886000911993
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 1.459188326493388
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.5047879616963065
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 1.6073871409028728
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.630186958504332
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.7897856817145463
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 2.3141814865481076
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 2.473780209758322
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 2.81577747378021
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 3.1577747378020975
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 3.6137710898312814
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 4.286365709074327
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 5.60875512995896
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 6.554947560419516
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 7.9685362517099865
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 8.18513451892385
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 9.450524395804834
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 11.878704970360237
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 13.896488828089375
+                }
+              ],
+              "latestImpressionAt": 1782667762298,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1436026483",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Miron Constrcution",
+              "advertiserName": "Miron Construction Co., Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/284608"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1436057503",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Miron Constrcution",
+              "advertiserName": "Miron Construction Co., Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/284608"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465784346",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781589939478,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.01120197154699227
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.14562563011089952
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.29125126022179904
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.35846308950375266
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.41447294723871403
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.4256749187857063
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.5488966058026212
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.660916321272544
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.6833202643665285
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.2210148986221574
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 1.2210148986221574
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.3330346140920801
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.4450543295620029
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.5010641872969643
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.5906799596729024
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 1.6802957320488405
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 2.161980508569508
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 2.3188081102274
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 2.3412120533213847
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 2.576453455808222
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 2.6212613419961914
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 3.0357342892349055
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 4.0215077853702255
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 6.530749411896494
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 8.491094432620141
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 10.85471042903551
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 12.658227848101266
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 13.106306709980956
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 15.749971995071132
+                }
+              ],
+              "latestImpressionAt": 1782670509188,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458041504",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Masco Canada Limited",
+              "advertiserName": "Mirolin",
+              "advertiserUrl": "https://www.linkedin.com/company/1619780"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465793856",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781606727943,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.02946375957572186
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.05892751915144372
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.3535651149086623
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.3535651149086623
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.44195639363582795
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.4714201532115498
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.5892751915144372
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.8249852681202121
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.9723040659988215
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.1785503830288744
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 1.296405421331762
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.4437242192103712
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 1.5910430170889807
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 1.8267530936947554
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.8856806128461991
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 2.0329994107248086
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 2.2097819681791395
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.8285209192692986
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.9169121979964645
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 2.946375957572186
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 3.1231585150265175
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 3.2704773129051268
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 3.2704773129051268
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 7.248084855627578
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 8.279316440777844
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 9.81143193871538
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 11.196228638774308
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 13.170300530347673
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 14.37831467295227
+                }
+              ],
+              "latestImpressionAt": 1782651142442,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465793916",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781591745895,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.4031620553359684
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.5691699604743083
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.5849802371541502
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.924901185770751
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 1.0909090909090908
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.1067193675889329
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.2806324110671936
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.3280632411067195
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.4308300395256917
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 1.4466403162055337
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.4940711462450593
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.4940711462450593
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 1.5731225296442688
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.6758893280632412
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.8102766798418972
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 2.2371541501976284
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 2.505928853754941
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 2.940711462450593
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 3.1462450592885376
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 3.367588932806324
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 4.189723320158103
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 5.391304347826087
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 6.521739130434782
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 6.640316205533597
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 7.359683794466403
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 10.276679841897232
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 11.723320158102768
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 15.486166007905139
+                }
+              ],
+              "latestImpressionAt": 1782670827607,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465700116",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465891836",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781599421898,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:KZ",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.3236664940445365
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.47902641118591405
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.5955463490419471
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.983946141895391
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.0745727602278612
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 1.15225271879855
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.2428793371310203
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.2558259968928016
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.320559295701709
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 1.3464526152252718
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.5406525116519938
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 1.6183324702226825
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.7089590885551527
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.7348524080787158
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.9031589849818746
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 2.3821853961677886
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 2.4857586742620406
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 2.5763852925945105
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 3.3920248575867427
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 3.3920248575867427
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 4.104091144484723
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 4.466597617814604
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 7.042982910409115
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 8.298808907301916
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 8.738995339202486
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 8.803728638011393
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 9.865354738477473
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 16.170378042465043
+                }
+              ],
+              "latestImpressionAt": 1782659978116,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465518046",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465872436",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781581955925,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.06064281382656155
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.06064281382656155
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.06064281382656155
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.2425712553062462
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.4851425106124924
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.5457853244390539
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.9096422073984233
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.9702850212249848
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.0915706488781078
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 1.1522134627046694
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 1.212856276531231
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.334141904184354
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 1.334141904184354
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 1.3947847180109156
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.4554275318374772
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.6373559733171619
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.304426925409339
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 2.4863553668890237
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 2.546998180715585
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.668283808368708
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 2.72892662219527
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 2.850212249848393
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 2.850212249848393
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 3.638568829593693
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 5.518496058217101
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 5.761067313523347
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 6.913280776228017
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 8.126137052759248
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 9.945421467556095
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 13.583990297149787
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 14.129775621588841
+                }
+              ],
+              "latestImpressionAt": 1782645545567,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465654936",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465744976",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781613632667,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.027159152634437807
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.027159152634437807
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.054318305268875614
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.13579576317218903
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.29875067897881585
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.32590983161325365
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.35306898424769145
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.35306898424769145
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.4073872895165671
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.8962520369364476
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.0320478001086366
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 1.0592069527430745
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.1135252580119501
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 1.276480173818577
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.8739815317762085
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 1.9282998370450841
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.955458989679522
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 1.9826181423139597
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 2.199891363389462
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.5258011950027157
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 2.7430744160782186
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 3.204780010863661
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 3.2862574687669746
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 3.3948940793047258
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 3.5850081477457905
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 7.414448669201521
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 8.473655621944596
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 9.315589353612168
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 9.478544269418794
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 11.787072243346008
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 17.490494296577946
+                }
+              ],
+              "latestImpressionAt": 1782644705121,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465755256",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781598635363,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:JO",
+                  "impressionPercentage": 0.013531799729364006
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.013531799729364006
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.13531799729364005
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.2706359945872801
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.41948579161028415
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.5277401894451962
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.5818673883626523
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.6359945872801083
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.6630581867388363
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.9742895805142084
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.3667117726657645
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 1.3937753721244925
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 1.5020297699594045
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.5696887686062246
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.6102841677943167
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.8267929634641407
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.0433017591339646
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 2.422192151556157
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 2.462787550744249
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 2.516914749661705
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 2.557510148849797
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 2.8687415426251692
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 2.990527740189445
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 3.071718538565629
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 6.170500676589986
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 9.161028416779432
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 10.703653585926928
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 12.760487144790257
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 13.193504736129904
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 13.572395128552097
+                }
+              ],
+              "latestImpressionAt": 1782679594003,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465625656",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1469500576",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465605686",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465775106",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781605228768,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.11028164234815066
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.4156769596199525
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.4241601628775025
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.4496097726501527
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.4496097726501527
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.5938242280285035
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.670173057346454
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.0773668137088566
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 1.2046148625721071
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.3997285374957584
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 1.4760773668137088
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.5524261961316592
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.5693926026467595
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.6118086189345098
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.7984390906006107
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 2.239565659993213
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 2.4007465218866644
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 2.494061757719715
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 2.646759416355616
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 2.689175432643366
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 2.841873091279267
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 3.4102477095351205
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 6.269087207329488
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 8.635900916185951
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 10.731252120800814
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 11.740753308449271
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 14.514760773668137
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 14.582626399728538
+                }
+              ],
+              "latestImpressionAt": 1782665330124,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1469510616",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465664206",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465683226",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1436440573",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Miros AS",
+              "advertiserName": "Miros - Real-time Ocean Insights",
+              "advertiserUrl": "https://www.linkedin.com/company/83246"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465744986",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781606829613,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.26022304832713755
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.37174721189591076
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.5947955390334573
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.5947955390334573
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.929368029739777
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.929368029739777
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.966542750929368
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.003717472118959
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.0780669144981412
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.0780669144981412
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.7843866171003717
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 1.821561338289963
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 2.1189591078066914
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.1561338289962824
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 2.2304832713754648
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 2.3048327137546467
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 2.379182156133829
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 2.5278810408921935
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 2.973977695167286
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 3.2342007434944238
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 4.312267657992565
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 5.5762081784386615
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 5.687732342007435
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 6.988847583643123
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 7.360594795539034
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 9.628252788104088
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 14.49814126394052
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 14.609665427509293
+                }
+              ],
+              "latestImpressionAt": 1782651741904,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "inBeat Agency",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465615856",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Realtimeboard, Inc.",
+              "advertiserName": "Miro",
+              "advertiserUrl": "https://www.linkedin.com/company/19029173"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Miro&q=criteria&start=25&count=25",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?advertiser=Miro&q=criteria&start=75&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 50,
+        "total": 4324
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWibdkJyuvmXr7+mYQ=="
+    },
+    "status": 200
+  }
+}

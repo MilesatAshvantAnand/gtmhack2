@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-07-03T14:20:40.700741+00:00",
+  "hypothesis": "Long advertiser query",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?q=criteria&advertiser=The+Very+Long+Advertiser+Name+That+Does+Not+Really+Exist+But+Might+Match+Something&start=0&count=5",
+    "params": {
+      "advertiser": "The Very Long Advertiser Name That Does Not Really Exist But Might Match Something",
+      "count": 5,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [],
+      "paging": {
+        "count": 5,
+        "links": [],
+        "start": 0,
+        "total": 0
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtaEXuV/TUYHAQaNVDQ=="
+    },
+    "status": 200
+  }
+}

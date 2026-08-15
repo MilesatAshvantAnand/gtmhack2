@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-03T13:50:14.395473+00:00",
+  "expected": "400 QUERY_PARAM_NOT_ALLOWED",
+  "request": {
+    "params": {
+      "advertiser": "Salesforce",
+      "count": 25,
+      "dateRange.start.day": "1",
+      "dateRange.start.month": "1",
+      "dateRange.start.year": "2025",
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "errorDetailType": "com.linkedin.common.error.BadRequest",
+      "errorDetails": {
+        "inputErrors": [
+          {
+            "code": "QUERY_PARAM_NOT_ALLOWED",
+            "input": {
+              "inputPath": {
+                "fieldPath": "dateRange.start.day"
+              }
+            }
+          },
+          {
+            "code": "QUERY_PARAM_NOT_ALLOWED",
+            "input": {
+              "inputPath": {
+                "fieldPath": "dateRange.start.month"
+              }
+            }
+          },
+          {
+            "code": "QUERY_PARAM_NOT_ALLOWED",
+            "input": {
+              "inputPath": {
+                "fieldPath": "dateRange.start.year"
+              }
+            }
+          }
+        ]
+      },
+      "message": "Multiple errors occurred during param validation. Please see errorDetails for more information.",
+      "status": 400
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtTRAImhOzcvJFKpzFg=="
+    },
+    "status": 400
+  }
+}

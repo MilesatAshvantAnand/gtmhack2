@@ -1,0 +1,48 @@
+{
+  "captured_at": "2026-07-03T13:52:41.599631+00:00",
+  "note": "Country-restricted advertiser query.",
+  "request": {
+    "params": {
+      "advertiser": "Salesforce",
+      "count": 25,
+      "countries": "US",
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "errorDetailType": "com.linkedin.common.error.BadRequest",
+      "errorDetails": {
+        "inputErrors": [
+          {
+            "code": "FIELD_INVALID",
+            "description": "ERROR :: /value :: array type is not backed by a DataList",
+            "input": {
+              "inputPath": {
+                "fieldPath": "countries/value"
+              }
+            }
+          },
+          {
+            "code": "FIELD_INVALID",
+            "description": "Invalid value for field; wrong type or other syntax error",
+            "input": {
+              "inputPath": {
+                "fieldPath": "countries/value"
+              }
+            }
+          }
+        ]
+      },
+      "message": "Multiple errors occurred during param validation. Please see errorDetails for more information.",
+      "status": 400
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtT0GQRxBOSNbhMjR/A=="
+    },
+    "status": 400
+  }
+}

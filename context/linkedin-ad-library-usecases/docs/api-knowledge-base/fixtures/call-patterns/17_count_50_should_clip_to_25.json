@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-07-03T14:18:21.317340+00:00",
+  "hypothesis": "count > 25 \u2014 clipped or rejected?",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=Personio&count=50&q=criteria&start=0",
+    "params": {
+      "advertiser": "Personio",
+      "count": 50,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "message": "Paging count cannot be greater than 25",
+      "status": 400
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZjMPVOVzOTwmvlrwg=="
+    },
+    "status": 400
+  }
+}

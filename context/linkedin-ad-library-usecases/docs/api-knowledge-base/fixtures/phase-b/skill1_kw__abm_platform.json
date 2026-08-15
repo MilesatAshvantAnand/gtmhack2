@@ -1,0 +1,1920 @@
+{
+  "captured_at": "2026-07-03T14:55:24.381796+00:00",
+  "hypothesis": "Skill 1 \u2014 'abm platform'",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?keyword=abm+platform&count=25&q=criteria&start=0",
+    "params": {
+      "count": 25,
+      "keyword": "abm platform",
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442039473",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782918553215,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 50.0
+                }
+              ],
+              "latestImpressionAt": 1782918553248,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462965604",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782901125698,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AM",
+                  "impressionPercentage": 0.04807692307692308
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.04807692307692308
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.04807692307692308
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 1.1538461538461537
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 10.576923076923077
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 24.278846153846153
+                }
+              ],
+              "latestImpressionAt": 1783055161975,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Denmark",
+                  "Sweden"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Precis Digital AB",
+              "advertiserName": "Precis",
+              "advertiserUrl": "https://www.linkedin.com/company/2597115"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484823146",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782914726060,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 5.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 10.0
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 20.0
+                }
+              ],
+              "latestImpressionAt": 1783027333931,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484827206",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782927541885,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 33.333333333333336
+                }
+              ],
+              "latestImpressionAt": 1783041912328,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Italy",
+                  "United States",
+                  "France",
+                  "India",
+                  "China",
+                  "Sweden",
+                  "Norway",
+                  "Spain",
+                  "Finland",
+                  "Germany",
+                  "Canada",
+                  "Australia",
+                  "Austria",
+                  "Japan",
+                  "New Zealand",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Uncountable, Inc.",
+              "advertiserName": "Uncountable Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/18351331"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484725046",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782921079705,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 14.285714285714286
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 14.285714285714286
+                }
+              ],
+              "latestImpressionAt": 1783026425772,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1485156496",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782938223686,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.03938558487593541
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.07877116975187082
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 0.07877116975187082
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.07877116975187082
+                },
+                {
+                  "country": "urn:li:country:TN",
+                  "impressionPercentage": 0.07877116975187082
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.19692792437967704
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.19692792437967704
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 0.19692792437967704
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.31508467900748327
+                },
+                {
+                  "country": "urn:li:country:GT",
+                  "impressionPercentage": 0.3544702638834187
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.3938558487593541
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 0.5120126033871603
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.6301693580149665
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.6301693580149665
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.6301693580149665
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.7089405277668374
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.7089405277668374
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.8270972823946435
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.9058684521465143
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 0.9452540370224498
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 1.2209531311539976
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 1.7723513194170935
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.8117369042930287
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 2.0874359984245765
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 2.126821583300512
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 4.923198109491926
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 5.277668373375344
+                }
+              ],
+              "latestImpressionAt": 1783055130789,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Peru",
+                  "Benelux",
+                  "DACH",
+                  "United States",
+                  "Spain",
+                  "Finland",
+                  "Philippines",
+                  "Thailand",
+                  "Canada",
+                  "Australia",
+                  "Denmark",
+                  "Tunisia",
+                  "El Salvador",
+                  "Guatemala",
+                  "Sweden",
+                  "Ireland",
+                  "Chile",
+                  "Morocco",
+                  "Norway",
+                  "Saudi Arabia",
+                  "Kenya",
+                  "South Africa",
+                  "Poland",
+                  "Mexico",
+                  "Colombia",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "LS Retail ehf",
+              "advertiserName": "LS Retail",
+              "advertiserUrl": "https://www.linkedin.com/company/902415"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484725866",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782928874673,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 33.333333333333336
+                }
+              ],
+              "latestImpressionAt": 1783004061023,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484724856",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782918239525,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 6.25
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 6.25
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 12.5
+                }
+              ],
+              "latestImpressionAt": 1783001959986,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442018393",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782923974211,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 10.0
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 10.0
+                },
+                {
+                  "country": "urn:li:country:IM",
+                  "impressionPercentage": 10.0
+                }
+              ],
+              "latestImpressionAt": 1783006023356,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442289873",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782917805602,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 50.0
+                }
+              ],
+              "latestImpressionAt": 1782917805626,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441949543",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782906570967,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 11.11111111111111
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 22.22222222222222
+                }
+              ],
+              "latestImpressionAt": 1783024152539,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484851606",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782914033005,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.23014959723820483
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 0.34522439585730724
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.46029919447640966
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.46029919447640966
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.8055235903337169
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 2.4165707710011506
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 14.039125431530495
+                }
+              ],
+              "latestImpressionAt": 1783054751061,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "North America",
+                  "Asia",
+                  "South America",
+                  "Europe",
+                  "Oceania"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "INFLU2 INC",
+              "advertiserName": "Influ2",
+              "advertiserUrl": "https://www.linkedin.com/company/18119989"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442200083",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782910520184,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 28.571428571428573
+                }
+              ],
+              "latestImpressionAt": 1783028926333,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441969523",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782908323966,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 11.11111111111111
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 11.11111111111111
+                }
+              ],
+              "latestImpressionAt": 1783027479672,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484707666",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782929905748,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 30.0
+                }
+              ],
+              "latestImpressionAt": 1783020505995,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484736246",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782937571576,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 50.0
+                }
+              ],
+              "latestImpressionAt": 1782938272743,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442008183",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782950144143,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 50.0
+                }
+              ],
+              "latestImpressionAt": 1782950144156,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462829034",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782901125139,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.050200803212851405
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 1.6566265060240963
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 10.542168674698795
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 25.200803212851405
+                }
+              ],
+              "latestImpressionAt": 1783055070116,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Denmark",
+                  "Sweden"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Precis Digital AB",
+              "advertiserName": "Precis",
+              "advertiserUrl": "https://www.linkedin.com/company/2597115"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484659016",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782924964646,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 6.25
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 12.5
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 12.5
+                }
+              ],
+              "latestImpressionAt": 1783021836358,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1485046796",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782940372822,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 50.0
+                }
+              ],
+              "latestImpressionAt": 1782940372840,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "APAC",
+                  "North America",
+                  "EMEA",
+                  "South America"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Ignitium LLC",
+              "advertiserName": "Ignitium: ABX Orchestration",
+              "advertiserUrl": "https://www.linkedin.com/company/6654308"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441979773",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782916206234,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 40.0
+                }
+              ],
+              "latestImpressionAt": 1782980179727,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442148403",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782937325771,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 20.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 20.0
+                }
+              ],
+              "latestImpressionAt": 1782993982063,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462865754",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782901133197,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.05159958720330237
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.05159958720330237
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 1.0319917440660475
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 9.442724458204335
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 25.02579979360165
+                }
+              ],
+              "latestImpressionAt": 1783054543180,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Denmark",
+                  "Sweden"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Precis Digital AB",
+              "advertiserName": "Precis",
+              "advertiserUrl": "https://www.linkedin.com/company/2597115"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442158733",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782918811855,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 12.5
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 25.0
+                }
+              ],
+              "latestImpressionAt": 1783030832886,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442118253",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782905934168,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 16.666666666666668
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 16.666666666666668
+                }
+              ],
+              "latestImpressionAt": 1783027655498,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "ShelfFlip Inc dba UserGems",
+              "advertiserName": "UserGems \ud83d\udc8e",
+              "advertiserUrl": "https://www.linkedin.com/company/18006806"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?q=criteria&count=25&start=25&keyword=abm%2Bplatform",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 221030
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVth1EiemljT47ojiSKg=="
+    },
+    "status": 200
+  }
+}

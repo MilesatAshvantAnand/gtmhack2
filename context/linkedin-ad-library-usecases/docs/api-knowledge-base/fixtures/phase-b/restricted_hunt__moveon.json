@@ -1,0 +1,70 @@
+{
+  "captured_at": "2026-07-03T14:55:01.294971+00:00",
+  "hypothesis": "Restricted-ad hunt \u2014 political",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=MoveOn&count=25&q=criteria&start=0",
+    "params": {
+      "advertiser": "MoveOn",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1426182486",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MoveOn Technologies Ltd",
+              "advertiserName": "MoveOn Cross-Border Trade",
+              "advertiserUrl": "https://www.linkedin.com/company/71652824"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1426212636",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MoveOn Technologies Ltd",
+              "advertiserName": "MoveOn Cross-Border Trade",
+              "advertiserUrl": "https://www.linkedin.com/company/71652824"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1433589536",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MoveOn Technologies Ltd",
+              "advertiserName": "MoveOn Cross-Border Trade",
+              "advertiserUrl": "https://www.linkedin.com/company/71652824"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [],
+        "start": 0,
+        "total": 3
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVthvlRUuB+rWEXZ3FLg=="
+    },
+    "status": 200
+  }
+}

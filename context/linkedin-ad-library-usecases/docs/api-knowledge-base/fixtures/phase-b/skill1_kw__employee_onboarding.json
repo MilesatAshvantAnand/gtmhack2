@@ -1,0 +1,615 @@
+{
+  "captured_at": "2026-07-03T14:55:18.617374+00:00",
+  "hypothesis": "Skill 1 \u2014 'employee onboarding'",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?keyword=employee+onboarding&count=25&q=criteria&start=0",
+    "params": {
+      "count": 25,
+      "keyword": "employee onboarding",
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442174563",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "The Tax Faculty NPC",
+              "advertiserName": "The Tax Faculty",
+              "advertiserUrl": "https://www.linkedin.com/company/18137187"
+            },
+            "type": "SPONSORED_UPDATE_EVENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462848284",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782913213845,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 5.565217391304348
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 28.52173913043478
+                }
+              ],
+              "latestImpressionAt": 1783054649112,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "Deutsch"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Deutschland",
+                  "\u00d6sterreich"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Tokenize.it GmbH",
+              "advertiserName": "Tokenize.it",
+              "advertiserUrl": "https://www.linkedin.com/company/89264030"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442320973",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Headcorn Gifts Trading Co LLC",
+              "advertiserName": "Headcorn",
+              "advertiserUrl": "https://www.linkedin.com/company/101399640"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463015414",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "INFEEDO TECH PRIVATE LIMITED",
+              "advertiserName": "inFeedo AI",
+              "advertiserUrl": "https://www.linkedin.com/company/6458664"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463151314",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "J28 ",
+              "advertiserName": "Brittany Hartley",
+              "advertiserUrl": "https://www.linkedin.com/in/brittanyhartley"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442361103",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Playroll",
+              "advertiserName": "Playroll",
+              "advertiserUrl": "https://www.linkedin.com/company/76167546"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484733946",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Modern Life Inc",
+              "advertiserName": "Modern Health",
+              "advertiserUrl": "https://www.linkedin.com/company/27158929"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484094376",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "FOUNDU HOLDINGS PTY LTD",
+              "advertiserName": "foundU",
+              "advertiserUrl": "https://www.linkedin.com/company/3794335"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484880306",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "CCH AUSTRALIA LIMITED",
+              "advertiserName": "Wolters Kluwer Australia",
+              "advertiserUrl": "https://www.linkedin.com/company/224387"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441959513",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782905126345,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.49813200498132004
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.8717310087173101
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.1623080116230802
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 1.45288501452885
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 1.45288501452885
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.6604400166044002
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.7849730178497303
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.86799501867995
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.4491490244914904
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 5.3964300539643
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 7.38895807388958
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 8.219178082191782
+                }
+              ],
+              "latestImpressionAt": 1783055004874,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Finland",
+                  "Germany",
+                  "Netherlands",
+                  "United States",
+                  "France",
+                  "Canada",
+                  "Australia",
+                  "Denmark",
+                  "Sweden",
+                  "Belgium",
+                  "Norway",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Basware Oyj",
+              "advertiserName": "Basware",
+              "advertiserUrl": "https://www.linkedin.com/company/8140"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441955633",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vozzo AI Labs",
+              "advertiserName": "Vozzo AI Labs",
+              "advertiserUrl": "https://www.linkedin.com/company/105417759"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442192203",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Playroll",
+              "advertiserName": "Playroll",
+              "advertiserUrl": "https://www.linkedin.com/company/76167546"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462879024",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Humaans Software UK Ltd",
+              "advertiserName": "Humaans",
+              "advertiserUrl": "https://www.linkedin.com/company/52130141"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484142346",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "FOUNDU HOLDINGS PTY LTD",
+              "advertiserName": "foundU",
+              "advertiserUrl": "https://www.linkedin.com/company/3794335"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463055644",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "ZENITHR for business solutions",
+              "advertiserName": "Zenithr",
+              "advertiserUrl": "https://www.linkedin.com/company/33202115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484895566",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Treeline",
+              "advertiserName": "Treeline",
+              "advertiserUrl": "https://www.linkedin.com/company/104104206"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484871196",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Mark Petruziello",
+              "advertiserName": "Mark Petruziello",
+              "advertiserUrl": "https://www.linkedin.com/in/markpetruziello"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442190813",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782914265533,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 50.0
+                }
+              ],
+              "latestImpressionAt": 1782914509015,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Denmark"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "twoday",
+              "advertiserName": "Twoday",
+              "advertiserUrl": "https://www.linkedin.com/company/90948449"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441979733",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Document360 Limited",
+              "advertiserName": "Document360",
+              "advertiserUrl": "https://www.linkedin.com/company/11381804"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462975884",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782906667596,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 3.992015968063872
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 19.760479041916167
+                }
+              ],
+              "latestImpressionAt": 1783055162275,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Austria"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Tokenize.it GmbH",
+              "advertiserName": "Tokenize.it",
+              "advertiserUrl": "https://www.linkedin.com/company/89264030"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463152864",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "General Dynamics Bath Iron Works",
+              "advertiserName": "General Dynamics - Bath Iron Works",
+              "advertiserUrl": "https://www.linkedin.com/company/22476"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484779636",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Treeline",
+              "advertiserName": "Treeline",
+              "advertiserUrl": "https://www.linkedin.com/company/104104206"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441984103",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Foley",
+              "advertiserName": "Foley",
+              "advertiserUrl": "https://www.linkedin.com/company/1872238"
+            },
+            "type": "SPONSORED_MESSAGE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442008663",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Document360 Limited",
+              "advertiserName": "Document360",
+              "advertiserUrl": "https://www.linkedin.com/company/11381804"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483843476",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Arkenstone Defense Inc.",
+              "advertiserName": "Arkenstone Defense",
+              "advertiserUrl": "https://www.linkedin.com/company/113349556"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?q=criteria&count=25&start=25&keyword=employee%2Bonboarding",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 17029
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVthzr4+alAM/BNgUeFA=="
+    },
+    "status": 200
+  }
+}

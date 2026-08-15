@@ -1,0 +1,1724 @@
+{
+  "captured_at": "2026-07-03T14:03:00.377175+00:00",
+  "request": {
+    "params": {
+      "advertiser": "HubSpot",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463035564",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911756342,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 31.48148148148148
+                }
+              ],
+              "latestImpressionAt": 1783030915429,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462986544",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911513967,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 46.41472868217054
+                }
+              ],
+              "latestImpressionAt": 1783035966796,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484826916",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Digital 22 Online Limited",
+              "advertiserName": "Avidly HubSpot Solutions",
+              "advertiserUrl": "https://www.linkedin.com/company/2406495"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463099894",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782912383963,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 26.923076923076923
+                }
+              ],
+              "latestImpressionAt": 1783033953832,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484748086",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Digital 22 Online Limited",
+              "advertiserName": "Avidly HubSpot Solutions",
+              "advertiserUrl": "https://www.linkedin.com/company/2406495"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463090774",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911790359,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 29.166666666666668
+                }
+              ],
+              "latestImpressionAt": 1783033866000,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463016484",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911604175,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 11.11111111111111
+                }
+              ],
+              "latestImpressionAt": 1783034018958,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462996754",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911584509,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 38.96848137535817
+                }
+              ],
+              "latestImpressionAt": 1783033498251,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462896924",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911821160,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 35.869565217391305
+                }
+              ],
+              "latestImpressionAt": 1783034819605,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463006744",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782916738612,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 40.30612244897959
+                }
+              ],
+              "latestImpressionAt": 1783054913184,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463100014",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911482992,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 30.90909090909091
+                }
+              ],
+              "latestImpressionAt": 1783032486406,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463006764",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782912371781,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 24.06417112299465
+                }
+              ],
+              "latestImpressionAt": 1783036698450,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463006784",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911456510,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 43.92324093816631
+                }
+              ],
+              "latestImpressionAt": 1783033666349,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462877434",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911391646,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 35.388739946380696
+                }
+              ],
+              "latestImpressionAt": 1783034622827,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462986534",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782912767849,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 30.303030303030305
+                }
+              ],
+              "latestImpressionAt": 1783034719138,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442339963",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911137333,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BJ",
+                  "impressionPercentage": 0.0045846323124885385
+                },
+                {
+                  "country": "urn:li:country:CD",
+                  "impressionPercentage": 0.0045846323124885385
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.0045846323124885385
+                },
+                {
+                  "country": "urn:li:country:DZ",
+                  "impressionPercentage": 0.0045846323124885385
+                },
+                {
+                  "country": "urn:li:country:GP",
+                  "impressionPercentage": 0.0045846323124885385
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.0045846323124885385
+                },
+                {
+                  "country": "urn:li:country:MC",
+                  "impressionPercentage": 0.0045846323124885385
+                },
+                {
+                  "country": "urn:li:country:PF",
+                  "impressionPercentage": 0.0045846323124885385
+                },
+                {
+                  "country": "urn:li:country:RE",
+                  "impressionPercentage": 0.0045846323124885385
+                },
+                {
+                  "country": "urn:li:country:RW",
+                  "impressionPercentage": 0.0045846323124885385
+                },
+                {
+                  "country": "urn:li:country:TN",
+                  "impressionPercentage": 0.0045846323124885385
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.009169264624977077
+                },
+                {
+                  "country": "urn:li:country:GA",
+                  "impressionPercentage": 0.009169264624977077
+                },
+                {
+                  "country": "urn:li:country:MQ",
+                  "impressionPercentage": 0.009169264624977077
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.018338529249954154
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 27.966257106180084
+                }
+              ],
+              "latestImpressionAt": 1783055203093,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "Fran\u00e7ais"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "HubSpot, Inc.",
+              "advertiserName": "HubSpot",
+              "advertiserUrl": "https://www.linkedin.com/company/68529"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442310043",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911147540,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CI",
+                  "impressionPercentage": 0.004847309743092583
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.004847309743092583
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 0.004847309743092583
+                },
+                {
+                  "country": "urn:li:country:GA",
+                  "impressionPercentage": 0.004847309743092583
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.004847309743092583
+                },
+                {
+                  "country": "urn:li:country:ML",
+                  "impressionPercentage": 0.004847309743092583
+                },
+                {
+                  "country": "urn:li:country:MQ",
+                  "impressionPercentage": 0.004847309743092583
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.004847309743092583
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.009694619486185167
+                },
+                {
+                  "country": "urn:li:country:GP",
+                  "impressionPercentage": 0.009694619486185167
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.009694619486185167
+                },
+                {
+                  "country": "urn:li:country:TN",
+                  "impressionPercentage": 0.014541929229277752
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 26.58264663111973
+                }
+              ],
+              "latestImpressionAt": 1783054933653,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "Fran\u00e7ais"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "HubSpot, Inc.",
+              "advertiserName": "HubSpot",
+              "advertiserUrl": "https://www.linkedin.com/company/68529"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462986554",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911512331,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 33.567251461988306
+                }
+              ],
+              "latestImpressionAt": 1783035116392,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484826946",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Digital 22 Online Limited",
+              "advertiserName": "Avidly HubSpot Solutions",
+              "advertiserUrl": "https://www.linkedin.com/company/2406495"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462967274",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782912100037,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 36.633663366336634
+                }
+              ],
+              "latestImpressionAt": 1783032370895,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463073824",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782932296801,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 15.0
+                }
+              ],
+              "latestImpressionAt": 1783029872338,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463083924",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911815488,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 36.094674556213015
+                }
+              ],
+              "latestImpressionAt": 1783035585128,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463006754",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911980032,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 28.235294117647058
+                }
+              ],
+              "latestImpressionAt": 1783036450078,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442329923",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911117226,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:MQ",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.0024753700678251398
+                },
+                {
+                  "country": "urn:li:country:MG",
+                  "impressionPercentage": 0.0024753700678251398
+                },
+                {
+                  "country": "urn:li:country:MR",
+                  "impressionPercentage": 0.0024753700678251398
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.0024753700678251398
+                },
+                {
+                  "country": "urn:li:country:SN",
+                  "impressionPercentage": 0.0024753700678251398
+                },
+                {
+                  "country": "urn:li:country:TN",
+                  "impressionPercentage": 0.0024753700678251398
+                },
+                {
+                  "country": "urn:li:country:BJ",
+                  "impressionPercentage": 0.0049507401356502796
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.0049507401356502796
+                },
+                {
+                  "country": "urn:li:country:CI",
+                  "impressionPercentage": 0.0049507401356502796
+                },
+                {
+                  "country": "urn:li:country:DZ",
+                  "impressionPercentage": 0.0049507401356502796
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0049507401356502796
+                },
+                {
+                  "country": "urn:li:country:GA",
+                  "impressionPercentage": 0.0049507401356502796
+                },
+                {
+                  "country": "urn:li:country:GP",
+                  "impressionPercentage": 0.0049507401356502796
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.007426110203475419
+                },
+                {
+                  "country": "urn:li:country:MC",
+                  "impressionPercentage": 0.007426110203475419
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.009901480271300559
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 37.02163473439279
+                }
+              ],
+              "latestImpressionAt": 1783055218426,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "Fran\u00e7ais"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "HubSpot, Inc.",
+              "advertiserName": "HubSpot",
+              "advertiserUrl": "https://www.linkedin.com/company/68529"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462976914",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911586615,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 33.06122448979592
+                }
+              ],
+              "latestImpressionAt": 1783035737975,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Systony",
+              "advertiserName": "Systony - HubSpot Elite Partner",
+              "advertiserUrl": "https://www.linkedin.com/company/1130063"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=HubSpot&q=criteria&start=25&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 2295
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWHX4hAzSeOkOwveCQ=="
+    },
+    "status": 200
+  }
+}

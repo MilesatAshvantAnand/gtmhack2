@@ -1,25 +1,25 @@
-# Hackathon credentials
+# Live credentials
 
-Store shared values only as repository Codespaces secrets. They are available to people with collaborator access who create a Codespace for this repository. Do not copy values into `.env`, source code, issues, pull requests, chat, or GitHub Actions.
+This shared repository is deliberately credential-free. Collaborators get source context and fixtures, not live provider credentials. Do not create repository, Codespaces, or Actions secrets here. Do not place values in `.env`, source code, issues, pull requests, or chat.
+
+The owner-only boundary cannot be enforced in this private repository on the current GitHub plan: required environment reviewers and private-repository branch protection are unavailable. A GitHub secret would therefore be usable by a collaborator who changes a workflow. Keep all live execution in either the repository owner's local environment or a second private runner repository to which the collaborator has no access.
 
 | Secret | Create it from | Required restriction |
 | --- | --- | --- |
-| `ZENABM_HACKATHON_TOKEN` | ZenABM API keys | Separate token; non-production account/data where possible; short expiry; revoke after the hackathon. |
-| `HUBSPOT_HACKATHON_TOKEN` | HubSpot test account or dedicated private app | Only scopes and objects used by the demo; no production-wide access. |
-| `UNIFYGTM_HACKATHON_API_KEY` | UnifyGTM | Separate project/key; lowest available scope, rate limit, and expiry. |
-| `OPENAI_HACKATHON_API_KEY` | Dedicated OpenAI API project, only if the app calls the API | Project budget and rate limits. This is not a Codex login credential. |
+| `ZENABM_ADMIN_TOKEN` | ZenABM API keys | Dedicated, revocable service token; only the trial-user read operations needed by the workflow. |
+| `HUBSPOT_TRIALS_TOKEN` | HubSpot private app or sandbox | Read trial-contact/company properties and create a draft/note/task only; no bulk send or unrelated CRM scopes. |
+| `UNIFYGTM_API_KEY` | UnifyGTM | Separate project/key with the narrowest scope, rate limit, and expiry available. |
+| `OPENAI_API_KEY` | Dedicated OpenAI API project, only if the app calls the API | Project budget and rate limits. This is not a Codex login credential. |
 
-GitHub access needs no stored key: use the collaborator invitation and GitHub's built-in `GITHUB_TOKEN` in any future workflow.
+GitHub access needs no stored key: collaborators use their own accounts, and workflows use the built-in `GITHUB_TOKEN`.
 
-## Add a shared secret
+## Owner-only execution
 
 1. Create a new hackathon-specific credential with the restrictions above.
-2. From a trusted local terminal in this repository, run `./scripts/set-codespaces-secrets.sh`.
-3. Each collaborator works in a Codespace created from this repository. Restart an existing Codespace after adding or changing a secret.
-4. Delete or revoke all hackathon credentials when the event ends.
+2. Store it only in the owner's local secret store/environment or in an owner-only deployment secret store.
+3. Keep production sends disabled. The first live run should create a draft/report only and require a human review before any email or LinkedIn message is sent.
+4. Revoke every hackathon credential after the event.
 
-Repository Codespaces secrets are deliberately a trust boundary: any collaborator who can run code in the Codespace can use its values. If that is too much access for a credential, do not add it here; expose a narrow server-side operation instead.
-
-An empty GitHub Actions environment named `hackathon` is also present for future approval-gated jobs. Do not put credentials there until `main` requires pull-request review and the environment requires your approval.
+If a hosted workflow is needed after the hackathon, create a separate private runner repository or upgrade the GitHub plan and enforce both protected `main` reviews and required environment approval before adding a secret.
 
 An empty GitHub Actions environment named `hackathon` is also present for future approval-gated jobs. Do not put credentials there until `main` requires pull-request review and the environment requires your approval.

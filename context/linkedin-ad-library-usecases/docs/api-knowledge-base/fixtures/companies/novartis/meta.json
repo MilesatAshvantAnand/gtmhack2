@@ -1,0 +1,10 @@
+{
+  "advertiser": "Novartis",
+  "captured_at": "2026-07-03T14:03:56.021474+00:00",
+  "hypothesis": "Pharma \u2014 high candidate for restricted ads (regulated industry)",
+  "pages_captured": 3,
+  "slug": "novartis",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 2817
+}

@@ -1,0 +1,1591 @@
+{
+  "captured_at": "2026-07-03T14:04:07.658101+00:00",
+  "request": {
+    "params": {
+      "advertiser": "BAE Systems",
+      "count": 25,
+      "q": "criteria",
+      "start": 25
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1469615306",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475866826",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475816746",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475775336",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782219069343,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.021043771043771045
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.021043771043771045
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.021043771043771045
+                },
+                {
+                  "country": "urn:li:country:PK",
+                  "impressionPercentage": 0.021043771043771045
+                },
+                {
+                  "country": "urn:li:country:JO",
+                  "impressionPercentage": 0.04208754208754209
+                },
+                {
+                  "country": "urn:li:country:LK",
+                  "impressionPercentage": 0.04208754208754209
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.04208754208754209
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.04208754208754209
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.06313131313131314
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.06313131313131314
+                },
+                {
+                  "country": "urn:li:country:GA",
+                  "impressionPercentage": 0.10521885521885523
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.10521885521885523
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.44191919191919193
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.5681818181818182
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.6734006734006734
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.9259259259259259
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 1.0101010101010102
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 1.5572390572390573
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 1.5782828282828283
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 1.6624579124579124
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 2.904040404040404
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 3.345959595959596
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 4.62962962962963
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 5.071548821548822
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 6.207912457912458
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 8.186026936026936
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 15.656565656565656
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 44.97053872053872
+                }
+              ],
+              "latestImpressionAt": 1782861688328,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Georgia",
+                  "Bahrain",
+                  "United States",
+                  "India",
+                  "Qatar",
+                  "Hungary",
+                  "Latvia",
+                  "Oman",
+                  "Cyprus",
+                  "Finland",
+                  "Greece",
+                  "Indonesia",
+                  "Malaysia",
+                  "T\u00fcrkiye",
+                  "Montenegro",
+                  "Thailand",
+                  "Canada",
+                  "Australia",
+                  "Singapore",
+                  "Japan",
+                  "Albania",
+                  "Brazil",
+                  "Ukraine",
+                  "Estonia",
+                  "South Korea",
+                  "Jordan",
+                  "Nigeria",
+                  "Sri Lanka",
+                  "Azerbaijan",
+                  "Chile",
+                  "North Macedonia",
+                  "Malta",
+                  "Saudi Arabia",
+                  "Kenya",
+                  "Bosnia and Herzegovina",
+                  "South Africa",
+                  "Poland",
+                  "Abu Dhabi Emirate, United Arab Emirates",
+                  "Romania",
+                  "Kosovo",
+                  "Bulgaria",
+                  "New Zealand",
+                  "Dubai, United Arab Emirates",
+                  "Colombia",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475904546",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782214758069,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.028425241614553724
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.028425241614553724
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.028425241614553724
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.05685048322910745
+                },
+                {
+                  "country": "urn:li:country:LK",
+                  "impressionPercentage": 0.05685048322910745
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.08527572484366117
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.08527572484366117
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.2274019329164298
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.3695281409891984
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.4832291074474133
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.5685048322910745
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.6537805571347356
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.7390562819783968
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 1.1654349061967026
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 1.250710631040364
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.4212620807276861
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 1.7055144968732234
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 2.0181921546333146
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 3.1267765776009098
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 3.9511085844229674
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 5.940875497441728
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 6.02615122228539
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 12.507106310403639
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 57.41898806139852
+                }
+              ],
+              "latestImpressionAt": 1782860985028,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Georgia",
+                  "Bahrain",
+                  "United States",
+                  "India",
+                  "Qatar",
+                  "Hungary",
+                  "Latvia",
+                  "Oman",
+                  "Cyprus",
+                  "Finland",
+                  "Greece",
+                  "Indonesia",
+                  "Malaysia",
+                  "T\u00fcrkiye",
+                  "Montenegro",
+                  "Thailand",
+                  "Canada",
+                  "Australia",
+                  "Singapore",
+                  "Japan",
+                  "Albania",
+                  "Brazil",
+                  "Ukraine",
+                  "Estonia",
+                  "South Korea",
+                  "Jordan",
+                  "Nigeria",
+                  "Sri Lanka",
+                  "Azerbaijan",
+                  "Chile",
+                  "North Macedonia",
+                  "Malta",
+                  "Saudi Arabia",
+                  "Kenya",
+                  "Bosnia and Herzegovina",
+                  "South Africa",
+                  "Poland",
+                  "Abu Dhabi Emirate, United Arab Emirates",
+                  "Romania",
+                  "Kosovo",
+                  "Bulgaria",
+                  "New Zealand",
+                  "Dubai, United Arab Emirates",
+                  "Colombia",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475715346",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782214729849,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:GA",
+                  "impressionPercentage": 0.02224694104560623
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.02224694104560623
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.02224694104560623
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.02224694104560623
+                },
+                {
+                  "country": "urn:li:country:PK",
+                  "impressionPercentage": 0.02224694104560623
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.02224694104560623
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.02224694104560623
+                },
+                {
+                  "country": "urn:li:country:LK",
+                  "impressionPercentage": 0.04449388209121246
+                },
+                {
+                  "country": "urn:li:country:AZ",
+                  "impressionPercentage": 0.11123470522803114
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.13348164627363737
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.3781979977753059
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.578420467185762
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.7119021134593994
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.978865406006674
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 1.1123470522803114
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 1.2013348164627364
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 1.2235817575083425
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 1.2680756395995552
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 1.668520578420467
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 1.8909899888765296
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 3.4482758620689653
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 4.9610678531701895
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 5.7397107897664075
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 8.32035595105673
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 21.24582869855395
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 44.76084538375973
+                }
+              ],
+              "latestImpressionAt": 1782861369334,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Georgia",
+                  "Bahrain",
+                  "United States",
+                  "India",
+                  "Qatar",
+                  "Hungary",
+                  "Latvia",
+                  "Oman",
+                  "Cyprus",
+                  "Finland",
+                  "Greece",
+                  "Indonesia",
+                  "Malaysia",
+                  "T\u00fcrkiye",
+                  "Montenegro",
+                  "Thailand",
+                  "Canada",
+                  "Australia",
+                  "Singapore",
+                  "Japan",
+                  "Albania",
+                  "Brazil",
+                  "Ukraine",
+                  "Estonia",
+                  "South Korea",
+                  "Jordan",
+                  "Nigeria",
+                  "Sri Lanka",
+                  "Azerbaijan",
+                  "Chile",
+                  "North Macedonia",
+                  "Malta",
+                  "Saudi Arabia",
+                  "Kenya",
+                  "Bosnia and Herzegovina",
+                  "South Africa",
+                  "Poland",
+                  "Abu Dhabi Emirate, United Arab Emirates",
+                  "Romania",
+                  "Kosovo",
+                  "Bulgaria",
+                  "New Zealand",
+                  "Dubai, United Arab Emirates",
+                  "Colombia",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1459135024",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Enhance Media",
+              "advertiserName": "BAE Systems",
+              "advertiserUrl": "https://www.linkedin.com/company/1882"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475824486",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782215299894,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.024894199651481205
+                },
+                {
+                  "country": "urn:li:country:JO",
+                  "impressionPercentage": 0.024894199651481205
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.024894199651481205
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.024894199651481205
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.024894199651481205
+                },
+                {
+                  "country": "urn:li:country:LK",
+                  "impressionPercentage": 0.04978839930296241
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.04978839930296241
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.07468259895444361
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.09957679860592482
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.27383619616629323
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.5227781926811053
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.5974607916355489
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.7468259895444361
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.846402788150361
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.8712969878018422
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 1.0704505850136918
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.4687577794373912
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 1.4936519790888723
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 2.4894199651481204
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 2.7383619616629327
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 3.3358227532984817
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 4.1075429424943986
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 5.277570326114016
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 12.920089619118745
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 60.76674134926562
+                }
+              ],
+              "latestImpressionAt": 1782858576352,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Georgia",
+                  "Bahrain",
+                  "United States",
+                  "India",
+                  "Qatar",
+                  "Hungary",
+                  "Latvia",
+                  "Oman",
+                  "Cyprus",
+                  "Finland",
+                  "Greece",
+                  "Indonesia",
+                  "Malaysia",
+                  "T\u00fcrkiye",
+                  "Montenegro",
+                  "Thailand",
+                  "Canada",
+                  "Australia",
+                  "Singapore",
+                  "Japan",
+                  "Albania",
+                  "Brazil",
+                  "Ukraine",
+                  "Estonia",
+                  "South Korea",
+                  "Jordan",
+                  "Nigeria",
+                  "Sri Lanka",
+                  "Azerbaijan",
+                  "Chile",
+                  "North Macedonia",
+                  "Malta",
+                  "Saudi Arabia",
+                  "Kenya",
+                  "Bosnia and Herzegovina",
+                  "South Africa",
+                  "Poland",
+                  "Abu Dhabi Emirate, United Arab Emirates",
+                  "Romania",
+                  "Kosovo",
+                  "Bulgaria",
+                  "New Zealand",
+                  "Dubai, United Arab Emirates",
+                  "Colombia",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1436957693",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1436918103",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475757186",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475816756",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475972106",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782219767276,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.02376990729736154
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.02376990729736154
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.02376990729736154
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.02376990729736154
+                },
+                {
+                  "country": "urn:li:country:LK",
+                  "impressionPercentage": 0.04753981459472308
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.04753981459472308
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.07130972189208462
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.09507962918944617
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.19015925837889233
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.2376990729736154
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.3565486094604231
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.6417874970287616
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.7368671262182077
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.7844069408129308
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 1.093415735678631
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 1.188495364868077
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.8065129545994771
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 1.9253624910862848
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 2.8286189683860234
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 3.684335631091039
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 4.112193962443547
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 6.061326360827192
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 7.083432374613739
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 14.404563822201093
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 52.34133586879011
+                }
+              ],
+              "latestImpressionAt": 1782862672932,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Georgia",
+                  "Bahrain",
+                  "United States",
+                  "India",
+                  "Qatar",
+                  "Hungary",
+                  "Latvia",
+                  "Oman",
+                  "Cyprus",
+                  "Finland",
+                  "Greece",
+                  "Indonesia",
+                  "Malaysia",
+                  "T\u00fcrkiye",
+                  "Montenegro",
+                  "Thailand",
+                  "Canada",
+                  "Australia",
+                  "Singapore",
+                  "Japan",
+                  "Albania",
+                  "Brazil",
+                  "Ukraine",
+                  "Estonia",
+                  "South Korea",
+                  "Jordan",
+                  "Nigeria",
+                  "Sri Lanka",
+                  "Azerbaijan",
+                  "Chile",
+                  "North Macedonia",
+                  "Malta",
+                  "Saudi Arabia",
+                  "Kenya",
+                  "Bosnia and Herzegovina",
+                  "South Africa",
+                  "Poland",
+                  "Abu Dhabi Emirate, United Arab Emirates",
+                  "Romania",
+                  "Kosovo",
+                  "Bulgaria",
+                  "New Zealand",
+                  "Dubai, United Arab Emirates",
+                  "Colombia",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475823726",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems PLC",
+              "advertiserName": "BAE Systems",
+              "advertiserUrl": "https://www.linkedin.com/company/1882"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1469505866",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461454554",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475736896",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1436977343",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475886326",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1475963516",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782214744347,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.004116581590647127
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.004116581590647127
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.004116581590647127
+                },
+                {
+                  "country": "urn:li:country:MU",
+                  "impressionPercentage": 0.004116581590647127
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.004116581590647127
+                },
+                {
+                  "country": "urn:li:country:OM",
+                  "impressionPercentage": 0.004116581590647127
+                },
+                {
+                  "country": "urn:li:country:PK",
+                  "impressionPercentage": 0.004116581590647127
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.008233163181294254
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.008233163181294254
+                },
+                {
+                  "country": "urn:li:country:NE",
+                  "impressionPercentage": 0.008233163181294254
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.01234974477194138
+                },
+                {
+                  "country": "urn:li:country:JO",
+                  "impressionPercentage": 0.016466326362588508
+                },
+                {
+                  "country": "urn:li:country:LK",
+                  "impressionPercentage": 0.016466326362588508
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.016466326362588508
+                },
+                {
+                  "country": "urn:li:country:AZ",
+                  "impressionPercentage": 0.020582907953235634
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.020582907953235634
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.020582907953235634
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.028816071134529886
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.1234974477194138
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.34579285361435863
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.5269224436028322
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.8233163181294253
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 1.140293100609254
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.2102749876502552
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 1.296723201053845
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 1.3461221801416103
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 1.6507492178494978
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 1.8318788078379713
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 2.041824468960975
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 3.671990778857237
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 4.35534332290466
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 4.602338218343488
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 5.936110653713157
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 11.641692738350073
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 57.19166803886053
+                }
+              ],
+              "latestImpressionAt": 1782862975683,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Georgia",
+                  "Bahrain",
+                  "United States",
+                  "India",
+                  "Qatar",
+                  "Hungary",
+                  "Latvia",
+                  "Oman",
+                  "Cyprus",
+                  "Finland",
+                  "Greece",
+                  "Indonesia",
+                  "Malaysia",
+                  "T\u00fcrkiye",
+                  "Montenegro",
+                  "Thailand",
+                  "Canada",
+                  "Australia",
+                  "Singapore",
+                  "Japan",
+                  "Albania",
+                  "Brazil",
+                  "Ukraine",
+                  "Estonia",
+                  "South Korea",
+                  "Jordan",
+                  "Nigeria",
+                  "Sri Lanka",
+                  "Azerbaijan",
+                  "Chile",
+                  "North Macedonia",
+                  "Malta",
+                  "Saudi Arabia",
+                  "Kenya",
+                  "Bosnia and Herzegovina",
+                  "South Africa",
+                  "Poland",
+                  "Abu Dhabi Emirate, United Arab Emirates",
+                  "Romania",
+                  "Kosovo",
+                  "Bulgaria",
+                  "New Zealand",
+                  "Dubai, United Arab Emirates",
+                  "Colombia",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461524854",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461484394",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461523884",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461336644",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1436957703",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=BAE%2BSystems&q=criteria&start=0&count=25",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?advertiser=BAE%2BSystems&q=criteria&start=50&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 25,
+        "total": 1626
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWXintwGvknJPYq1AQ=="
+    },
+    "status": 200
+  }
+}

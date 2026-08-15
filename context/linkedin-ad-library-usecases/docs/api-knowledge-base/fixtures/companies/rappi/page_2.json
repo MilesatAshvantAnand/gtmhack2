@@ -1,0 +1,2567 @@
+{
+  "captured_at": "2026-07-03T14:05:50.524135+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Rappi",
+      "count": 25,
+      "q": "criteria",
+      "start": 25
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1444823224",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1780905102225,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 20.80200501253133
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 33.583959899749374
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 45.6140350877193
+                }
+              ],
+              "latestImpressionAt": 1782077421793,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1320682674",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1780320448747,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AD",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:CG",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:GN",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:GP",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:PM",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:RE",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 0.00524026620552324
+                },
+                {
+                  "country": "urn:li:country:CI",
+                  "impressionPercentage": 0.01048053241104648
+                },
+                {
+                  "country": "urn:li:country:GA",
+                  "impressionPercentage": 0.01048053241104648
+                },
+                {
+                  "country": "urn:li:country:MG",
+                  "impressionPercentage": 0.01048053241104648
+                },
+                {
+                  "country": "urn:li:country:NC",
+                  "impressionPercentage": 0.01048053241104648
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.015720798616569723
+                },
+                {
+                  "country": "urn:li:country:AO",
+                  "impressionPercentage": 0.015720798616569723
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.015720798616569723
+                },
+                {
+                  "country": "urn:li:country:SN",
+                  "impressionPercentage": 0.015720798616569723
+                },
+                {
+                  "country": "urn:li:country:TG",
+                  "impressionPercentage": 0.015720798616569723
+                },
+                {
+                  "country": "urn:li:country:MC",
+                  "impressionPercentage": 0.02096106482209296
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.026201331027616202
+                },
+                {
+                  "country": "urn:li:country:MQ",
+                  "impressionPercentage": 0.026201331027616202
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.03144159723313945
+                },
+                {
+                  "country": "urn:li:country:DZ",
+                  "impressionPercentage": 0.03144159723313945
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.036681863438662685
+                },
+                {
+                  "country": "urn:li:country:TN",
+                  "impressionPercentage": 0.04192212964418592
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.07336372687732537
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.12052612272703453
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.14672745375465074
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 99.22968086778809
+                }
+              ],
+              "latestImpressionAt": 1781737318619,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "Fran\u00e7ais"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Pays-Bas",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458370824",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781690379715,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 21.463414634146343
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 25.853658536585368
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 52.68292682926829
+                }
+              ],
+              "latestImpressionAt": 1782091269797,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1307711224",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779371508001,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 24.489795918367346
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 36.106750392464676
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 39.403453689167975
+                }
+              ],
+              "latestImpressionAt": 1782068463669,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1305310584",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781688921013,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:RE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:AM",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:BA",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:CI",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:EC",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:EG",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:GA",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:GH",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:GP",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:JO",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:LB",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:MG",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:SD",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:TD",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 0.0112943302462164
+                },
+                {
+                  "country": "urn:li:country:AZ",
+                  "impressionPercentage": 0.0225886604924328
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.0225886604924328
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0225886604924328
+                },
+                {
+                  "country": "urn:li:country:NP",
+                  "impressionPercentage": 0.0225886604924328
+                },
+                {
+                  "country": "urn:li:country:MC",
+                  "impressionPercentage": 0.0338829907386492
+                },
+                {
+                  "country": "urn:li:country:TN",
+                  "impressionPercentage": 0.0338829907386492
+                },
+                {
+                  "country": "urn:li:country:RU",
+                  "impressionPercentage": 0.056471651231082
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 16.602665461938106
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 34.65100519539191
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 48.21549582109781
+                }
+              ],
+              "latestImpressionAt": 1782083529680,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1313086494",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779873106765,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.018341892883345562
+                },
+                {
+                  "country": "urn:li:country:DJ",
+                  "impressionPercentage": 0.018341892883345562
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.018341892883345562
+                },
+                {
+                  "country": "urn:li:country:MZ",
+                  "impressionPercentage": 0.018341892883345562
+                },
+                {
+                  "country": "urn:li:country:RU",
+                  "impressionPercentage": 0.018341892883345562
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 0.018341892883345562
+                },
+                {
+                  "country": "urn:li:country:NP",
+                  "impressionPercentage": 0.036683785766691124
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.055025678650036686
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.07336757153338225
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 11.335289801907557
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 37.252384446074835
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 51.13719735876742
+                }
+              ],
+              "latestImpressionAt": 1782163849945,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1444783024",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1780906966723,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 27.559055118110237
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 35.43307086614173
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 37.00787401574803
+                }
+              ],
+              "latestImpressionAt": 1782073863678,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1306413594",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779373554025,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 16.8609865470852
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 38.29596412556054
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 44.84304932735426
+                }
+              ],
+              "latestImpressionAt": 1782071212714,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1311487084",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779873454453,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 7.6923076923076925
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 8.617698091382302
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 83.68999421631001
+                }
+              ],
+              "latestImpressionAt": 1782163832453,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1312386344",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779872461757,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.09930486593843098
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 24.32969215491559
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 30.486593843098312
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 45.08440913604767
+                }
+              ],
+              "latestImpressionAt": 1782156224213,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461680114",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782396995083,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.2958579881656805
+                },
+                {
+                  "country": "urn:li:country:BA",
+                  "impressionPercentage": 0.2958579881656805
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.2958579881656805
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.2958579881656805
+                },
+                {
+                  "country": "urn:li:country:ME",
+                  "impressionPercentage": 0.2958579881656805
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.2958579881656805
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.591715976331361
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.591715976331361
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.591715976331361
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.591715976331361
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.591715976331361
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.591715976331361
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.8875739644970414
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.8875739644970414
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.8875739644970414
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.8875739644970414
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.8875739644970414
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.183431952662722
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 1.183431952662722
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 1.183431952662722
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 1.4792899408284024
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 2.0710059171597632
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 2.662721893491124
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 4.437869822485207
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 6.804733727810651
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 12.721893491124261
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 16.272189349112427
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 17.75147928994083
+                }
+              ],
+              "latestImpressionAt": 1783054245474,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_INMAILS"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1307613564",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779415799619,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.08103727714748785
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.4862236628849271
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 99.3517017828201
+                }
+              ],
+              "latestImpressionAt": 1781248644550,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "Deutsch"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Deutschland",
+                  "Niederlande",
+                  "Frankreich"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1312986464",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779889719061,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.14064697609001406
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 26.441631504922643
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 31.364275668073137
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 42.05344585091421
+                }
+              ],
+              "latestImpressionAt": 1782163905664,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1311486764",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779873036663,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.1404494382022472
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 25.702247191011235
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 33.28651685393258
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 40.87078651685393
+                }
+              ],
+              "latestImpressionAt": 1782144184605,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458312474",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781701748751,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 21.21212121212121
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 37.37373737373738
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 41.41414141414141
+                }
+              ],
+              "latestImpressionAt": 1782068596059,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1310986844",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779873419969,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 0.020445716622367615
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.020445716622367615
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.020445716622367615
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.020445716622367615
+                },
+                {
+                  "country": "urn:li:country:SV",
+                  "impressionPercentage": 0.020445716622367615
+                },
+                {
+                  "country": "urn:li:country:UG",
+                  "impressionPercentage": 0.020445716622367615
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.06133714986710284
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 10.427315477407483
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 37.02719280310775
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 52.36148026988346
+                }
+              ],
+              "latestImpressionAt": 1782164228748,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1311786844",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779873184969,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.032144005143040826
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 3.2144005143040824
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 3.6001285760205723
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 93.1533269045323
+                }
+              ],
+              "latestImpressionAt": 1782155207193,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461509494",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782393092983,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.303951367781155
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.303951367781155
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.303951367781155
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.303951367781155
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.303951367781155
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.303951367781155
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.303951367781155
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.303951367781155
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.60790273556231
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.60790273556231
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.60790273556231
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.60790273556231
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.60790273556231
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.60790273556231
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.9118541033434651
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.9118541033434651
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 0.9118541033434651
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.9118541033434651
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.9118541033434651
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 1.21580547112462
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 1.5197568389057752
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 1.5197568389057752
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 1.5197568389057752
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 6.990881458966565
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 7.2948328267477205
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 13.373860182370821
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 14.893617021276595
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 18.84498480243161
+                }
+              ],
+              "latestImpressionAt": 1783053937318,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Europe"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_INMAILS"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458240794",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781690899849,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 17.419354838709676
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 27.741935483870968
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 54.193548387096776
+                }
+              ],
+              "latestImpressionAt": 1782091393153,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1307513424",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779369194814,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 15.963302752293577
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 39.174311926605505
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 44.77064220183486
+                }
+              ],
+              "latestImpressionAt": 1782068855597,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1313381884",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779871974339,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.08643042350907519
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 23.59550561797753
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 30.59636992221262
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 45.721694036300775
+                }
+              ],
+              "latestImpressionAt": 1782163969634,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1444835644",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1780922952725,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.06443298969072164
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.06443298969072164
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 29.188144329896907
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 34.40721649484536
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 36.27577319587629
+                }
+              ],
+              "latestImpressionAt": 1782163961858,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458290714",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781689142247,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 21.6
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 28.0
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 50.4
+                }
+              ],
+              "latestImpressionAt": 1782089476093,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1311686124",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779876767380,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.15772870662460567
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 23.501577287066247
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 33.753943217665615
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 42.586750788643535
+                }
+              ],
+              "latestImpressionAt": 1781462159935,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1312186484",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779873163381,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 5.444964871194379
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 11.592505854800937
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 82.96252927400468
+                }
+              ],
+              "latestImpressionAt": 1782158442632,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Netherlands",
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Rappit B.V.",
+              "advertiserName": "Rappit",
+              "advertiserUrl": "https://www.linkedin.com/company/1652705"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Rappi&q=criteria&start=0&count=25",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?advertiser=Rappi&q=criteria&start=50&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 25,
+        "total": 740
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWwDvdNMtyx6IyeThw=="
+    },
+    "status": 200
+  }
+}

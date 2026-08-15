@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-07-03T14:18:34.050285+00:00",
+  "hypothesis": "Negative start",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=Personio&start=-1&q=criteria&count=5",
+    "params": {
+      "advertiser": "Personio",
+      "count": 5,
+      "q": "criteria",
+      "start": -1
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "message": "start/count parameters must be non-negative",
+      "status": 400
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZmOlHwg+e2P7gPnPw=="
+    },
+    "status": 400
+  }
+}

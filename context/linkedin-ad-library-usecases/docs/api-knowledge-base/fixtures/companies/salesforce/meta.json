@@ -1,0 +1,10 @@
+{
+  "advertiser": "Salesforce",
+  "captured_at": "2026-07-03T13:49:39.703983+00:00",
+  "hypothesis": "US-headquartered giant, expect coverage=none for many ads",
+  "pages_captured": 3,
+  "slug": "salesforce",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 9403
+}

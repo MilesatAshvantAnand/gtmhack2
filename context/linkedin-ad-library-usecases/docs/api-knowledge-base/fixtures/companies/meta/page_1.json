@@ -1,0 +1,1032 @@
+{
+  "captured_at": "2026-07-03T14:03:21.053654+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Meta",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484864896",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Metal Clearinghouse",
+              "advertiserName": "Metal Clearinghouse",
+              "advertiserUrl": "https://www.linkedin.com/company/102771853"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484677156",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MetaCTO",
+              "advertiserName": "Metacto",
+              "advertiserUrl": "https://www.linkedin.com/company/99325179"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462964014",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782894808405,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 28.372093023255815
+                }
+              ],
+              "latestImpressionAt": 1783054956638,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462844164",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782894414265,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.2840909090909091
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.5681818181818182
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 10.227272727272727
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 11.079545454545455
+                }
+              ],
+              "latestImpressionAt": 1783054063598,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Nordics"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462864174",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782894217542,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:FO",
+                  "impressionPercentage": 0.18832391713747645
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.3182674199623352
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 4.519774011299435
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 12.429378531073446
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 21.657250470809792
+                }
+              ],
+              "latestImpressionAt": 1783054179703,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Nordics"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463003214",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782894343084,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 19.714285714285715
+                }
+              ],
+              "latestImpressionAt": 1783055360116,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462973374",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782894200151,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.10857763300760044
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 25.1900108577633
+                }
+              ],
+              "latestImpressionAt": 1783055514449,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462993424",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463080304",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462827404",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782894944707,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 22.36024844720497
+                }
+              ],
+              "latestImpressionAt": 1783055265493,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462827454",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463032244",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782893579847,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 29.535864978902953
+                }
+              ],
+              "latestImpressionAt": 1783055461028,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Italy"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463032344",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782894875971,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.37453183520599254
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 28.46441947565543
+                }
+              ],
+              "latestImpressionAt": 1783055570132,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462964024",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462964004",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782893518389,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.0657193605683837
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 1.2433392539964476
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 8.703374777975133
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 15.452930728241563
+                }
+              ],
+              "latestImpressionAt": 1783055543093,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Nordics"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462963994",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782893849562,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 25.953389830508474
+                }
+              ],
+              "latestImpressionAt": 1783054596671,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462884094",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782893716672,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IS",
+                  "impressionPercentage": 0.0949667616334283
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.3798670465337132
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.5698005698005698
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 1.6144349477682811
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 9.116809116809117
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 15.859449192782526
+                }
+              ],
+              "latestImpressionAt": 1783055492263,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Nordics"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442166953",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "IDC MEA FZ LLC",
+              "advertiserName": "IDC META Events",
+              "advertiserUrl": "https://www.linkedin.com/company/83513163"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463032284",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462943384",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462923624",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782896207778,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 24.38423645320197
+                }
+              ],
+              "latestImpressionAt": 1783054940968,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462923604",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442176903",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "IDC MEA FZ LLC",
+              "advertiserName": "IDC META Events",
+              "advertiserUrl": "https://www.linkedin.com/company/83513163"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463042114",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "TBT MARKETING LIMITED",
+              "advertiserName": "Lenovo Partners \u2013 Europe & META",
+              "advertiserUrl": "https://www.linkedin.com/company/10275622"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442212803",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Metadados Assessoria e Sistemas",
+              "advertiserName": "Metadados",
+              "advertiserUrl": "https://www.linkedin.com/company/1124780"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Meta&q=criteria&start=25&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 8787
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWMYYUDX/sGJc/0Ziw=="
+    },
+    "status": 200
+  }
+}

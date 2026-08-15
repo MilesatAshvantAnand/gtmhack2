@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-07-03T14:18:07.867815+00:00",
+  "hypothesis": "Single-char keyword",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?keyword=a&q=criteria&count=5&start=0",
+    "params": {
+      "count": 5,
+      "keyword": "a",
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [],
+      "paging": {
+        "count": 5,
+        "links": [],
+        "start": 0,
+        "total": 0
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZf/ExaZmG+hRB+wzw=="
+    },
+    "status": 200
+  }
+}

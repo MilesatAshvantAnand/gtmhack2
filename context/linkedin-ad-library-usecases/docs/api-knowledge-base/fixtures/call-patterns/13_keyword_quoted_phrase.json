@@ -1,0 +1,237 @@
+{
+  "captured_at": "2026-07-03T14:18:03.695682+00:00",
+  "hypothesis": "Quoted phrase in keyword \u2014 treated as one term?",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?keyword=%22product+management%22&q=criteria&count=5&start=0",
+    "params": {
+      "count": 5,
+      "keyword": "\"product management\"",
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463293914",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Junping Du",
+              "advertiserName": "Junping Du",
+              "advertiserUrl": "https://www.linkedin.com/in/junping-du"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442313993",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782944472002,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 9.649122807017545
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 15.789473684210526
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 24.56140350877193
+                }
+              ],
+              "latestImpressionAt": 1782945226238,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Berlin, Germany",
+                  "Italy",
+                  "France",
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "SHELLONBACK SRL",
+              "advertiserName": "PromptOps - The Workspace for CLI AI Coding Agents",
+              "advertiserUrl": "https://www.linkedin.com/company/126654084"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442214743",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "CPS HR Consulting",
+              "advertiserName": "CPS HR Consulting",
+              "advertiserUrl": "https://www.linkedin.com/company/2340418"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442363923",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Life Sciences and Technology Consulting",
+              "advertiserName": "Heeda Jafarishahvarlu",
+              "advertiserUrl": "https://www.linkedin.com/in/heeda-jafarishahvarlu-3ba142235"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442334173",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782949735222,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.07575757575757576
+                }
+              ],
+              "latestImpressionAt": 1783055006088,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Slovakia",
+                  "Lithuania",
+                  "Sweden",
+                  "Hungary",
+                  "Latvia",
+                  "Czechia",
+                  "Malta",
+                  "Norway",
+                  "Cyprus",
+                  "Finland",
+                  "Greece",
+                  "Poland",
+                  "Denmark",
+                  "Romania",
+                  "Austria",
+                  "Bulgaria",
+                  "Slovenia",
+                  "Croatia",
+                  "United Kingdom",
+                  "Estonia"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "FLOWX.AI, Inc",
+              "advertiserName": "FlowX.AI",
+              "advertiserUrl": "https://www.linkedin.com/company/70097887"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 5,
+        "links": [
+          {
+            "href": "/rest/adLibrary?q=criteria&count=5&start=5&keyword=%22product%2Bmanagement%22",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 410223
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZe1KMkPs/V2UGidNw=="
+    },
+    "status": 200
+  }
+}

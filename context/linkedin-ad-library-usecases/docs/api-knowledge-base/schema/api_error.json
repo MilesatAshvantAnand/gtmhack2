@@ -1,0 +1,162 @@
+{
+  "$defs": {
+    "ErrorDetails": {
+      "additionalProperties": true,
+      "properties": {
+        "inputErrors": {
+          "items": {
+            "$ref": "#/$defs/InputError"
+          },
+          "title": "Inputerrors",
+          "type": "array"
+        }
+      },
+      "required": [
+        "inputErrors"
+      ],
+      "title": "ErrorDetails",
+      "type": "object"
+    },
+    "InputError": {
+      "additionalProperties": true,
+      "properties": {
+        "code": {
+          "description": "QUERY_PARAM_NOT_ALLOWED | FIELD_INVALID",
+          "title": "Code",
+          "type": "string"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Description"
+        },
+        "input": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/InputErrorLocation"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "code"
+      ],
+      "title": "InputError",
+      "type": "object"
+    },
+    "InputErrorLocation": {
+      "additionalProperties": true,
+      "properties": {
+        "inputPath": {
+          "$ref": "#/$defs/InputErrorPath"
+        }
+      },
+      "required": [
+        "inputPath"
+      ],
+      "title": "InputErrorLocation",
+      "type": "object"
+    },
+    "InputErrorPath": {
+      "additionalProperties": true,
+      "properties": {
+        "fieldPath": {
+          "title": "Fieldpath",
+          "type": "string"
+        }
+      },
+      "required": [
+        "fieldPath"
+      ],
+      "title": "InputErrorPath",
+      "type": "object"
+    }
+  },
+  "$id": "https://linkedin-ad-library-api.local/schema/api_error.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "description": "Error response \u2014 400/401/404/426/429.",
+  "properties": {
+    "code": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "EXPIRED_ACCESS_TOKEN | NONEXISTENT_VERSION | RESOURCE_NOT_FOUND | ILLEGAL_ARGUMENT | ...",
+      "title": "Code"
+    },
+    "errorDetailType": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Errordetailtype"
+    },
+    "errorDetails": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ErrorDetails"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "message": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Message"
+    },
+    "serviceErrorCode": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "e.g. 65602 for EXPIRED_ACCESS_TOKEN",
+      "title": "Serviceerrorcode"
+    },
+    "status": {
+      "title": "Status",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "status"
+  ],
+  "title": "ApiError",
+  "type": "object"
+}

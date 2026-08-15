@@ -1,0 +1,102 @@
+{
+  "captured_at": "2026-07-03T14:17:46.009794+00:00",
+  "hypothesis": "Advertiser with & \u2014 url encoding test",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=AT%26T&q=criteria&count=5&start=0",
+    "params": {
+      "advertiser": "AT&T",
+      "count": 5,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463115354",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "T-Mobile USA, Inc.",
+              "advertiserName": "T-Mobile For Business",
+              "advertiserUrl": "https://www.linkedin.com/company/6394795"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463202074",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "T-Mobile USA, Inc.",
+              "advertiserName": "T-Mobile For Business",
+              "advertiserUrl": "https://www.linkedin.com/company/6394795"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484907556",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "M&T Bank Corporation",
+              "advertiserName": "M&T Bank",
+              "advertiserUrl": "https://www.linkedin.com/company/164798"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463270724",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "T-Mobile USA, Inc.",
+              "advertiserName": "T-Mobile For Business",
+              "advertiserUrl": "https://www.linkedin.com/company/6394795"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1485100976",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "M&T Bank Corporation",
+              "advertiserName": "M&T Bank",
+              "advertiserUrl": "https://www.linkedin.com/company/164798"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 5,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=AT%26T&q=criteria&count=5&start=5",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 139369
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZaqsWBufiTJ/EW2tg=="
+    },
+    "status": 200
+  }
+}

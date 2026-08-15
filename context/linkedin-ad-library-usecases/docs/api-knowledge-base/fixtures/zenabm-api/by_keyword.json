@@ -1,0 +1,35 @@
+{
+  "data": {
+    "ads": [
+      {
+        "adId": "1442648153",
+        "adUrl": "https://www.linkedin.com/ad-library/detail/1442648153",
+        "isRestricted": false,
+        "type": "SPONSORED_STATUS_UPDATE",
+        "advertiser": {
+          "name": "Personio",
+          "url": "https://www.linkedin.com/company/10180448",
+          "companyId": "10180448",
+          "payer": "Personio SE & Co. KG"
+        },
+        "statistics": null,
+        "targeting": []
+      }
+    ],
+    "advertisers": [
+      {
+        "name": "Personio",
+        "url": "https://www.linkedin.com/company/10180448",
+        "companyId": "10180448",
+        "adCount": 12
+      }
+    ],
+    "total": 410199,
+    "scanned": 25,
+    "returned": 1,
+    "truncated": true
+  },
+  "meta": {
+    "timestamp": "2026-07-12T12:00:00.000Z"
+  }
+}

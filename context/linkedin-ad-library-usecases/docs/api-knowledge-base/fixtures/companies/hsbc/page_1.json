@@ -1,0 +1,651 @@
+{
+  "captured_at": "2026-07-03T14:04:23.470526+00:00",
+  "request": {
+    "params": {
+      "advertiser": "HSBC",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441940133",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "HeyHuman",
+              "advertiserName": "HSBC Innovation Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/93338773"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483762016",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "US MEDIA CONSULTING LLC",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480509636",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "US MEDIA CONSULTING LLC",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483741716",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782883430113,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 14.775725593667547
+                }
+              ],
+              "latestImpressionAt": 1783055184680,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461832964",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782530590442,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.7232851143257116
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 1.4232384507699487
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 1.6098926738217452
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 1.6098926738217452
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 6.696220251983201
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 11.59589360709286
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 12.76248250116659
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 23.355109659356042
+                }
+              ],
+              "latestImpressionAt": 1783055182233,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Hong Kong SAR",
+                  "Washington DC-Baltimore Area",
+                  "Boston, MA",
+                  "France",
+                  "India",
+                  "Austin, TX",
+                  "San Francisco, CA",
+                  "Germany",
+                  "Los Angeles, CA",
+                  "Houston, TX",
+                  "Singapore",
+                  "Mexico",
+                  "New York, United States",
+                  "United Kingdom",
+                  "Miami, FL"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441756123",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DENTSU ONE PRIVATE LIMITED",
+              "advertiserName": "HSBC Mutual Fund",
+              "advertiserUrl": "https://www.linkedin.com/company/91474647"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441843733",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DENTSU ONE PRIVATE LIMITED",
+              "advertiserName": "HSBC Mutual Fund",
+              "advertiserUrl": "https://www.linkedin.com/company/91474647"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441494583",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DENTSU ONE PRIVATE LIMITED",
+              "advertiserName": "HSBC Mutual Fund",
+              "advertiserUrl": "https://www.linkedin.com/company/91474647"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483654906",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "US MEDIA CONSULTING LLC",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441869043",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "HeyHuman",
+              "advertiserName": "HSBC Innovation Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/93338773"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483812446",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "US MEDIA CONSULTING LLC",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462884404",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Innovation Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/93338773"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462973634",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Innovation Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/93338773"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442068523",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "DENTSU ONE PRIVATE LIMITED",
+              "advertiserName": "HSBC Mutual Fund",
+              "advertiserUrl": "https://www.linkedin.com/company/91474647"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462657474",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782893759838,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.02663825253063399
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.02663825253063399
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.15982951518380395
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.18646776771443793
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.45285029302077784
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.5061267980820459
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 8.95045285029302
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 11.08151305274374
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 11.294619072988812
+                }
+              ],
+              "latestImpressionAt": 1783054505027,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "New York, NY",
+                  "Hong Kong SAR",
+                  "Chicago, IL",
+                  "Boston, MA",
+                  "France",
+                  "India",
+                  "Austin, TX",
+                  "San Francisco, CA",
+                  "Germany",
+                  "Los Angeles, CA",
+                  "Houston, TX",
+                  "Singapore",
+                  "Mexico",
+                  "United Kingdom",
+                  "Miami, FL",
+                  "Washington, DC"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462805224",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Innovation Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/93338773"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483682646",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483724026",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "US MEDIA CONSULTING LLC",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462969254",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Voix Digital",
+              "advertiserName": "Canara HSBC Life Insurance",
+              "advertiserUrl": "https://www.linkedin.com/company/10546168"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441869033",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "HeyHuman",
+              "advertiserName": "HSBC Innovation Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/93338773"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483832466",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "US MEDIA CONSULTING LLC",
+              "advertiserName": "HSBC Corporate and Institutional Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/1243"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442020073",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "HeyHuman",
+              "advertiserName": "HSBC Innovation Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/93338773"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483233176",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483292556",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782748053733,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 57.33985765124555
+                }
+              ],
+              "latestImpressionAt": 1783055055318,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483740806",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=HSBC&q=criteria&start=25&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 5554
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWbRQwkLaSySlUktMg=="
+    },
+    "status": 200
+  }
+}

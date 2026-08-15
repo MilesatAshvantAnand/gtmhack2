@@ -1,0 +1,2256 @@
+{
+  "captured_at": "2026-07-03T14:03:41.915985+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Novartis",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480199026",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782484581378,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.8314411204110383
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 3.38940913234441
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.6048727935692386
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 61.65575536587387
+                }
+              ],
+              "latestImpressionAt": 1783055652205,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480278076",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782483839464,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 2.2282743253280515
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 21.762812577370635
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 21.762812577370635
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 32.95370141124041
+                }
+              ],
+              "latestImpressionAt": 1783055568823,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480238316",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782482061818,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 5.654542777205124
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 9.910175231924606
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 25.43807981151524
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 35.289353556177296
+                }
+              ],
+              "latestImpressionAt": 1783055776607,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1419497846",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782484804792,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.2387202625102542
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.3289581624282198
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 4.782608695652174
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 62.182116488925345
+                }
+              ],
+              "latestImpressionAt": 1783055789585,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484803276",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782917583013,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 1.1616161616161615
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 13.98989898989899
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 14.191919191919192
+                }
+              ],
+              "latestImpressionAt": 1783055705900,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "Italy",
+                  "India",
+                  "South America",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Japan",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480375596",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782484778946,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.6257233796296297
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.7559317129629629
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.224392361111111
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 82.11082175925925
+                }
+              ],
+              "latestImpressionAt": 1783055768846,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480385316",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782485046369,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.6052064334272923
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.2021223677665396
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.2581661416017242
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 66.20792571712818
+                }
+              ],
+              "latestImpressionAt": 1783055715083,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480308246",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782485398975,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.5811862910345935
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.6855285335901757
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.8573721807528694
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 65.25403322899109
+                }
+              ],
+              "latestImpressionAt": 1783055713285,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480385216",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782483787936,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 7.089474776832053
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 14.697944778908035
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 16.275690263649576
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 27.37180817936475
+                }
+              ],
+              "latestImpressionAt": 1783055519309,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480208946",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782485247250,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.5937654626422563
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.9772389905987136
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.6966848095002476
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 73.67021276595744
+                }
+              ],
+              "latestImpressionAt": 1783055753745,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462411694",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782742084584,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DZ",
+                  "impressionPercentage": 0.0008375981036778933
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0008375981036778933
+                },
+                {
+                  "country": "urn:li:country:JO",
+                  "impressionPercentage": 0.0008375981036778933
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.0008375981036778933
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.0008375981036778933
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.0008375981036778933
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.0008375981036778933
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0008375981036778933
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.0016751962073557865
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.0016751962073557865
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.0016751962073557865
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.0016751962073557865
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 0.003350392414711573
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.0050255886220673595
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.006700784829423146
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.006700784829423146
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.024290345006658904
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 63.665831860556665
+                }
+              ],
+              "latestImpressionAt": 1783055713168,
+              "totalImpressions": {
+                "from": 100000,
+                "to": 150000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Novartis ",
+              "advertiserName": "Novartis Espa\u00f1a",
+              "advertiserUrl": "https://www.linkedin.com/company/42144667"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441988553",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782917791287,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.7758620689655172
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 12.241379310344827
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 15.517241379310345
+                }
+              ],
+              "latestImpressionAt": 1783054941022,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "Italy",
+                  "India",
+                  "South America",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Japan",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441917403",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782884177095,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 4.3478260869565215
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 8.695652173913043
+                }
+              ],
+              "latestImpressionAt": 1783054579003,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "Italy",
+                  "India",
+                  "South America",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480238346",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782484516350,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.6045257740380687
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.176374479209215
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.5781390409280287
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 64.98652070909239
+                }
+              ],
+              "latestImpressionAt": 1783055765840,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480318386",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782484928360,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.5758552135463083
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.055734558168232
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.46109549598958
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 69.65105916226777
+                }
+              ],
+              "latestImpressionAt": 1783055614346,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462390854",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782819868471,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:EG",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ME",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:OM",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:UG",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.008691873098652759
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.008691873098652759
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.008691873098652759
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.008691873098652759
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.008691873098652759
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.008691873098652759
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.008691873098652759
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.017383746197305518
+                },
+                {
+                  "country": "urn:li:country:PK",
+                  "impressionPercentage": 0.017383746197305518
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 75.02824858757062
+                }
+              ],
+              "latestImpressionAt": 1783055239429,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Education",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Member Interests and Traits",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Content Fleet Gmbh",
+              "advertiserName": "Novartis Deutschland",
+              "advertiserUrl": "https://www.linkedin.com/company/8814317"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442107973",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782917548991,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 2.0779220779220777
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 11.601731601731602
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 16.017316017316016
+                }
+              ],
+              "latestImpressionAt": 1783055592220,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "Italy",
+                  "India",
+                  "South America",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Japan",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483721756",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782835550683,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 6.6371681415929205
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 14.601769911504425
+                }
+              ],
+              "latestImpressionAt": 1783054940248,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "Italy",
+                  "India",
+                  "South America",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480357156",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782482635097,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 5.830685853111568
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 10.231732386469819
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 26.976266118482528
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 29.900953092879835
+                }
+              ],
+              "latestImpressionAt": 1783055506772,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462578724",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782840303909,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.05595970900951315
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.1119194180190263
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.1119194180190263
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.1119194180190263
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.1119194180190263
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.16787912702853947
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.27979854504756574
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.27979854504756574
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.5036373810856184
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.5595970900951315
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.6155567991046447
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.7274762171236709
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.7834359261331841
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.119194180190263
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 1.1751538891997761
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.2311135982092893
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 1.3989927252378287
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 1.4549524342473419
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 2.3503077783995523
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 4.308897593732513
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 5.484051482932289
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 10.912143256855064
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 11.471740346950195
+                }
+              ],
+              "latestImpressionAt": 1783055176712,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Switzerland",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Fleishman-Hillard",
+              "advertiserName": "Novartis Europe",
+              "advertiserUrl": "https://www.linkedin.com/company/107578109"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441777913",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782848658764,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 2.2857142857142856
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.857142857142857
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 13.714285714285714
+                }
+              ],
+              "latestImpressionAt": 1783054548972,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "Italy",
+                  "India",
+                  "South America",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480287996",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782484662470,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.9916094584286804
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.4577506568353251
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 5.119077887956607
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 62.67480294940249
+                }
+              ],
+              "latestImpressionAt": 1783055756355,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480393066",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782484616782,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.1738401341531581
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.1898107482232692
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.657270622055418
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 64.67300167691448
+                }
+              ],
+              "latestImpressionAt": 1783055735476,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480327896",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782483745349,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.5933682373472949
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.263525305410122
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.6108202443280977
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 69.57068062827226
+                }
+              ],
+              "latestImpressionAt": 1783055741414,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480385286",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782482381359,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.011199462425803561
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 5.353343039534102
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 8.310001119946243
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 22.589315712845785
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 35.961473849255235
+                }
+              ],
+              "latestImpressionAt": 1783055633809,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "North America",
+                  "India",
+                  "South America",
+                  "Africa",
+                  "Oceania",
+                  "United Kingdom"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "France",
+                  "Japan",
+                  "Brazil",
+                  "Spain"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "NOVARTIS PHARMA AG",
+              "advertiserName": "Novartis Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/99567293"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Novartis&q=criteria&start=25&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 2817
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWRWjFJ9hfXwcMN9Pg=="
+    },
+    "status": 200
+  }
+}

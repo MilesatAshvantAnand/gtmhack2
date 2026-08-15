@@ -1,0 +1,365 @@
+{
+  "captured_at": "2026-07-03T13:49:30.813483+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Salesforce",
+      "count": 25,
+      "q": "criteria",
+      "start": 25
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462312894",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462360894",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483382276",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483307836",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462401464",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483266406",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483256486",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462430414",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462269264",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462391224",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462450304",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483138476",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483373096",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462303174",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462275414",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483336366",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483203556",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462421404",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462440744",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483318016",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483316376",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462322174",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483392156",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462430764",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Vinton, a trading name of Nativevideo Limited",
+              "advertiserName": "Vinton | AI Notetaker for Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/27204137"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483361016",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Salesforce&q=criteria&start=0&count=25",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?advertiser=Salesforce&q=criteria&start=50&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 25,
+        "total": 9403
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtTGfXzeA1LV5LAIANw=="
+    },
+    "status": 200
+  }
+}

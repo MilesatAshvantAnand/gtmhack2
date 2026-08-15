@@ -1,0 +1,102 @@
+{
+  "captured_at": "2026-07-03T14:53:54.108368+00:00",
+  "hypothesis": "Stemming \u2014 gerund",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?keyword=hiring&count=5&q=criteria&start=0",
+    "params": {
+      "count": 5,
+      "keyword": "hiring",
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463099424",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Adaptive",
+              "advertiserName": "Adaptive",
+              "advertiserUrl": "https://www.linkedin.com/company/74936419"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463145884",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Adaptive",
+              "advertiserName": "Adaptive",
+              "advertiserUrl": "https://www.linkedin.com/company/74936419"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463135664",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Jack Norman-Flanagan",
+              "advertiserName": "Jack Norman-Flanagan",
+              "advertiserUrl": "https://www.linkedin.com/in/jnf123"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463135794",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Adaptive",
+              "advertiserName": "Adaptive",
+              "advertiserUrl": "https://www.linkedin.com/company/74936419"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442383363",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "LIGHTHOUSE SOLU\u00c7\u00d5ES EM INFORM\u00c1TICA,",
+              "advertiserName": "Lighthouse",
+              "advertiserUrl": "https://www.linkedin.com/company/3558160"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 5,
+        "links": [
+          {
+            "href": "/rest/adLibrary?q=criteria&count=5&start=5&keyword=hiring",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 399057
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVthfijhKEpSfMHwZm8A=="
+    },
+    "status": 200
+  }
+}

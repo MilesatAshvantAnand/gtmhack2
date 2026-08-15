@@ -1,0 +1,1182 @@
+{
+  "captured_at": "2026-07-03T14:54:44.438756+00:00",
+  "hypothesis": "SPOTLIGHT_V2 hunt \u2014 Zendesk",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=Zendesk&count=25&q=criteria&start=0",
+    "params": {
+      "advertiser": "Zendesk",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1476002736",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_INMAILS"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483632676",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1469876016",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_INMAILS"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1471733626",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1469866256",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_INMAILS"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1471753536",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1454288226",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781552024118,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 0.00364471334329555
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.00364471334329555
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 86.68221744359806
+                }
+              ],
+              "latestImpressionAt": 1783055270721,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483291816",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1454425486",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781536071848,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.007000840100812098
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 10.57826939232708
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 72.66872024642957
+                }
+              ],
+              "latestImpressionAt": 1783055199122,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands",
+                  "Flemish Region, Belgium"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1472713656",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782138149543,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 9.209932279909706
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 61.28668171557562
+                }
+              ],
+              "latestImpressionAt": 1783055172447,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands",
+                  "Flemish Region, Belgium"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1476023006",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_INMAILS"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480589936",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483272116",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1469691726",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1471683676",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1454356046",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1454286206",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441715533",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782806974870,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.042826552462526764
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 78.2441113490364
+                }
+              ],
+              "latestImpressionAt": 1782942394179,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1454375856",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781551528137,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.00940822278671559
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 99.99059177721328
+                }
+              ],
+              "latestImpressionAt": 1782340925538,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1440544383",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782254443423,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CR",
+                  "impressionPercentage": 0.029859659599880562
+                },
+                {
+                  "country": "urn:li:country:HN",
+                  "impressionPercentage": 0.029859659599880562
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.029859659599880562
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.029859659599880562
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.029859659599880562
+                },
+                {
+                  "country": "urn:li:country:PR",
+                  "impressionPercentage": 0.029859659599880562
+                },
+                {
+                  "country": "urn:li:country:PY",
+                  "impressionPercentage": 0.029859659599880562
+                },
+                {
+                  "country": "urn:li:country:RW",
+                  "impressionPercentage": 0.029859659599880562
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.029859659599880562
+                },
+                {
+                  "country": "urn:li:country:SV",
+                  "impressionPercentage": 0.029859659599880562
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.059719319199761124
+                },
+                {
+                  "country": "urn:li:country:CM",
+                  "impressionPercentage": 0.059719319199761124
+                },
+                {
+                  "country": "urn:li:country:GI",
+                  "impressionPercentage": 0.059719319199761124
+                },
+                {
+                  "country": "urn:li:country:NI",
+                  "impressionPercentage": 0.059719319199761124
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.059719319199761124
+                },
+                {
+                  "country": "urn:li:country:BJ",
+                  "impressionPercentage": 0.08957897879964169
+                },
+                {
+                  "country": "urn:li:country:GH",
+                  "impressionPercentage": 0.08957897879964169
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.08957897879964169
+                },
+                {
+                  "country": "urn:li:country:LB",
+                  "impressionPercentage": 0.08957897879964169
+                },
+                {
+                  "country": "urn:li:country:LK",
+                  "impressionPercentage": 0.08957897879964169
+                },
+                {
+                  "country": "urn:li:country:TN",
+                  "impressionPercentage": 0.08957897879964169
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.11943863839952225
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.11943863839952225
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.11943863839952225
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.11943863839952225
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.1492982979994028
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 0.1492982979994028
+                },
+                {
+                  "country": "urn:li:country:JO",
+                  "impressionPercentage": 0.1492982979994028
+                },
+                {
+                  "country": "urn:li:country:MD",
+                  "impressionPercentage": 0.1492982979994028
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.1492982979994028
+                },
+                {
+                  "country": "urn:li:country:AM",
+                  "impressionPercentage": 0.17915795759928338
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.17915795759928338
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.17915795759928338
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.17915795759928338
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.20901761719916392
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.20901761719916392
+                },
+                {
+                  "country": "urn:li:country:BD",
+                  "impressionPercentage": 0.2388772767990445
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.2388772767990445
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.2388772767990445
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.2388772767990445
+                },
+                {
+                  "country": "urn:li:country:EG",
+                  "impressionPercentage": 0.26873693639892504
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.2985965959988056
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.3881755747984473
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.41803523439832785
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.41803523439832785
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 0.41803523439832785
+                },
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 0.4478948939982084
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.4478948939982084
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.4478948939982084
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.477754553598089
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.477754553598089
+                },
+                {
+                  "country": "urn:li:country:TW",
+                  "impressionPercentage": 0.5076142131979695
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.5374738727978501
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 0.5673335323977307
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.7166318303971335
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.7763511495968946
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.8957897879964168
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 0.8957897879964168
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 1.0749477455957002
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 1.1048074051955807
+                },
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 1.224246043595103
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.4034040011943865
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.492982979994028
+                },
+                {
+                  "country": "urn:li:country:PK",
+                  "impressionPercentage": 1.5228426395939085
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 1.552702299193789
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.6422812779934308
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 1.7617199163929531
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 1.9707375335921171
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.030456852791878
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 2.597790385189609
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 2.956106300388176
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 3.404001194386384
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 3.822036428784712
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 4.329650641982681
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 10.958495073156167
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 15.198566736339206
+                }
+              ],
+              "latestImpressionAt": 1783054777837,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "North America",
+                  "Asia",
+                  "Europe",
+                  "Africa",
+                  "Oceania",
+                  "Latin America",
+                  "Middle East"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "JOBS_V2"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1454450356",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1479264976",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782310620450,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CO",
+                  "impressionPercentage": 0.007360518180479906
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 72.68511703223906
+                }
+              ],
+              "latestImpressionAt": 1783055201815,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1469926656",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781770795244,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 0.006454944487477408
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.006454944487477408
+                },
+                {
+                  "country": "urn:li:country:MC",
+                  "impressionPercentage": 0.006454944487477408
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 99.98063516653757
+                }
+              ],
+              "latestImpressionAt": 1782766281406,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1454296926",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1781536657206,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.0037432154220475387
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0037432154220475387
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 12.603406326034063
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 87.38910724312184
+                }
+              ],
+              "latestImpressionAt": 1782851091233,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands",
+                  "Flemish Region, Belgium"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Zendesk, Inc.",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480189616",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Zendesk",
+              "advertiserName": "Zendesk",
+              "advertiserUrl": "https://www.linkedin.com/company/418095"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Zendesk&q=criteria&count=25&start=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 2212
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVthrkLlR1YNOH2kxA9Q=="
+    },
+    "status": 200
+  }
+}

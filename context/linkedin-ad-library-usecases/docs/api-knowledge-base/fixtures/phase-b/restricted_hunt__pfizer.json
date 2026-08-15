@@ -1,0 +1,543 @@
+{
+  "captured_at": "2026-07-03T14:54:50.410251+00:00",
+  "hypothesis": "Restricted-ad hunt \u2014 pharma",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=Pfizer&count=25&q=criteria&start=0",
+    "params": {
+      "advertiser": "Pfizer",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1471468496",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Supreme Optimization LLC",
+              "advertiserName": "Pfizer CentreOne",
+              "advertiserUrl": "https://www.linkedin.com/company/20082698"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1460198694",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "VNC Communications, Inc.",
+              "advertiserName": "Pfizer Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/92920115"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458196204",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "VNC Communications, Inc.",
+              "advertiserName": "Pfizer Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/92920115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1472120886",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Pfizer Inc.",
+              "advertiserName": "Pfizer Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/92920115"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1471488186",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Supreme Optimization LLC",
+              "advertiserName": "Pfizer CentreOne",
+              "advertiserUrl": "https://www.linkedin.com/company/20082698"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1483230806",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782715897113,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.010171387885877028
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 62.513349946600215
+                }
+              ],
+              "latestImpressionAt": 1783055235119,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Pfizer Inc.",
+              "advertiserName": "Pfizer Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/92920115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1471961896",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Pfizer Inc.",
+              "advertiserName": "Pfizer Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/92920115"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1459155864",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": " Indegene, inc",
+              "advertiserName": "PfizerPro",
+              "advertiserUrl": "https://www.linkedin.com/company/91581576"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1460847324",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "VNC Communications, Inc.",
+              "advertiserName": "Pfizer Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/92920115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1440983153",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "301 Digital Media LLC",
+              "advertiserName": "Pfizer",
+              "advertiserUrl": "https://www.linkedin.com/company/1185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465791486",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Pfizer Inc.",
+              "advertiserName": "PfizerPro",
+              "advertiserUrl": "https://www.linkedin.com/company/91581576"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1471597966",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Supreme Optimization LLC",
+              "advertiserName": "Pfizer CentreOne",
+              "advertiserUrl": "https://www.linkedin.com/company/20082698"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461538004",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": " Indegene, inc",
+              "advertiserName": "PfizerPro",
+              "advertiserUrl": "https://www.linkedin.com/company/91581576"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1437029793",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "301 Digital Media LLC",
+              "advertiserName": "Pfizer",
+              "advertiserUrl": "https://www.linkedin.com/company/1185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1436647013",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "301 Digital Media LLC",
+              "advertiserName": "Pfizer",
+              "advertiserUrl": "https://www.linkedin.com/company/1185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1471488196",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Supreme Optimization LLC",
+              "advertiserName": "Pfizer CentreOne",
+              "advertiserUrl": "https://www.linkedin.com/company/20082698"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441300583",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "301 Digital Media LLC",
+              "advertiserName": "Pfizer",
+              "advertiserUrl": "https://www.linkedin.com/company/1185"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442091603",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "301 Digital Media LLC",
+              "advertiserName": "Pfizer",
+              "advertiserUrl": "https://www.linkedin.com/company/1185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1436536903",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "301 Digital Media LLC",
+              "advertiserName": "Pfizer",
+              "advertiserUrl": "https://www.linkedin.com/company/1185"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480255926",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782524103171,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 70.31916957702755
+                }
+              ],
+              "latestImpressionAt": 1783055272038,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Spain"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Pfizer Inc.",
+              "advertiserName": "Pfizer Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/92920115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1458237374",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "VNC Communications, Inc.",
+              "advertiserName": "Pfizer Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/92920115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1460208634",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "VNC Communications, Inc.",
+              "advertiserName": "Pfizer Medical",
+              "advertiserUrl": "https://www.linkedin.com/company/92920115"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1457413724",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": " Indegene, inc",
+              "advertiserName": "PfizerPro",
+              "advertiserUrl": "https://www.linkedin.com/company/91581576"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1465407296",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Pfizer Inc.",
+              "advertiserName": "PfizerPro",
+              "advertiserUrl": "https://www.linkedin.com/company/91581576"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1479890766",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782348503585,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 100.0
+                }
+              ],
+              "latestImpressionAt": 1782737824278,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "Quebec, Canada"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Italy",
+                  "United States",
+                  "France",
+                  "Israel",
+                  "Hungary",
+                  "Spain",
+                  "Finland",
+                  "Germany",
+                  "Switzerland",
+                  "Netherlands",
+                  "Greece",
+                  "T\u00fcrkiye",
+                  "Taiwan",
+                  "Canada",
+                  "Australia",
+                  "Denmark",
+                  "Singapore",
+                  "Japan",
+                  "South Korea",
+                  "Sweden",
+                  "Ireland",
+                  "Belgium",
+                  "Norway",
+                  "Poland",
+                  "Austria",
+                  "New Zealand",
+                  "Croatia",
+                  "United Kingdom"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Supreme Optimization LLC",
+              "advertiserName": "Pfizer CentreOne",
+              "advertiserUrl": "https://www.linkedin.com/company/20082698"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Pfizer&q=criteria&count=25&start=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 1699
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVths7BiKqDcFRcEwP8A=="
+    },
+    "status": 200
+  }
+}

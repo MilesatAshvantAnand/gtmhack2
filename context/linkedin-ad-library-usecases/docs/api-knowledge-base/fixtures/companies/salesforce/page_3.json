@@ -1,0 +1,796 @@
+{
+  "captured_at": "2026-07-03T13:49:35.697908+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Salesforce",
+      "count": 25,
+      "q": "criteria",
+      "start": 50
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441288623",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441323753",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce Data 360",
+              "advertiserUrl": "https://www.linkedin.com/company/104652760"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1479977196",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Qualified",
+              "advertiserName": "Qualified (Acquired by Salesforce)",
+              "advertiserUrl": "https://www.linkedin.com/company/35580403"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441418373",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480027326",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Qualified",
+              "advertiserName": "Qualified (Acquired by Salesforce)",
+              "advertiserUrl": "https://www.linkedin.com/company/35580403"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480009026",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441344513",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce Data 360",
+              "advertiserUrl": "https://www.linkedin.com/company/104652760"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480057246",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Qualified",
+              "advertiserName": "Qualified (Acquired by Salesforce)",
+              "advertiserUrl": "https://www.linkedin.com/company/35580403"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480158176",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782485429252,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BW",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:GY",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:TN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:TT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.002926972047416947
+                },
+                {
+                  "country": "urn:li:country:BR",
+                  "impressionPercentage": 0.002926972047416947
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.002926972047416947
+                },
+                {
+                  "country": "urn:li:country:DO",
+                  "impressionPercentage": 0.002926972047416947
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.002926972047416947
+                },
+                {
+                  "country": "urn:li:country:KY",
+                  "impressionPercentage": 0.002926972047416947
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.005853944094833894
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.008780916142250841
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.13464071418117957
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 99.7921849846334
+                }
+              ],
+              "latestImpressionAt": 1782604293914,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "United States",
+                  "Cannes"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Demographic",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Member Interests and Traits",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441238063",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461879914",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Salesforce Developers",
+              "advertiserUrl": "https://www.linkedin.com/company/5254782"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480370506",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782483032946,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BS",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PK",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.004367575122292104
+                },
+                {
+                  "country": "urn:li:country:NE",
+                  "impressionPercentage": 0.004367575122292104
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.004367575122292104
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.008735150244584208
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.13976240391334732
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 99.7816212438854
+                }
+              ],
+              "latestImpressionAt": 1782518350252,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "United States",
+                  "Cannes"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Demographic",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Member Interests and Traits",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480106726",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Qualified",
+              "advertiserName": "Qualified (Acquired by Salesforce)",
+              "advertiserUrl": "https://www.linkedin.com/company/35580403"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480088596",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461563514",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441257873",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441288633",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480233676",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782482965548,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:CR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.003745458631409416
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 0.003745458631409416
+                },
+                {
+                  "country": "urn:li:country:RU",
+                  "impressionPercentage": 0.003745458631409416
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.003745458631409416
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 0.007490917262818832
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.007490917262818832
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.11236375894228248
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 99.7977452339039
+                }
+              ],
+              "latestImpressionAt": 1782604653563,
+              "totalImpressions": {
+                "from": 20000,
+                "to": 30000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "United States",
+                  "Cannes"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Demographic",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Member Interests and Traits",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441228153",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441363983",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce Data 360",
+              "advertiserUrl": "https://www.linkedin.com/company/104652760"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441228193",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480007026",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Qualified",
+              "advertiserName": "Qualified (Acquired by Salesforce)",
+              "advertiserUrl": "https://www.linkedin.com/company/35580403"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461652594",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480243426",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Salesforce, Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "$UNKNOWN"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441338423",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Iprospect.com Inc.",
+              "advertiserName": "Salesforce",
+              "advertiserUrl": "https://www.linkedin.com/company/3185"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Salesforce&q=criteria&start=25&count=25",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?advertiser=Salesforce&q=criteria&start=75&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 50,
+        "total": 9403
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtTHmmAu7x9yb6XnyNQ=="
+    },
+    "status": 200
+  }
+}

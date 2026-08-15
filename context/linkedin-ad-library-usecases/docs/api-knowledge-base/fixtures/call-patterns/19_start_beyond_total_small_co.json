@@ -1,0 +1,36 @@
+{
+  "captured_at": "2026-07-03T14:18:29.873479+00:00",
+  "hypothesis": "start greatly exceeds paging.total",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=ZenABM&start=500&q=criteria&count=5",
+    "params": {
+      "advertiser": "ZenABM",
+      "count": 5,
+      "q": "criteria",
+      "start": 500
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [],
+      "paging": {
+        "count": 5,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=ZenABM&q=criteria&start=495&count=5",
+            "rel": "prev",
+            "type": "application/json"
+          }
+        ],
+        "start": 500,
+        "total": 0
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZlNu5o1z4wv8DgLhg=="
+    },
+    "status": 200
+  }
+}

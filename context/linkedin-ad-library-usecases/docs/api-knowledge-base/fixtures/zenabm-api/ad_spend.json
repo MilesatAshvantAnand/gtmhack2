@@ -1,0 +1,67 @@
+{
+  "data": {
+    "summary": {
+      "costInUsd": 18420.5,
+      "impressions": 412000,
+      "clicks": 1980,
+      "engagements": 3640,
+      "monthCount": 3,
+      "adSetCount": 4,
+      "startDate": "2026-03-01",
+      "endDate": "2026-05-31"
+    },
+    "byAdSet": [
+      {
+        "id": "cmf8a9q2k0001of04w7v3lqz9",
+        "linkedInId": "123456",
+        "name": "Techcrunch 2025",
+        "status": "ACTIVE",
+        "format": "Single Image",
+        "totals": {
+          "costInUsd": 9871.25,
+          "impressions": 220000,
+          "clicks": 1102,
+          "engagements": 1840
+        },
+        "monthly": [
+          {
+            "year": 2026,
+            "month": 5,
+            "period": "2026-05",
+            "costInUsd": 4250.75,
+            "impressions": 102000,
+            "clicks": 540,
+            "engagements": 810
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "period": "2026-04",
+            "costInUsd": 3120,
+            "impressions": 68000,
+            "clicks": 312,
+            "engagements": 540
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "period": "2026-03",
+            "costInUsd": 2500.5,
+            "impressions": 50000,
+            "clicks": 250,
+            "engagements": 490
+          }
+        ]
+      }
+    ]
+  },
+  "pagination": {
+    "page": 1,
+    "pageSize": 20,
+    "totalCount": 4,
+    "totalPages": 1
+  },
+  "meta": {
+    "timestamp": "2026-05-13T19:06:51.685Z"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "$defs": {
+    "ImpressionCountryEntry": {
+      "additionalProperties": false,
+      "description": "`details.adStatistics.impressionsDistributionByCountry[]` \u2014 one entry per country.\n\nNOTE: `impressionPercentage` can exceed 100 in rare cases (observed values up to ~104\non deep-Personio fixtures). LinkedIn's percentage math is not strict \u2014 do not assume\nnormalization to 100. The sum across all entries also does NOT sum to 100 in ~59% of\nads (see WE7 in inferable-signals.md \u2014 this is the DSA-hidden-share indicator).",
+      "properties": {
+        "country": {
+          "description": "URN form, e.g. 'urn:li:country:DE'",
+          "title": "Country",
+          "type": "string"
+        },
+        "impressionPercentage": {
+          "description": "Can exceed 100 in rare cases",
+          "minimum": 0.0,
+          "title": "Impressionpercentage",
+          "type": "number"
+        }
+      },
+      "required": [
+        "country",
+        "impressionPercentage"
+      ],
+      "title": "ImpressionCountryEntry",
+      "type": "object"
+    },
+    "TotalImpressions": {
+      "additionalProperties": false,
+      "description": "`details.adStatistics.totalImpressions` \u2014 12 distinct (from,to) buckets.",
+      "properties": {
+        "from": {
+          "title": "From",
+          "type": "integer"
+        },
+        "to": {
+          "title": "To",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "from",
+        "to"
+      ],
+      "title": "TotalImpressions",
+      "type": "object"
+    }
+  },
+  "$id": "https://linkedin-ad-library-api.local/schema/ad_statistics.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "`details.adStatistics` \u2014 64.3% coverage; absent for non-EU/EEA ads.",
+  "properties": {
+    "firstImpressionAt": {
+      "description": "Epoch milliseconds",
+      "title": "Firstimpressionat",
+      "type": "integer"
+    },
+    "impressionsDistributionByCountry": {
+      "items": {
+        "$ref": "#/$defs/ImpressionCountryEntry"
+      },
+      "title": "Impressionsdistributionbycountry",
+      "type": "array"
+    },
+    "latestImpressionAt": {
+      "description": "Epoch milliseconds",
+      "title": "Latestimpressionat",
+      "type": "integer"
+    },
+    "totalImpressions": {
+      "$ref": "#/$defs/TotalImpressions"
+    }
+  },
+  "required": [
+    "firstImpressionAt",
+    "latestImpressionAt",
+    "totalImpressions",
+    "impressionsDistributionByCountry"
+  ],
+  "title": "AdStatistics",
+  "type": "object"
+}

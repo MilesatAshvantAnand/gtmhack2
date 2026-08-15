@@ -1,0 +1,470 @@
+{
+  "captured_at": "2026-07-03T14:54:38.751813+00:00",
+  "hypothesis": "SPOTLIGHT_V2 hunt \u2014 Workday",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=Workday&count=25&q=criteria&start=0",
+    "params": {
+      "advertiser": "Workday",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484763956",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH SINGAPORE PTE. LTD.",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442241903",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484783526",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911355175,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 50.0
+                }
+              ],
+              "latestImpressionAt": 1782911561932,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DENTSU UK LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442231863",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442034243",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442331873",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442004173",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442192643",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441945243",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442133843",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH SINGAPORE PTE. LTD.",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442133683",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462912374",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday K.K. \u30ef\u30fc\u30af\u30c7\u30a4\u682a\u5f0f\u4f1a\u793e",
+              "advertiserUrl": "https://www.linkedin.com/company/104089843"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442113453",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442361493",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442321633",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484714996",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH SINGAPORE PTE. LTD.",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442341483",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484714916",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH SINGAPORE PTE. LTD.",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442251913",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484724546",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH SINGAPORE PTE. LTD.",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484744496",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782911178240,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 50.0
+                }
+              ],
+              "latestImpressionAt": 1782911378522,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "DENTSU UK LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442133693",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442351553",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442133673",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442113463",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "JELLYFISH US LIMITED",
+              "advertiserName": "Workday",
+              "advertiserUrl": "https://www.linkedin.com/company/17719"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Workday&q=criteria&count=25&start=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 5947
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVthqOynNDQkVjLNvaCA=="
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "advertiser": "Userpilot",
+  "captured_at": "2026-07-03T13:49:11.448902+00:00",
+  "hypothesis": "Mixed EU+US B2B SaaS, expect partial coverage",
+  "pages_captured": 3,
+  "slug": "userpilot",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 1589
+}

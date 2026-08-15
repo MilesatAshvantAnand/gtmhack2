@@ -1,0 +1,10 @@
+{
+  "advertiser": "HubSpot",
+  "captured_at": "2026-07-03T14:03:13.892838+00:00",
+  "hypothesis": "Big B2B, expect rich ad type diversity (SPOTLIGHT_V2, INMAIL, VIDEO)",
+  "pages_captured": 3,
+  "slug": "hubspot",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 2295
+}

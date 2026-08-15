@@ -1,0 +1,531 @@
+{
+  "captured_at": "2026-07-03T14:04:02.963645+00:00",
+  "request": {
+    "params": {
+      "advertiser": "BAE Systems",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461395704",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442023823",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480217316",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461534664",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480236816",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462733484",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782865040417,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.07085163667280714
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.22672523735298286
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.32591752869491286
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 1.2753294601105285
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.3036701147796514
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 2.18223040952246
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 30.423692787303388
+                }
+              ],
+              "latestImpressionAt": 1783055443127,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Finland",
+                  "Poland",
+                  "Lithuania",
+                  "Romania",
+                  "Latvia",
+                  "United Kingdom",
+                  "Estonia"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480364916",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461375884",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461356004",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461395714",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462743034",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480207246",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480373996",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442081283",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441655643",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782709794896,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.2127659574468085
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.2127659574468085
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.2127659574468085
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.425531914893617
+                },
+                {
+                  "country": "urn:li:country:PK",
+                  "impressionPercentage": 0.425531914893617
+                },
+                {
+                  "country": "urn:li:country:CN",
+                  "impressionPercentage": 0.6382978723404256
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.6382978723404256
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.6382978723404256
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 0.851063829787234
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.851063829787234
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 1.4893617021276595
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 1.4893617021276595
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 1.9148936170212767
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 3.404255319148936
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 8.72340425531915
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 41.276595744680854
+                }
+              ],
+              "latestImpressionAt": 1783055039578,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "North America",
+                  "Asia",
+                  "Europe",
+                  "Africa",
+                  "Oceania",
+                  "Latin America",
+                  "Middle East"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "advertiserName": "BAE Systems Australia",
+              "advertiserUrl": "https://www.linkedin.com/company/830854"
+            },
+            "type": "JOBS_V2"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461504804",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480383726",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480246456",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441361713",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems PLC",
+              "advertiserName": "BAE Systems",
+              "advertiserUrl": "https://www.linkedin.com/company/1882"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441951243",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461395684",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441839683",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461316734",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1441839743",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems, Inc. ",
+              "advertiserName": "BAE Systems, Inc.",
+              "advertiserUrl": "https://www.linkedin.com/company/1881"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480316866",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "BAE Systems Applied Intelligence Limited",
+              "advertiserName": "BAE Systems Digital Intelligence",
+              "advertiserUrl": "https://www.linkedin.com/company/5156"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=BAE%2BSystems&q=criteria&start=25&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 1626
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWWbbTWoD9ZhEpfwMQ=="
+    },
+    "status": 200
+  }
+}

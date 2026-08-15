@@ -1,0 +1,421 @@
+{
+  "captured_at": "2026-07-03T14:18:12.629370+00:00",
+  "hypothesis": "Non-ASCII keyword",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?keyword=F%C3%BChrung&q=criteria&count=5&start=0",
+    "params": {
+      "count": 5,
+      "keyword": "F\u00fchrung",
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462927494",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782912287279,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 37.68458033704781
+                }
+              ],
+              "latestImpressionAt": 1783055615416,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "Deutsch"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Deutschland"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Agentur f\u00fcr Haushaltshilfe GmbH",
+              "advertiserName": "Agentur f\u00fcr Haushaltshilfe GmbH",
+              "advertiserUrl": "https://www.linkedin.com/company/55170895"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484862796",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782922188099,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:TR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 35.34623455350898
+                }
+              ],
+              "latestImpressionAt": 1783055209634,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "Deutsch"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Deutschland"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Xenagos GmbH",
+              "advertiserName": "Xenagos GmbH",
+              "advertiserUrl": "https://www.linkedin.com/company/8859082"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462846524",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782905385223,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:NP",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:QA",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:TZ",
+                  "impressionPercentage": 0.03273322422258593
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 28.608837970540097
+                }
+              ],
+              "latestImpressionAt": 1783055121185,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Member Interests and Traits",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Kerstin-Krug-Coaching",
+              "advertiserName": "Kerstin Krug",
+              "advertiserUrl": "https://www.linkedin.com/in/kerstin-krug-844179153"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462836814",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782907421345,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 4.097646033129904
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 10.02615518744551
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 18.395815170008717
+                }
+              ],
+              "latestImpressionAt": 1783049590314,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "DACH"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "365 Akademie GmbH",
+              "advertiserName": "365 Akademie GmbH",
+              "advertiserUrl": "https://www.linkedin.com/company/13021583"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463058414",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782922196110,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 4.1522491349480966
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 5.190311418685121
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 13.494809688581315
+                }
+              ],
+              "latestImpressionAt": 1783054534912,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "DACH"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Member Interests and Traits",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "PMC active GmbH",
+              "advertiserName": "Haufe Akademie - Personal Development",
+              "advertiserUrl": "https://www.linkedin.com/company/92577064"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 5,
+        "links": [
+          {
+            "href": "/rest/adLibrary?q=criteria&count=5&start=5&keyword=F%C3%BChrung",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 12519
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZg+tR8438xV7L6Hiw=="
+    },
+    "status": 200
+  }
+}

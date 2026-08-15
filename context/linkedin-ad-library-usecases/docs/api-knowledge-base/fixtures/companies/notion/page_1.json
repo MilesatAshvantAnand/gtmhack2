@@ -1,0 +1,1087 @@
+{
+  "captured_at": "2026-07-03T13:49:40.581822+00:00",
+  "request": {
+    "params": {
+      "advertiser": "Notion",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480318676",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Epic Notion",
+              "advertiserName": "Epic Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/2076480"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480402676",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782486577425,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.06389776357827476
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.06389776357827476
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 65.11182108626198
+                }
+              ],
+              "latestImpressionAt": 1783054307348,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480581166",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782554626440,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CD",
+                  "impressionPercentage": 0.0008131205125911712
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0008131205125911712
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.0008131205125911712
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.0008131205125911712
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.0008131205125911712
+                },
+                {
+                  "country": "urn:li:country:TH",
+                  "impressionPercentage": 0.0008131205125911712
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0008131205125911712
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0016262410251823424
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.0016262410251823424
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.0016262410251823424
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 2.2669799891041853
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 7.354675036387143
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 12.165909109389103
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 20.613418114698778
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 57.35752095818121
+                }
+              ],
+              "latestImpressionAt": 1782941912032,
+              "totalImpressions": {
+                "from": 100000,
+                "to": 150000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Switzerland",
+                  "France",
+                  "Austria",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480199166",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Epic Notion",
+              "advertiserName": "Epic Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/2076480"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462981634",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Hahmpartners",
+              "advertiserName": "Notion Korea",
+              "advertiserUrl": "https://www.linkedin.com/company/102055240"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480288216",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Epic Notion",
+              "advertiserName": "Epic Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/2076480"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480521766",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782500326472,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.0003147207482800511
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0003147207482800511
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.0003147207482800511
+                },
+                {
+                  "country": "urn:li:country:MR",
+                  "impressionPercentage": 0.0003147207482800511
+                },
+                {
+                  "country": "urn:li:country:SD",
+                  "impressionPercentage": 0.0003147207482800511
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.0006294414965601022
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.0006294414965601022
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.0006294414965601022
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0012588829931202044
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 2.3081619678858947
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 5.539085169728899
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 14.496981828023994
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 15.02004771166544
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 40.25278370501854
+                }
+              ],
+              "latestImpressionAt": 1782950369548,
+              "totalImpressions": {
+                "from": 300000,
+                "to": 500000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Switzerland",
+                  "France",
+                  "Austria",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480219236",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Epic Notion",
+              "advertiserName": "Epic Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/2076480"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480348066",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Epic Notion",
+              "advertiserName": "Epic Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/2076480"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480318756",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782487036279,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ZA",
+                  "impressionPercentage": 0.019290123456790122
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 68.61496913580247
+                }
+              ],
+              "latestImpressionAt": 1783055593089,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480318616",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782486922033,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.03536067892503536
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 62.72984441301273
+                }
+              ],
+              "latestImpressionAt": 1783055024852,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1419498006",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Epic Notion",
+              "advertiserName": "Epic Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/2076480"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1419497956",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Epic Notion",
+              "advertiserName": "Epic Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/2076480"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480366606",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Epic Notion",
+              "advertiserName": "Epic Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/2076480"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480434636",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1487387286",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480248216",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Epic Notion",
+              "advertiserName": "Epic Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/2076480"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480385626",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782486787425,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.027677830058123444
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.027677830058123444
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 84.00221422640465
+                }
+              ],
+              "latestImpressionAt": 1783054735719,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480417506",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480219466",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782487406882,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 77.3813770959686
+                }
+              ],
+              "latestImpressionAt": 1783054853886,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462216324",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Hahmpartners",
+              "advertiserName": "Notion Korea",
+              "advertiserUrl": "https://www.linkedin.com/company/102055240"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480189496",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Epic Notion",
+              "advertiserName": "Epic Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/2076480"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1487470926",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782949376338,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 0.01101048748933359
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.016515731234000384
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.04679457182966776
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.06055768119133475
+                }
+              ],
+              "latestImpressionAt": 1783055219008,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Switzerland",
+                  "France",
+                  "Austria",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1462097634",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Hahmpartners",
+              "advertiserName": "Notion Korea",
+              "advertiserUrl": "https://www.linkedin.com/company/102055240"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480512296",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782500131100,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.00039282389312047514
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.00039282389312047514
+                },
+                {
+                  "country": "urn:li:country:GP",
+                  "impressionPercentage": 0.00039282389312047514
+                },
+                {
+                  "country": "urn:li:country:IL",
+                  "impressionPercentage": 0.00039282389312047514
+                },
+                {
+                  "country": "urn:li:country:MQ",
+                  "impressionPercentage": 0.00039282389312047514
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.00039282389312047514
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.00039282389312047514
+                },
+                {
+                  "country": "urn:li:country:UM",
+                  "impressionPercentage": 0.00039282389312047514
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 0.0007856477862409503
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0007856477862409503
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0007856477862409503
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.0007856477862409503
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.0007856477862409503
+                },
+                {
+                  "country": "urn:li:country:MA",
+                  "impressionPercentage": 0.0011784716793614256
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.0011784716793614256
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0011784716793614256
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 0.0015712955724819005
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 3.177945295344644
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 6.494164601067696
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 14.675507823087832
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 20.504228749209442
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 54.17984263474842
+                }
+              ],
+              "latestImpressionAt": 1782949179544,
+              "totalImpressions": {
+                "from": 200000,
+                "to": 300000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany",
+                  "Switzerland",
+                  "France",
+                  "Austria",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Notion Labs, Inc.",
+              "advertiserName": "Notion",
+              "advertiserUrl": "https://www.linkedin.com/company/30898036"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=Notion&q=criteria&start=25&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 7065
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtTIxKDINI6b2QzGK6g=="
+    },
+    "status": 200
+  }
+}

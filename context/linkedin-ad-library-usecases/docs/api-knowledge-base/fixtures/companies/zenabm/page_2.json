@@ -1,0 +1,4805 @@
+{
+  "captured_at": "2026-07-03T13:49:16.558830+00:00",
+  "request": {
+    "params": {
+      "advertiser": "ZenABM",
+      "count": 25,
+      "q": "criteria",
+      "start": 25
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1266097043",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778973864237,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.29673590504451036
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.29673590504451036
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.29673590504451036
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.29673590504451036
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.29673590504451036
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.29673590504451036
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.29673590504451036
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.29673590504451036
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.29673590504451036
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.5934718100890207
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.5934718100890207
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.5934718100890207
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.5934718100890207
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.8902077151335311
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.8902077151335311
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.8902077151335311
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.8902077151335311
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.8902077151335311
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.8902077151335311
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.1869436201780414
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 1.1869436201780414
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.1869436201780414
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 1.7804154302670623
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.077151335311573
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 2.373887240356083
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 2.9673590504451037
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.9673590504451037
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 2.9673590504451037
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 3.5608308605341246
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 5.341246290801187
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 5.637982195845697
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 5.637982195845697
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 5.9347181008902075
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 8.011869436201781
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 17.80415430267062
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 18.694362017804153
+                }
+              ],
+              "latestImpressionAt": 1783004606658,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1265999253",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778937813615,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 1.9230769230769231
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 1.9230769230769231
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 1.9230769230769231
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.9230769230769231
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 1.9230769230769231
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.9230769230769231
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 1.9230769230769231
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 1.9230769230769231
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.9230769230769231
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 3.8461538461538463
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 3.8461538461538463
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 3.8461538461538463
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.8461538461538463
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 3.8461538461538463
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 3.8461538461538463
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 3.8461538461538463
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 3.8461538461538463
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 5.769230769230769
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 11.538461538461538
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 13.461538461538462
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 21.153846153846153
+                }
+              ],
+              "latestImpressionAt": 1778967056914,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1264608033",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778937357884,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.2820512820512822
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 2.5641025641025643
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 2.5641025641025643
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 2.5641025641025643
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 2.5641025641025643
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 2.5641025641025643
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 2.5641025641025643
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.5641025641025643
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 5.128205128205129
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 6.410256410256411
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 6.410256410256411
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 23.076923076923077
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 26.923076923076923
+                }
+              ],
+              "latestImpressionAt": 1778967639380,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1266096473",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778936615652,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.14064697609001406
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.2812939521800281
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.2812939521800281
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.4219409282700422
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.5625879043600562
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.5625879043600562
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.5625879043600562
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.5625879043600562
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.5625879043600562
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.8438818565400844
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.1251758087201125
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.1251758087201125
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 1.1251758087201125
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 1.1251758087201125
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 1.2658227848101267
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 1.2658227848101267
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.4064697609001406
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.5471167369901546
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 1.6877637130801688
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 1.6877637130801688
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.6877637130801688
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.8284106891701828
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.969057665260197
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 2.250351617440225
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 2.5316455696202533
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 2.5316455696202533
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 2.5316455696202533
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.6722925457102673
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 3.0942334739803092
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 4.0787623066104075
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 4.50070323488045
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 4.50070323488045
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 6.751054852320675
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 6.891701828410689
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 7.7355836849507735
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 12.236286919831224
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 13.924050632911392
+                }
+              ],
+              "latestImpressionAt": 1779969280017,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1265607913",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778986314194,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 1.2048192771084338
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.2048192771084338
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 1.2048192771084338
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 1.2048192771084338
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 1.2048192771084338
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.2048192771084338
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 1.2048192771084338
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.2048192771084338
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.2048192771084338
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.2048192771084338
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.4096385542168677
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 2.4096385542168677
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.4096385542168677
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 2.4096385542168677
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 2.4096385542168677
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.4096385542168677
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 3.6144578313253013
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 3.6144578313253013
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 3.6144578313253013
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 6.024096385542169
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 6.024096385542169
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 7.228915662650603
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 13.25301204819277
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 14.457831325301205
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 15.662650602409638
+                }
+              ],
+              "latestImpressionAt": 1782303535535,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1263808593",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778973599949,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.37593984962406013
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.37593984962406013
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.37593984962406013
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.37593984962406013
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.37593984962406013
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.37593984962406013
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.7518796992481203
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.7518796992481203
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.7518796992481203
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.7518796992481203
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.7518796992481203
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.1278195488721805
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 1.1278195488721805
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.1278195488721805
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 1.1278195488721805
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 1.5037593984962405
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.5037593984962405
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 2.255639097744361
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 3.007518796992481
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 3.007518796992481
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.3834586466165413
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 3.7593984962406015
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 3.7593984962406015
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 3.7593984962406015
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 4.135338345864661
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 4.511278195488722
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 4.887218045112782
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 5.639097744360902
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 6.7669172932330826
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 16.917293233082706
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 20.30075187969925
+                }
+              ],
+              "latestImpressionAt": 1782922370716,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1266001343",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779078400046,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ME",
+                  "impressionPercentage": 0.005072408633239493
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.007608612949859241
+                },
+                {
+                  "country": "urn:li:country:MD",
+                  "impressionPercentage": 0.015217225899718481
+                },
+                {
+                  "country": "urn:li:country:AD",
+                  "impressionPercentage": 0.01775343021633823
+                },
+                {
+                  "country": "urn:li:country:IM",
+                  "impressionPercentage": 0.05072408633239494
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.0760861294985924
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.10144817266478988
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.18007050648000203
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.18514291511324152
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.190215323746481
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.22318597986253771
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.2663014532450734
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.3043445179943696
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.43622714245859645
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.4438357554084557
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.44637195972507543
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.4590529813081742
+                },
+                {
+                  "country": "urn:li:country:BA",
+                  "impressionPercentage": 0.48948743310761117
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.5097770676405691
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.842019833117756
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.9612214359988841
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.9865834791650815
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 1.042379974130716
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.042379974130716
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 1.1641177813284638
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.2554211367267747
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.2934642014760709
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.3137538360090288
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.3162900403256486
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.4507088691064953
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.4659260950062136
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.592736310837201
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.6307793755864972
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 1.864110172715514
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 2.1456288518603057
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 2.3764234446727026
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 3.0865606533262318
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 3.2285880950569377
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 3.4593826878693346
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 3.588729108016942
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 5.199218849070481
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 5.71153212102767
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 6.797027568540922
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 6.954272236171346
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 16.15054908823455
+                }
+              ],
+              "latestImpressionAt": 1783055176096,
+              "totalImpressions": {
+                "from": 30000,
+                "to": 50000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "TEXT_AD"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1266789003",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778934472336,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BA",
+                  "impressionPercentage": 0.04100041000410004
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.08200082000820008
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.08200082000820008
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.08200082000820008
+                },
+                {
+                  "country": "urn:li:country:IM",
+                  "impressionPercentage": 0.12300123001230012
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.12300123001230012
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.2050020500205002
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.45100451004510045
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.5330053300533005
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.6150061500615006
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.6560065600656007
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.6970069700697007
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.7790077900779008
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.9020090200902009
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.9430094300943009
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.984009840098401
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.2300123001230012
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 1.2300123001230012
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.3530135301353015
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 1.3940139401394014
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.4350143501435015
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.5990159901599017
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 1.6400164001640016
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.7630176301763019
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 1.8860188601886019
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.968019680196802
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 2.009020090200902
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 2.173021730217302
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 2.2140221402214024
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.870028700287003
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 2.952029520295203
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 3.0340303403034032
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 3.6080360803608036
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 4.182041820418204
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 5.207052070520705
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 5.248052480524805
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 6.929069290692907
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 7.5440754407544075
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 8.159081590815909
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 8.938089380893809
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 11.931119311193111
+                }
+              ],
+              "latestImpressionAt": 1779967312020,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1263607333",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778934578494,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.08643042350907519
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.08643042350907519
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.17286084701815038
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.34572169403630076
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.34572169403630076
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.43215211754537597
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.6050129645635264
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.6914433880726015
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.7778738115816768
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.8643042350907519
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.8643042350907519
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.0371650821089022
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 1.0371650821089022
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.0371650821089022
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 1.2100259291270528
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 1.5557476231633536
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.6421780466724287
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.815038893690579
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.9014693171996542
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.9014693171996542
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 2.0743301642178045
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 2.5064822817631804
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 2.5064822817631804
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.592912705272256
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 2.765773552290406
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 3.2843560933448575
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 3.975799481417459
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 4.49438202247191
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 5.099394987035437
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 5.531547104580812
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 6.395851339671564
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 7.865168539325842
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 9.853068280034572
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 10.112359550561798
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 12.273120138288677
+                }
+              ],
+              "latestImpressionAt": 1779966907749,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1263407573",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778936769808,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 2.3255813953488373
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 2.3255813953488373
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 2.3255813953488373
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.3255813953488373
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 4.651162790697675
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 4.651162790697675
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 4.651162790697675
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 6.976744186046512
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 6.976744186046512
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 9.30232558139535
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 11.627906976744185
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 20.930232558139537
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 20.930232558139537
+                }
+              ],
+              "latestImpressionAt": 1778967474595,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1263408263",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778973591741,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.2770083102493075
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.2770083102493075
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.2770083102493075
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.2770083102493075
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.554016620498615
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.554016620498615
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.554016620498615
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.554016620498615
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.8310249307479224
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.8310249307479224
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.8310249307479224
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.8310249307479224
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.10803324099723
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 1.10803324099723
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.10803324099723
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.3850415512465375
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 1.3850415512465375
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.3850415512465375
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.6620498614958448
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.6620498614958448
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.9390581717451523
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 1.9390581717451523
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 2.21606648199446
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.770083102493075
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 3.0470914127423825
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 3.8781163434903045
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 4.1551246537396125
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 4.7091412742382275
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 4.986149584487535
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 6.371191135734072
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 7.202216066481994
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 7.479224376731302
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 13.850415512465373
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 18.005540166204987
+                }
+              ],
+              "latestImpressionAt": 1782481967743,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1254587053",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1777809147320,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.5319148936170213
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.5319148936170213
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.5319148936170213
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.5319148936170213
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.5319148936170213
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.5319148936170213
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.5319148936170213
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.5319148936170213
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 0.5319148936170213
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.5319148936170213
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.0638297872340425
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.0638297872340425
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.0638297872340425
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 1.0638297872340425
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.5957446808510638
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 1.5957446808510638
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 2.6595744680851063
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 2.6595744680851063
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 2.6595744680851063
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 2.6595744680851063
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.1914893617021276
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 3.723404255319149
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 3.723404255319149
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 3.723404255319149
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 8.51063829787234
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 13.829787234042554
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 39.8936170212766
+                }
+              ],
+              "latestImpressionAt": 1778092430826,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1256786093",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1777808820857,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.8403361344537815
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.8403361344537815
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.8403361344537815
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.8403361344537815
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.8403361344537815
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.8403361344537815
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.8403361344537815
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.8403361344537815
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.8403361344537815
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.680672268907563
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 1.680672268907563
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.680672268907563
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 1.680672268907563
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.680672268907563
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 2.5210084033613445
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 3.361344537815126
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 3.361344537815126
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 3.361344537815126
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 5.042016806722689
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 5.882352941176471
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 6.722689075630252
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 7.563025210084033
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 8.403361344537815
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 10.92436974789916
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 26.050420168067227
+                }
+              ],
+              "latestImpressionAt": 1777915224243,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1265607393",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778936735898,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 1.3888888888888888
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.3888888888888888
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.3888888888888888
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 1.3888888888888888
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 1.3888888888888888
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 1.3888888888888888
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 2.7777777777777777
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.7777777777777777
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.7777777777777777
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 2.7777777777777777
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 4.166666666666667
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 6.944444444444445
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 6.944444444444445
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 11.11111111111111
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 22.22222222222222
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 29.166666666666668
+                }
+              ],
+              "latestImpressionAt": 1778967290026,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1264306633",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778936809486,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.7874015748031497
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.7874015748031497
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.7874015748031497
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.7874015748031497
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.7874015748031497
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.7874015748031497
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.7874015748031497
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.7874015748031497
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.7874015748031497
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.7874015748031497
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.7874015748031497
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.5748031496062993
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.5748031496062993
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 1.5748031496062993
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.5748031496062993
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 1.5748031496062993
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.5748031496062993
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 2.3622047244094486
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 2.3622047244094486
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 3.1496062992125986
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 3.1496062992125986
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 3.937007874015748
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 3.937007874015748
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 6.299212598425197
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 7.086614173228346
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 19.68503937007874
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 29.921259842519685
+                }
+              ],
+              "latestImpressionAt": 1778969664867,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1256686753",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1777810071680,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AX",
+                  "impressionPercentage": 0.08976660682226212
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.08976660682226212
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.08976660682226212
+                },
+                {
+                  "country": "urn:li:country:IM",
+                  "impressionPercentage": 0.08976660682226212
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.08976660682226212
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.08976660682226212
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.08976660682226212
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.08976660682226212
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.17953321364452424
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.3590664272890485
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.3590664272890485
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.4488330341113106
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.4488330341113106
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.5385996409335727
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.5385996409335727
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.5385996409335727
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.5385996409335727
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.5385996409335727
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.718132854578097
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.8078994614003591
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.8078994614003591
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.8976660682226212
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.9874326750448833
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.9874326750448833
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 1.0771992818671454
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 1.2567324955116697
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.2567324955116697
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.3464991023339319
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.7055655296229804
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.9748653500897666
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 2.423698384201077
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 3.680430879712747
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 3.680430879712747
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.949730700179533
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 4.21903052064632
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 6.1041292639138245
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 6.642728904847397
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 7.1813285457809695
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 13.105924596050269
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 29.892280071813286
+                }
+              ],
+              "latestImpressionAt": 1778255541992,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1255686503",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1777809189885,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.408450704225352
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.408450704225352
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 1.408450704225352
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.408450704225352
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 1.408450704225352
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 2.816901408450704
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 2.816901408450704
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 2.816901408450704
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 4.225352112676056
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 5.633802816901408
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 5.633802816901408
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 5.633802816901408
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 7.042253521126761
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 12.67605633802817
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 12.67605633802817
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 30.985915492957748
+                }
+              ],
+              "latestImpressionAt": 1777931294984,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1266294833",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778934668900,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.0648508430609598
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.1297016861219196
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.1297016861219196
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.1297016861219196
+                },
+                {
+                  "country": "urn:li:country:IM",
+                  "impressionPercentage": 0.2594033722438392
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.2594033722438392
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.324254215304799
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.5188067444876784
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.5188067444876784
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.5836575875486382
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.5836575875486382
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.5836575875486382
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.7782101167315175
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.9727626459143969
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 1.0376134889753568
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 1.1024643320363166
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 1.1024643320363166
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.297016861219196
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 1.297016861219196
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.297016861219196
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.3618677042801557
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.556420233463035
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 1.556420233463035
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 1.6861219195849546
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.7509727626459144
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.880674448767834
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.880674448767834
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 2.3994811932555122
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.6588845654993514
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 2.7237354085603114
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 3.372243839169909
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 3.9559014267185475
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 4.669260700389105
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 4.734111543450065
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 5.188067444876784
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 5.317769130998703
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 5.382619974059663
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 8.690012970168612
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 9.53307392996109
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 16.472114137483786
+                }
+              ],
+              "latestImpressionAt": 1779611994907,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1264608023",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778935231833,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ME",
+                  "impressionPercentage": 0.049554013875123884
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.14866204162537167
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.29732408325074333
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.29732408325074333
+                },
+                {
+                  "country": "urn:li:country:MT",
+                  "impressionPercentage": 0.3468780971258672
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.3468780971258672
+                },
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.44598612487611494
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.44598612487611494
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.44598612487611494
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.5450941526263627
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.7928642220019821
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.9910802775024777
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 1.0406342913776017
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 1.0406342913776017
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 1.0901883052527255
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 1.1397423191278493
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 1.2388503468780971
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.3875123885034688
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.4866204162537167
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.5361744301288405
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.6848364717542121
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 1.734390485629336
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.7839444995044598
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.8334985133795838
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.9821605550049555
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 2.0317145688800795
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 2.130822596630327
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.3290386521308224
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 3.1219028741328048
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 3.270564915758176
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 4.162537165510407
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 4.410307234886026
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 4.608523290386521
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 4.905847373637265
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 5.054509415262636
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 5.054509415262636
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 9.117938553022794
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 9.861248761149653
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 15.460852329038651
+                }
+              ],
+              "latestImpressionAt": 1780006507905,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1264307373",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778969557362,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:SI",
+                  "impressionPercentage": 0.9433962264150944
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 1.8867924528301887
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.8867924528301887
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.8867924528301887
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 2.830188679245283
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 2.830188679245283
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 3.7735849056603774
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 5.660377358490566
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 5.660377358490566
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 6.60377358490566
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 8.49056603773585
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 8.49056603773585
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 14.150943396226415
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 24.528301886792452
+                }
+              ],
+              "latestImpressionAt": 1781651379851,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1254686493",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1777810423917,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.32679738562091504
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.32679738562091504
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.32679738562091504
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.32679738562091504
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.32679738562091504
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.32679738562091504
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.32679738562091504
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.6535947712418301
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.6535947712418301
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.6535947712418301
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.6535947712418301
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.6535947712418301
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.6535947712418301
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 0.9803921568627451
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.9803921568627451
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 0.9803921568627451
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.3071895424836601
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.6339869281045751
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.6339869281045751
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.9607843137254901
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 2.287581699346405
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 2.6143790849673203
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 2.6143790849673203
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 3.9215686274509802
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.9215686274509802
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 4.57516339869281
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 8.169934640522875
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 8.169934640522875
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 8.169934640522875
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 39.869281045751634
+                }
+              ],
+              "latestImpressionAt": 1778084627275,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1254686473",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1777808783365,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AX",
+                  "impressionPercentage": 0.0831255195344971
+                },
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.0831255195344971
+                },
+                {
+                  "country": "urn:li:country:LV",
+                  "impressionPercentage": 0.0831255195344971
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.0831255195344971
+                },
+                {
+                  "country": "urn:li:country:PK",
+                  "impressionPercentage": 0.0831255195344971
+                },
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.1662510390689942
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.24937655860349128
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.3325020781379884
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.41562759767248547
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.41562759767248547
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.41562759767248547
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.49875311720698257
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.49875311720698257
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.49875311720698257
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.5818786367414797
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.5818786367414797
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 0.5818786367414797
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.6650041562759768
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.6650041562759768
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.7481296758104738
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 1.1637572734829593
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 1.2468827930174564
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 1.2468827930174564
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 1.3300083125519535
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.5793848711554448
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.828761429758936
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.828761429758936
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.9118869492934332
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 2.0781379883624274
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 2.1612635078969245
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 3.2418952618453867
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 3.8237738985868663
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 4.156275976724855
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 5.486284289276808
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 5.901911886949294
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 6.068162926018288
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 13.632585203657523
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 33.416458852867834
+                }
+              ],
+              "latestImpressionAt": 1778260210079,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1254587063",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1777808903472,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AL",
+                  "impressionPercentage": 0.12738853503184713
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.12738853503184713
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.12738853503184713
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.25477707006369427
+                },
+                {
+                  "country": "urn:li:country:HU",
+                  "impressionPercentage": 0.25477707006369427
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 0.25477707006369427
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.25477707006369427
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 0.3821656050955414
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.5095541401273885
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 0.5095541401273885
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.5095541401273885
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.5095541401273885
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.6369426751592356
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.6369426751592356
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.7643312101910829
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 0.7643312101910829
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 0.89171974522293
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.89171974522293
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 1.019108280254777
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.019108280254777
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.019108280254777
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 1.019108280254777
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 1.5286624203821657
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 1.78343949044586
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.78343949044586
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.910828025477707
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 2.929936305732484
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 2.929936305732484
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 3.3121019108280256
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 4.585987261146497
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 4.840764331210191
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 6.369426751592357
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 8.40764331210191
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 10.318471337579618
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 36.81528662420382
+                }
+              ],
+              "latestImpressionAt": 1778195100872,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1265607383",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778934619882,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BY",
+                  "impressionPercentage": 0.34843205574912894
+                },
+                {
+                  "country": "urn:li:country:CH",
+                  "impressionPercentage": 0.34843205574912894
+                },
+                {
+                  "country": "urn:li:country:EE",
+                  "impressionPercentage": 0.34843205574912894
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.34843205574912894
+                },
+                {
+                  "country": "urn:li:country:IM",
+                  "impressionPercentage": 0.34843205574912894
+                },
+                {
+                  "country": "urn:li:country:MK",
+                  "impressionPercentage": 0.34843205574912894
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.34843205574912894
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.6968641114982579
+                },
+                {
+                  "country": "urn:li:country:UA",
+                  "impressionPercentage": 0.6968641114982579
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.0452961672473868
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 1.3937282229965158
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.3937282229965158
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 1.3937282229965158
+                },
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 1.7421602787456445
+                },
+                {
+                  "country": "urn:li:country:BG",
+                  "impressionPercentage": 1.7421602787456445
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 1.7421602787456445
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 2.0905923344947737
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 2.0905923344947737
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 2.4390243902439024
+                },
+                {
+                  "country": "urn:li:country:SK",
+                  "impressionPercentage": 2.4390243902439024
+                },
+                {
+                  "country": "urn:li:country:AT",
+                  "impressionPercentage": 2.7874564459930316
+                },
+                {
+                  "country": "urn:li:country:LT",
+                  "impressionPercentage": 2.7874564459930316
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 3.484320557491289
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 3.832752613240418
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 3.832752613240418
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 4.878048780487805
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 4.878048780487805
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 5.574912891986063
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 6.968641114982578
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 7.317073170731708
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 8.362369337979095
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 9.75609756097561
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 12.195121951219512
+                }
+              ],
+              "latestImpressionAt": 1779614786764,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1266591713",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778973745096,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:BE",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:CY",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:CZ",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:GR",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:NO",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:RO",
+                  "impressionPercentage": 0.9523809523809523
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:FI",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:SE",
+                  "impressionPercentage": 1.9047619047619047
+                },
+                {
+                  "country": "urn:li:country:CA",
+                  "impressionPercentage": 3.8095238095238093
+                },
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 3.8095238095238093
+                },
+                {
+                  "country": "urn:li:country:RS",
+                  "impressionPercentage": 4.761904761904762
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 5.714285714285714
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 10.476190476190476
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 11.428571428571429
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 17.142857142857142
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 20.0
+                }
+              ],
+              "latestImpressionAt": 1782902771701,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia and New Zealand",
+                  "United States",
+                  "Canada",
+                  "Nordics",
+                  "Europe",
+                  "United Arab Emirates",
+                  "European Union"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Wisemont Language Services LIMITED",
+              "advertiserName": "ZenABM",
+              "advertiserUrl": "https://www.linkedin.com/company/105374409"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=ZenABM&q=criteria&start=0&count=25",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?advertiser=ZenABM&q=criteria&start=50&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 25,
+        "total": 243
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtTDG4AgPjmFtnyjltQ=="
+    },
+    "status": 200
+  }
+}

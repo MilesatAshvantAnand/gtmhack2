@@ -1,0 +1,1361 @@
+{
+  "captured_at": "2026-07-03T14:05:09.456484+00:00",
+  "request": {
+    "params": {
+      "advertiser": "WeWork",
+      "count": 25,
+      "q": "criteria",
+      "start": 25
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1291615554",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1265201423",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779947396011,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 14.41326530612245
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 15.943877551020408
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 24.744897959183675
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 34.31122448979592
+                }
+              ],
+              "latestImpressionAt": 1783054424342,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sydney, NSW",
+                  "Birmingham",
+                  "Singapore",
+                  "Dublin",
+                  "Perth, WA",
+                  "Manchester",
+                  "London Area, United Kingdom",
+                  "Edinburgh",
+                  "Melbourne, VIC"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1258405673",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1265001473",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779946758964,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:GE",
+                  "impressionPercentage": 0.06609385327164574
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.13218770654329148
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 13.813615333773958
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 15.135492399206873
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 23.793787177792467
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 32.650363516192996
+                }
+              ],
+              "latestImpressionAt": 1783053891205,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sydney, NSW",
+                  "Birmingham",
+                  "Singapore",
+                  "Dublin",
+                  "Perth, WA",
+                  "Manchester",
+                  "London Area, United Kingdom",
+                  "Edinburgh",
+                  "Melbourne, VIC"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1260680453",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1257905633",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1258605593",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1264401143",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779946844972,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 14.12639405204461
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 16.94105151354222
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 28.67764206054169
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 34.67870419543282
+                }
+              ],
+              "latestImpressionAt": 1783054163609,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sydney, NSW",
+                  "Birmingham",
+                  "Singapore",
+                  "Dublin",
+                  "Perth, WA",
+                  "Manchester",
+                  "London Area, United Kingdom",
+                  "Edinburgh",
+                  "Melbourne, VIC"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1259005563",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1264301163",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779947726869,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.20449897750511248
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 9.406952965235174
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 24.335378323108383
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 24.744376278118608
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 36.809815950920246
+                }
+              ],
+              "latestImpressionAt": 1783029326754,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sydney, NSW",
+                  "Birmingham",
+                  "Singapore",
+                  "Dublin",
+                  "Perth, WA",
+                  "Manchester",
+                  "London Area, United Kingdom",
+                  "Edinburgh",
+                  "Melbourne, VIC"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1263801863",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779948255832,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 14.682539682539682
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 15.873015873015873
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 25.99206349206349
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 32.53968253968254
+                }
+              ],
+              "latestImpressionAt": 1783050606535,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sydney, NSW",
+                  "Birmingham",
+                  "Singapore",
+                  "Dublin",
+                  "Perth, WA",
+                  "Manchester",
+                  "London Area, United Kingdom",
+                  "Edinburgh",
+                  "Melbourne, VIC"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1265201413",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779949545425,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.14619883040935672
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 11.549707602339181
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 16.374269005847953
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 28.50877192982456
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 36.69590643274854
+                }
+              ],
+              "latestImpressionAt": 1783047875773,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sydney, NSW",
+                  "Birmingham",
+                  "Singapore",
+                  "Dublin",
+                  "Perth, WA",
+                  "Manchester",
+                  "London Area, United Kingdom",
+                  "Edinburgh",
+                  "Melbourne, VIC"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1257705113",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1258405663",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1264601473",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779947531088,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 16.26095423563778
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 16.845180136319378
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 29.990262901655306
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 35.248296007789676
+                }
+              ],
+              "latestImpressionAt": 1783028885840,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sydney, NSW",
+                  "Birmingham",
+                  "Singapore",
+                  "Dublin",
+                  "Perth, WA",
+                  "Manchester",
+                  "London Area, United Kingdom",
+                  "Edinburgh",
+                  "Melbourne, VIC"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1266584753",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779946675778,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.06101281269066504
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 15.74130567419158
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 17.205613178767543
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 27.272727272727273
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 37.88895668090299
+                }
+              ],
+              "latestImpressionAt": 1783051631153,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sydney, NSW",
+                  "Birmingham",
+                  "Singapore",
+                  "Dublin",
+                  "Perth, WA",
+                  "Manchester",
+                  "London Area, United Kingdom",
+                  "Edinburgh",
+                  "Melbourne, VIC"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1264401153",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779949286283,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.12239902080783353
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 16.64626682986536
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 16.768665850673194
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 27.417380660954713
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 29.74296205630355
+                }
+              ],
+              "latestImpressionAt": 1783041090446,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sydney, NSW",
+                  "Birmingham",
+                  "Singapore",
+                  "Dublin",
+                  "Perth, WA",
+                  "Manchester",
+                  "London Area, United Kingdom",
+                  "Edinburgh",
+                  "Melbourne, VIC"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1259005553",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1292815884",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778669234343,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:HR",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:NZ",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PL",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0056753688989784334
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.0056753688989784334
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.0056753688989784334
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.0056753688989784334
+                },
+                {
+                  "country": "urn:li:country:NE",
+                  "impressionPercentage": 0.0056753688989784334
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.0056753688989784334
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 9.682179341657207
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 11.1577752553916
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 28.62656072644722
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 44.540295119182744
+                }
+              ],
+              "latestImpressionAt": 1783055121540,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia",
+                  "Singapore",
+                  "Ireland",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1291015904",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1778669587770,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:ES",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:HK",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IN",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:IT",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 0.009487666034155597
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 9.146110056925997
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 10.86337760910816
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 29.63946869070209
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 43.529411764705884
+                }
+              ],
+              "latestImpressionAt": 1783054988130,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Australia",
+                  "Singapore",
+                  "Ireland",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1259605233",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1263801853",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1779947108298,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.0
+                },
+                {
+                  "country": "urn:li:country:SG",
+                  "impressionPercentage": 14.324693042291951
+                },
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 18.417462482946792
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 22.10095497953615
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 34.51568894952251
+                }
+              ],
+              "latestImpressionAt": 1783038926628,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Sydney, NSW",
+                  "Birmingham",
+                  "Singapore",
+                  "Dublin",
+                  "Perth, WA",
+                  "Manchester",
+                  "London Area, United Kingdom",
+                  "Edinburgh",
+                  "Melbourne, VIC"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1258305923",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1291015844",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "We Work Management LLC",
+              "advertiserName": "WeWork",
+              "advertiserUrl": "https://www.linkedin.com/company/1953412"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1415764836",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "MicroAd Hong Kong Holdings Limited",
+              "advertiserName": "WeWork Japan",
+              "advertiserUrl": "https://www.linkedin.com/company/89840968"
+            },
+            "type": "SPONSORED_UPDATE_CAROUSEL"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=WeWork&q=criteria&start=0&count=25",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?advertiser=WeWork&q=criteria&start=50&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 25,
+        "total": 1392
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWmQ83NqQ+APwBzmpg=="
+    },
+    "status": 200
+  }
+}

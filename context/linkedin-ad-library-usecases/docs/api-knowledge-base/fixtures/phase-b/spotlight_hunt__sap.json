@@ -1,0 +1,1283 @@
+{
+  "captured_at": "2026-07-03T14:54:33.139782+00:00",
+  "hypothesis": "SPOTLIGHT_V2 hunt \u2014 SAP",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=SAP&count=25&q=criteria&start=0",
+    "params": {
+      "advertiser": "SAP",
+      "count": 25,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1485137676",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782943539306,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 1.0526315789473684
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 1.0526315789473684
+                }
+              ],
+              "latestImpressionAt": 1783037993755,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "Bahrain",
+                  "T\u00fcrkiye",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Kuwait",
+                  "Qatar",
+                  "Brazil"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Benelux",
+                  "Lithuania",
+                  "Italy",
+                  "France",
+                  "Nordics",
+                  "United Arab Emirates",
+                  "Latvia",
+                  "Oman",
+                  "Spain",
+                  "Cyprus",
+                  "Germany",
+                  "Switzerland",
+                  "Greece",
+                  "Japan",
+                  "Africa",
+                  "Estonia",
+                  "South Korea",
+                  "Jordan",
+                  "Southeast Asia",
+                  "Australia and New Zealand",
+                  "Ireland",
+                  "Latin America",
+                  "Portugal",
+                  "Saudi Arabia",
+                  "United Kingdom"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1487240996",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1487180066",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484931436",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782929687914,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:EG",
+                  "impressionPercentage": 0.6134969325153374
+                },
+                {
+                  "country": "urn:li:country:ID",
+                  "impressionPercentage": 0.6134969325153374
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.6134969325153374
+                },
+                {
+                  "country": "urn:li:country:AU",
+                  "impressionPercentage": 1.2269938650306749
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 1.2269938650306749
+                },
+                {
+                  "country": "urn:li:country:AE",
+                  "impressionPercentage": 2.4539877300613497
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 2.4539877300613497
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 3.067484662576687
+                },
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 4.9079754601226995
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 5.521472392638037
+                }
+              ],
+              "latestImpressionAt": 1783053870654,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "Bahrain",
+                  "T\u00fcrkiye",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Kuwait",
+                  "Qatar",
+                  "Brazil"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Benelux",
+                  "Lithuania",
+                  "Italy",
+                  "France",
+                  "Nordics",
+                  "United Arab Emirates",
+                  "Latvia",
+                  "Oman",
+                  "Spain",
+                  "Cyprus",
+                  "Germany",
+                  "Switzerland",
+                  "Greece",
+                  "Japan",
+                  "Africa",
+                  "Estonia",
+                  "South Korea",
+                  "Jordan",
+                  "Southeast Asia",
+                  "Australia and New Zealand",
+                  "Ireland",
+                  "Latin America",
+                  "Portugal",
+                  "Saudi Arabia",
+                  "United Kingdom"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484970406",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782929675474,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AO",
+                  "impressionPercentage": 0.27932960893854747
+                },
+                {
+                  "country": "urn:li:country:BN",
+                  "impressionPercentage": 0.27932960893854747
+                },
+                {
+                  "country": "urn:li:country:DK",
+                  "impressionPercentage": 0.27932960893854747
+                },
+                {
+                  "country": "urn:li:country:EG",
+                  "impressionPercentage": 0.27932960893854747
+                },
+                {
+                  "country": "urn:li:country:KR",
+                  "impressionPercentage": 0.27932960893854747
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 0.27932960893854747
+                },
+                {
+                  "country": "urn:li:country:PY",
+                  "impressionPercentage": 0.27932960893854747
+                },
+                {
+                  "country": "urn:li:country:TZ",
+                  "impressionPercentage": 0.27932960893854747
+                },
+                {
+                  "country": "urn:li:country:VN",
+                  "impressionPercentage": 0.5586592178770949
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 1.1173184357541899
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 2.5139664804469275
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 4.4692737430167595
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 5.58659217877095
+                },
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 6.70391061452514
+                }
+              ],
+              "latestImpressionAt": 1783054239234,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "Bahrain",
+                  "T\u00fcrkiye",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Kuwait",
+                  "Qatar",
+                  "Brazil"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Benelux",
+                  "Lithuania",
+                  "Italy",
+                  "France",
+                  "Nordics",
+                  "United Arab Emirates",
+                  "Latvia",
+                  "Oman",
+                  "Spain",
+                  "Cyprus",
+                  "Germany",
+                  "Switzerland",
+                  "Greece",
+                  "Japan",
+                  "Africa",
+                  "Estonia",
+                  "South Korea",
+                  "Jordan",
+                  "Southeast Asia",
+                  "Australia and New Zealand",
+                  "Ireland",
+                  "Latin America",
+                  "Portugal",
+                  "Saudi Arabia",
+                  "United Kingdom"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1487220996",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484727406",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782941470655,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.006416014371872193
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 15.629411009880663
+                }
+              ],
+              "latestImpressionAt": 1783055246830,
+              "totalImpressions": {
+                "from": 10000,
+                "to": 20000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Member Interests and Traits",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Concur Technologies, Inc.",
+              "advertiserName": "SAP Concur",
+              "advertiserUrl": "https://www.linkedin.com/company/5822"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484725966",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782924909652,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 18.840579710144926
+                }
+              ],
+              "latestImpressionAt": 1783054722322,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Sapphire Balconies",
+              "advertiserName": "Sapphire Balconies",
+              "advertiserUrl": "https://www.linkedin.com/company/3667388"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1485019726",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1485039716",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484852976",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782922163686,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 19.51219512195122
+                }
+              ],
+              "latestImpressionAt": 1783054094243,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Sapphire Balconies",
+              "advertiserName": "Sapphire Balconies",
+              "advertiserUrl": "https://www.linkedin.com/company/3667388"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484817206",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Concur Technologies, Inc.",
+              "advertiserName": "SAP Concur",
+              "advertiserUrl": "https://www.linkedin.com/company/5822"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484895946",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782929767615,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:JP",
+                  "impressionPercentage": 0.28901734104046245
+                },
+                {
+                  "country": "urn:li:country:MY",
+                  "impressionPercentage": 0.28901734104046245
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 0.28901734104046245
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.28901734104046245
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.5780346820809249
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 4.046242774566474
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 6.6473988439306355
+                },
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 6.936416184971098
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 8.670520231213873
+                }
+              ],
+              "latestImpressionAt": 1783050919070,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "Bahrain",
+                  "T\u00fcrkiye",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Kuwait",
+                  "Qatar",
+                  "Brazil"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Benelux",
+                  "Lithuania",
+                  "Italy",
+                  "France",
+                  "Nordics",
+                  "United Arab Emirates",
+                  "Latvia",
+                  "Oman",
+                  "Spain",
+                  "Cyprus",
+                  "Germany",
+                  "Switzerland",
+                  "Greece",
+                  "Japan",
+                  "Africa",
+                  "Estonia",
+                  "South Korea",
+                  "Jordan",
+                  "Southeast Asia",
+                  "Australia and New Zealand",
+                  "Ireland",
+                  "Latin America",
+                  "Portugal",
+                  "Saudi Arabia",
+                  "United Kingdom"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442168693",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Sapphire Human Capital",
+              "advertiserName": "Sapphire Human Capital",
+              "advertiserUrl": "https://www.linkedin.com/company/438848"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484755566",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782923319935,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 21.73913043478261
+                }
+              ],
+              "latestImpressionAt": 1783054642541,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Sapphire Balconies",
+              "advertiserName": "Sapphire Balconies",
+              "advertiserUrl": "https://www.linkedin.com/company/3667388"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442175483",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "LW Co",
+              "advertiserName": "SAPRA Official - South African Petroleum Retailers' Association",
+              "advertiserUrl": "https://www.linkedin.com/company/103966913"
+            },
+            "type": "$UNKNOWN"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484911756",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Concur Technologies, Inc.",
+              "advertiserName": "SAP Concur",
+              "advertiserUrl": "https://www.linkedin.com/company/5822"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484990546",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442128313",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Sapphire Human Capital",
+              "advertiserName": "Sapphire Human Capital",
+              "advertiserUrl": "https://www.linkedin.com/company/438848"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1463021454",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782895326815,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 5.944055944055944
+                },
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 15.034965034965035
+                }
+              ],
+              "latestImpressionAt": 1783035540177,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland",
+                  "United Kingdom"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "SAPIENS TECHNOLOGIES (1982) LTD.",
+              "advertiserName": "Sapiens",
+              "advertiserUrl": "https://www.linkedin.com/company/9659"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1485019816",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484725976",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782923239793,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:IE",
+                  "impressionPercentage": 26.470588235294116
+                }
+              ],
+              "latestImpressionAt": 1783047940286,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Ireland"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Sapphire Balconies",
+              "advertiserName": "Sapphire Balconies",
+              "advertiserUrl": "https://www.linkedin.com/company/3667388"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484940926",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782929791309,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:AO",
+                  "impressionPercentage": 0.2012072434607646
+                },
+                {
+                  "country": "urn:li:country:BO",
+                  "impressionPercentage": 0.2012072434607646
+                },
+                {
+                  "country": "urn:li:country:EC",
+                  "impressionPercentage": 0.2012072434607646
+                },
+                {
+                  "country": "urn:li:country:KE",
+                  "impressionPercentage": 0.2012072434607646
+                },
+                {
+                  "country": "urn:li:country:MZ",
+                  "impressionPercentage": 0.2012072434607646
+                },
+                {
+                  "country": "urn:li:country:NG",
+                  "impressionPercentage": 0.2012072434607646
+                },
+                {
+                  "country": "urn:li:country:TN",
+                  "impressionPercentage": 0.2012072434607646
+                },
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.6036217303822937
+                },
+                {
+                  "country": "urn:li:country:PH",
+                  "impressionPercentage": 0.8048289738430584
+                },
+                {
+                  "country": "urn:li:country:MX",
+                  "impressionPercentage": 1.0060362173038229
+                },
+                {
+                  "country": "urn:li:country:PE",
+                  "impressionPercentage": 3.8229376257545273
+                },
+                {
+                  "country": "urn:li:country:AR",
+                  "impressionPercentage": 4.627766599597585
+                },
+                {
+                  "country": "urn:li:country:CL",
+                  "impressionPercentage": 5.835010060362173
+                }
+              ],
+              "latestImpressionAt": 1783055300665,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [
+                  "Bahrain",
+                  "T\u00fcrkiye",
+                  "United States",
+                  "Canada",
+                  "Israel",
+                  "Kuwait",
+                  "Qatar",
+                  "Brazil"
+                ],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Benelux",
+                  "Lithuania",
+                  "Italy",
+                  "France",
+                  "Nordics",
+                  "United Arab Emirates",
+                  "Latvia",
+                  "Oman",
+                  "Spain",
+                  "Cyprus",
+                  "Germany",
+                  "Switzerland",
+                  "Greece",
+                  "Japan",
+                  "Africa",
+                  "Estonia",
+                  "South Korea",
+                  "Jordan",
+                  "Southeast Asia",
+                  "Australia and New Zealand",
+                  "Ireland",
+                  "Latin America",
+                  "Portugal",
+                  "Saudi Arabia",
+                  "United Kingdom"
+                ],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              }
+            ],
+            "advertiser": {
+              "adPayer": "OMD USA LLC",
+              "advertiserName": "SAP",
+              "advertiserUrl": "https://www.linkedin.com/company/1115"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1487394386",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "Law offices of Jacob Sapochnick",
+              "advertiserName": "Sapochnick Law Firm",
+              "advertiserUrl": "https://www.linkedin.com/company/2932928"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1484707746",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782941443700,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:SA",
+                  "impressionPercentage": 0.018957345971563982
+                },
+                {
+                  "country": "urn:li:country:NL",
+                  "impressionPercentage": 24.03791469194313
+                }
+              ],
+              "latestImpressionAt": 1783055162019,
+              "totalImpressions": {
+                "from": 5000,
+                "to": 10000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Netherlands"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Member Interests and Traits",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "Concur Technologies, Inc.",
+              "advertiserName": "SAP Concur",
+              "advertiserUrl": "https://www.linkedin.com/company/5822"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=SAP&q=criteria&count=25&start=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 28172
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVthoz2DCyhj5hwr786g=="
+    },
+    "status": 200
+  }
+}

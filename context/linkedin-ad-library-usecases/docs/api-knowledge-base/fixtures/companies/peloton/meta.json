@@ -1,0 +1,10 @@
+{
+  "advertiser": "Peloton",
+  "captured_at": "2026-07-03T14:05:38.763307+00:00",
+  "hypothesis": "Reduced ad activity \u2014 dark-period candidate",
+  "pages_captured": 3,
+  "slug": "peloton",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 95
+}

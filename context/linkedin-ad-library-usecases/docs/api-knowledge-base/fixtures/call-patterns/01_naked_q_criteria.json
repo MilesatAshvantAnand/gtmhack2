@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-07-03T14:17:10.268063+00:00",
+  "hypothesis": "Is a query with NO advertiser/keyword valid?",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?q=criteria&count=5&start=0",
+    "params": {
+      "count": 5,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "message": "No criteria present in search request",
+      "status": 400
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZSMazzlWAD7MUSijA=="
+    },
+    "status": 400
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-07-03T14:20:51.744591+00:00",
+  "hypothesis": "Omit q=criteria \u2014 required?",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=Personio&count=5&start=0",
+    "params": {
+      "advertiser": "Personio",
+      "count": 5,
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "code": "RESOURCE_NOT_FOUND",
+      "message": "No virtual resource found",
+      "status": 404
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtaHD2PL2LdwhtX0y9A=="
+    },
+    "status": 404
+  }
+}

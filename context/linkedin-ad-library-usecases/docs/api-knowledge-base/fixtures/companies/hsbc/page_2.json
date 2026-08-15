@@ -1,0 +1,517 @@
+{
+  "captured_at": "2026-07-03T14:04:28.117630+00:00",
+  "request": {
+    "params": {
+      "advertiser": "HSBC",
+      "count": 25,
+      "q": "criteria",
+      "start": 25
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461702884",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD INTERNATIONAL LIMITED",
+              "advertiserName": "HSBC",
+              "advertiserUrl": "https://www.linkedin.com/company/1241"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480410416",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782472239896,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:DE",
+                  "impressionPercentage": 85.60411311053984
+                }
+              ],
+              "latestImpressionAt": 1783053897595,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Germany"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480266506",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480336266",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1419496636",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782472185782,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 78.95812053115424
+                }
+              ],
+              "latestImpressionAt": 1783053294992,
+              "totalImpressions": {
+                "from": 0,
+                "to": 1000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461632714",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD INTERNATIONAL LIMITED",
+              "advertiserName": "HSBC",
+              "advertiserUrl": "https://www.linkedin.com/company/1241"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461629154",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461648554",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480336326",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782472579602,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:LU",
+                  "impressionPercentage": 0.028851702250432775
+                },
+                {
+                  "country": "urn:li:country:FR",
+                  "impressionPercentage": 77.03404500865551
+                }
+              ],
+              "latestImpressionAt": 1783055216446,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "France"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461728414",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461613384",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD INTERNATIONAL LIMITED",
+              "advertiserName": "HSBC",
+              "advertiserUrl": "https://www.linkedin.com/company/1241"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461722484",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD INTERNATIONAL LIMITED",
+              "advertiserName": "HSBC",
+              "advertiserUrl": "https://www.linkedin.com/company/1241"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461563414",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD INTERNATIONAL LIMITED",
+              "advertiserName": "HSBC",
+              "advertiserUrl": "https://www.linkedin.com/company/1241"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461563674",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD INTERNATIONAL LIMITED",
+              "advertiserName": "HSBC",
+              "advertiserUrl": "https://www.linkedin.com/company/1241"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461648644",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480227056",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461642804",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD INTERNATIONAL LIMITED",
+              "advertiserName": "HSBC",
+              "advertiserUrl": "https://www.linkedin.com/company/1241"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461662754",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD INTERNATIONAL LIMITED",
+              "advertiserName": "HSBC",
+              "advertiserUrl": "https://www.linkedin.com/company/1241"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461757884",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461573764",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD INTERNATIONAL LIMITED",
+              "advertiserName": "HSBC",
+              "advertiserUrl": "https://www.linkedin.com/company/1241"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461573744",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD INTERNATIONAL LIMITED",
+              "advertiserName": "HSBC",
+              "advertiserUrl": "https://www.linkedin.com/company/1241"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480336336",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480391856",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1480246816",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PTARMIGAN MEDIA LIMITED",
+              "advertiserName": "HSBC Asset Management",
+              "advertiserUrl": "https://www.linkedin.com/company/1429971"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1461688384",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "PHD FZ LLC",
+              "advertiserName": "HSBC International Wealth and Premier Banking",
+              "advertiserUrl": "https://www.linkedin.com/company/164233"
+            },
+            "type": "SPONSORED_VIDEO"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 25,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=HSBC&q=criteria&start=0&count=25",
+            "rel": "prev",
+            "type": "application/json"
+          },
+          {
+            "href": "/rest/adLibrary?advertiser=HSBC&q=criteria&start=50&count=25",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 25,
+        "total": 5554
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtWcbk+0YNsFXQIt5Hw=="
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "advertiser": "HSBC",
+  "captured_at": "2026-07-03T14:04:36.794657+00:00",
+  "hypothesis": "Global bank, wide geo footprint, regulated",
+  "pages_captured": 3,
+  "slug": "hsbc",
+  "stopped_reason": "hit_page_cap",
+  "total_elements": 75,
+  "total_reported_by_api": 5554
+}

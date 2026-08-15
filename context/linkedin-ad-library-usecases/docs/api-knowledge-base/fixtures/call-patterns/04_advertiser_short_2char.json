@@ -1,0 +1,325 @@
+{
+  "captured_at": "2026-07-03T14:17:23.977146+00:00",
+  "hypothesis": "Two-char \u2014 how fuzzy?",
+  "request": {
+    "final_url": "https://api.linkedin.com/rest/adLibrary?advertiser=AI&q=criteria&count=5&start=0",
+    "params": {
+      "advertiser": "AI",
+      "count": 5,
+      "q": "criteria",
+      "start": 0
+    },
+    "url": "https://api.linkedin.com/rest/adLibrary"
+  },
+  "response": {
+    "body": {
+      "elements": [
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442185113",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "FLOWX.AI, Inc",
+              "advertiserName": "FlowX.AI",
+              "advertiserUrl": "https://www.linkedin.com/company/70097887"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442314213",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782949682515,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.2679528403001072
+                }
+              ],
+              "latestImpressionAt": 1783055085550,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Slovakia",
+                  "Lithuania",
+                  "Sweden",
+                  "Hungary",
+                  "Latvia",
+                  "Czechia",
+                  "Malta",
+                  "Norway",
+                  "Cyprus",
+                  "Finland",
+                  "Greece",
+                  "Poland",
+                  "Denmark",
+                  "Romania",
+                  "Austria",
+                  "Bulgaria",
+                  "Slovenia",
+                  "Croatia",
+                  "United Kingdom",
+                  "Estonia"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "FLOWX.AI, Inc",
+              "advertiserName": "FlowX.AI",
+              "advertiserUrl": "https://www.linkedin.com/company/70097887"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442402893",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782949905838,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:GB",
+                  "impressionPercentage": 0.06793478260869565
+                },
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.06793478260869565
+                }
+              ],
+              "latestImpressionAt": 1783054965535,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Slovakia",
+                  "Lithuania",
+                  "Sweden",
+                  "Hungary",
+                  "Latvia",
+                  "Czechia",
+                  "Malta",
+                  "Norway",
+                  "Cyprus",
+                  "Finland",
+                  "Greece",
+                  "Poland",
+                  "Denmark",
+                  "Romania",
+                  "Austria",
+                  "Bulgaria",
+                  "Slovenia",
+                  "Croatia",
+                  "United Kingdom",
+                  "Estonia"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "FLOWX.AI, Inc",
+              "advertiserName": "FlowX.AI",
+              "advertiserUrl": "https://www.linkedin.com/company/70097887"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442334173",
+          "details": {
+            "adStatistics": {
+              "firstImpressionAt": 1782949735222,
+              "impressionsDistributionByCountry": [
+                {
+                  "country": "urn:li:country:US",
+                  "impressionPercentage": 0.07575757575757576
+                }
+              ],
+              "latestImpressionAt": 1783055006088,
+              "totalImpressions": {
+                "from": 1000,
+                "to": 5000
+              }
+            },
+            "adTargeting": [
+              {
+                "excludedSegments": [],
+                "facetName": "Language",
+                "includedSegments": [
+                  "English"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Location",
+                "includedSegments": [
+                  "Slovakia",
+                  "Lithuania",
+                  "Sweden",
+                  "Hungary",
+                  "Latvia",
+                  "Czechia",
+                  "Malta",
+                  "Norway",
+                  "Cyprus",
+                  "Finland",
+                  "Greece",
+                  "Poland",
+                  "Denmark",
+                  "Romania",
+                  "Austria",
+                  "Bulgaria",
+                  "Slovenia",
+                  "Croatia",
+                  "United Kingdom",
+                  "Estonia"
+                ],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Audience",
+                "includedSegments": [],
+                "isExcluded": true,
+                "isIncluded": false
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Company",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              },
+              {
+                "excludedSegments": [],
+                "facetName": "Job",
+                "includedSegments": [],
+                "isExcluded": false,
+                "isIncluded": true
+              }
+            ],
+            "advertiser": {
+              "adPayer": "FLOWX.AI, Inc",
+              "advertiserName": "FlowX.AI",
+              "advertiserUrl": "https://www.linkedin.com/company/70097887"
+            },
+            "type": "SPONSORED_UPDATE_NATIVE_DOCUMENT"
+          },
+          "isRestricted": false
+        },
+        {
+          "adUrl": "https://www.linkedin.com/ad-library/detail/1442303943",
+          "details": {
+            "adTargeting": [],
+            "advertiser": {
+              "adPayer": "FLOWX.AI, Inc",
+              "advertiserName": "FlowX.AI",
+              "advertiserUrl": "https://www.linkedin.com/company/70097887"
+            },
+            "type": "SPONSORED_STATUS_UPDATE"
+          },
+          "isRestricted": false
+        }
+      ],
+      "paging": {
+        "count": 5,
+        "links": [
+          {
+            "href": "/rest/adLibrary?advertiser=AI&q=criteria&count=5&start=5",
+            "rel": "next",
+            "type": "application/json"
+          }
+        ],
+        "start": 0,
+        "total": 1346051
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-LI-UUID": "AAZVtZVXaSdULULURFm7vA=="
+    },
+    "status": 200
+  }
+}
