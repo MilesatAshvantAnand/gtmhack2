@@ -33,6 +33,7 @@ tests/         Tests for all new workflow behavior
 
 ## Working together
 
+- GitHub Issues are the live work tracker: [open issues](https://github.com/bilalahmad20/ai-gtm-hackathon-baseline/issues?q=is%3Aissue%20state%3Aopen).
 - Make changes on a branch and open a pull request, even though this repository's GitHub plan cannot enforce review.
 - Keep live provider calls in a Codespace with dedicated hackathon credentials. Local development uses fixtures.
 - Never commit credentials, customer data, raw provider responses, or generated reports.

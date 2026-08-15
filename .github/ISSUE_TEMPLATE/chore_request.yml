@@ -1,0 +1,20 @@
+name: Chore
+description: Track a focused maintenance or collaboration task
+title: "Chore: "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: work
+    attributes:
+      label: Work
+      description: Describe the exact maintenance or collaboration task.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: List the observable completion checks.
+    validations:
+      required: true

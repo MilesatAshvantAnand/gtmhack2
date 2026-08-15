@@ -31,6 +31,8 @@ Build a real ZenABM trial-to-value workflow: one selected trial receives an evid
 
 ## Change discipline
 
+- Use a GitHub Issue as the work unit. Branch names use `issue/<number>-<short-description>` and pull requests use `Closes #<number>`.
+- Do not commit directly to `main`. Before working, sync with `origin/main`; use a separate worktree only for independent concurrent issues.
 - Prefer small, focused pull requests.
 - Add or update a test with each behavior change.
 - Do not add a provider integration before its fixture adapter and contract exist.
