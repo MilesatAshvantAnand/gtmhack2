@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zenabm.com/schemas/recommended-action.json",
+  "title": "AshtreeRecommendedAction",
+  "description": "A reviewable, evidence-bounded ZenABM next step. This contract cannot represent a send or automated execution.",
+  "type": "object",
+  "required": [
+    "actionId",
+    "title",
+    "recommendation",
+    "entity",
+    "sourceIds",
+    "coverage",
+    "confidence",
+    "owner",
+    "successMetric",
+    "humanReview"
+  ],
+  "properties": {
+    "actionId": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable identifier for this recommended action."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recommendation": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A concrete, draft-safe ZenABM action; it is not a send instruction."
+    },
+    "entity": {
+      "type": "object",
+      "required": ["name", "entityType", "canonicalId", "verification"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "entityType": { "enum": ["trial_account", "competitor", "campaign", "account"] },
+        "canonicalId": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Canonical ZenABM, CRM, or verified LinkedIn company ID; never a fuzzy advertiser-name match."
+        },
+        "verification": {
+          "const": "verified",
+          "description": "An action may reference only a canonically verified entity."
+        }
+      },
+      "additionalProperties": false
+    },
+    "sourceIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "IDs of source records supporting this action; raw provider data is not embedded."
+    },
+    "coverage": {
+      "enum": ["complete", "partial", "unknown"],
+      "description": "Coverage of the evidence. Public-ad visibility may be partial or unknown."
+    },
+    "confidence": {
+      "enum": ["high", "medium", "low", "unknown"],
+      "description": "Confidence in the directional recommendation, not a claim of causality."
+    },
+    "limitations": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Known gaps, such as unavailable spend, clicks, targeting, or geographic coverage."
+    },
+    "owner": {
+      "type": "object",
+      "required": ["role"],
+      "properties": {
+        "role": { "enum": ["trial_user", "csm", "ae", "marketing_owner"] },
+        "id": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "successMetric": {
+      "type": "object",
+      "required": ["name", "measurementWindow"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "measurementWindow": { "type": "string", "minLength": 1 },
+        "target": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "humanReview": {
+      "type": "object",
+      "required": ["required", "status"],
+      "properties": {
+        "required": { "const": true },
+        "status": { "const": "pending" },
+        "reviewerRole": { "enum": ["trial_user", "csm", "ae", "marketing_owner", "compliance_owner"] }
+      },
+      "additionalProperties": false,
+      "description": "A recommendation remains pending until a person reviews it outside this contract."
+    }
+  },
+  "additionalProperties": false
+}

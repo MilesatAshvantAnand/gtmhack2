@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zenabm.com/schemas/ashtree-run-envelope.json",
+  "title": "AshtreeRunEnvelope",
+  "description": "The bounded record of one explicitly selected ZenABM trial workflow run. It stores references, not raw provider data, and permits drafts only.",
+  "type": "object",
+  "required": [
+    "runId",
+    "trigger",
+    "trial",
+    "suppression",
+    "coverage",
+    "status",
+    "recommendedActions",
+    "outreachDrafts"
+  ],
+  "properties": {
+    "runId": { "type": "string", "minLength": 1 },
+    "trigger": {
+      "enum": ["trial_started", "manual_selected_trial"],
+      "description": "Bulk processing is intentionally unsupported."
+    },
+    "trial": {
+      "type": "object",
+      "required": ["trialId", "status", "accountCanonicalId", "accountVerification"],
+      "properties": {
+        "trialId": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["active", "inactive", "unknown"] },
+        "accountCanonicalId": { "type": "string", "minLength": 1 },
+        "accountVerification": { "const": "verified" }
+      },
+      "additionalProperties": false
+    },
+    "suppression": {
+      "type": "object",
+      "required": ["checked", "optedOut", "marketingStatus"],
+      "properties": {
+        "checked": { "const": true },
+        "optedOut": { "type": "boolean" },
+        "marketingStatus": { "enum": ["allowed", "opted_out", "suppressed", "unknown"] },
+        "sourceId": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false,
+      "description": "Must be checked before drafts are made and again before a person sends anything."
+    },
+    "coverage": { "enum": ["complete", "partial", "unknown"] },
+    "status": {
+      "enum": ["drafts_ready_for_review", "blocked_opt_out", "blocked_insufficient_evidence", "failed"],
+      "description": "There is intentionally no sent or automatically executed state."
+    },
+    "recommendedActions": {
+      "type": "array",
+      "maxItems": 3,
+      "items": { "$ref": "https://zenabm.com/schemas/recommended-action.json" }
+    },
+    "outreachDrafts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["draftId", "channel", "status", "humanReview", "sourceIds"],
+        "properties": {
+          "draftId": { "type": "string", "minLength": 1 },
+          "channel": { "enum": ["email", "linkedin"] },
+          "status": { "const": "draft" },
+          "humanReview": { "const": "required" },
+          "sourceIds": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "blockReasons": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "suppression": { "type": "object", "properties": { "optedOut": { "const": true } }, "required": ["optedOut"] } },
+        "required": ["suppression"]
+      },
+      "then": {
+        "properties": {
+          "status": { "const": "blocked_opt_out" },
+          "recommendedActions": { "type": "array", "maxItems": 0 },
+          "outreachDrafts": { "type": "array", "maxItems": 0 }
+        },
+        "required": ["blockReasons"]
+      }
+    },
+    {
+      "if": { "properties": { "status": { "const": "blocked_opt_out" } }, "required": ["status"] },
+      "then": {
+        "properties": {
+          "suppression": {
+            "type": "object",
+            "properties": {
+              "optedOut": { "const": true },
+              "marketingStatus": { "enum": ["opted_out", "suppressed"] }
+            },
+            "required": ["optedOut", "marketingStatus"]
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "status": { "const": "drafts_ready_for_review" } }, "required": ["status"] },
+      "then": {
+        "properties": {
+          "trial": {
+            "type": "object",
+            "properties": { "status": { "const": "active" } },
+            "required": ["status"]
+          },
+          "suppression": {
+            "type": "object",
+            "properties": {
+              "optedOut": { "const": false },
+              "marketingStatus": { "const": "allowed" }
+            },
+            "required": ["optedOut", "marketingStatus"]
+          },
+          "recommendedActions": { "type": "array", "minItems": 1 },
+          "outreachDrafts": { "type": "array", "minItems": 1 }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": { "enum": ["blocked_opt_out", "blocked_insufficient_evidence", "failed"] }
+        },
+        "required": ["status"]
+      },
+      "then": {
+        "properties": {
+          "recommendedActions": { "type": "array", "maxItems": 0 },
+          "outreachDrafts": { "type": "array", "maxItems": 0 }
+        },
+        "required": ["blockReasons"]
+      }
+    }
+  ],
+  "additionalProperties": false
+}
